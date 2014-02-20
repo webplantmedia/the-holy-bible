@@ -1,0 +1,34 @@
+.toc {
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+ul li {
+	margin: 5px 0;
+	border-bottom: 1px dashed #000;
+}
+ul.children li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+ul.children {
+	display: block;
+}
+.hide-this {
+	display: none;
+}
+.center {
+	text-align: center;
+}
+.toc-shortname {
+	float: right;
+}
+p {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}

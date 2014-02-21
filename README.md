@@ -20,6 +20,7 @@ I was not happy with any of the eBook Bibles currently available on Amazon. So I
 I hope this eBook Bible will be useful for you and that you are continually encouraged by reading the Word of God.
 
 Thy word have I hid in mine heart, that I might not sin against thee. - Psalm 119:11
+
 Thy word is a lamp unto my feet, and a light unto my path. - Psalm 119:105
 
 <!-- If you are on a tight budget, and can't afford $1 for this eBook, then please download a free copy by visiting the link below. -->

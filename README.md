@@ -17,5 +17,10 @@ I was not happy with any of the eBook Bibles currently available on Amazon. So I
 * "Verse Per Line" format. Every verse is on it's own line and not grouped in paragraphs like in modern Bibles. There is nothing wrong with paragraphs, I just personaly find it easier to memorize scripture in the traditional verse-per-line layout.
 * The Table of Contents inside the Bible only displays the 66 books in a clean list. From here you can easily reference each books "shortname". This is useful when searching.
 
+I hope this eBook Bible will be useful for you and that you are continually encouraged by reading the Word of God.
+
+Thy word have I hid in mine heart, that I might not sin against thee. - Psalm 119:11
+Thy word is a lamp unto my feet, and a light unto my path. - Psalm 119:105
+
 <!-- If you are on a tight budget, and can't afford $1 for this eBook, then please download a free copy by visiting the link below. -->
 <!-- https://github.com/webplantmedia/the-holy-bible/raw/master/TheHolyBible.mobi -->

@@ -12,7 +12,7 @@ I was not happy with any of the eBook Bibles currently available on Amazon. So I
 	* ge1.27 => This will find Genesis 1:27
 	* he12.1 => This will find Hebrews 12:1
 * Each verse only shows the verse number at the beginning of the verse. Other eBook Bibles show the book, chapter, and verse number for their verse search feature. I thought it was too distracting when reading.
-* Easily navigate to the next and previous chapters.
+* Easily navigate to the next and previous chapter.
 * Easily identify what book and chapter you are on while reading.
 * "Verse Per Line" format. Every verse is on it's own line and not grouped in paragraphs like in modern Bibles. There is nothing wrong with paragraphs, I just personaly find it easier to memorize scripture in the traditional verse-per-line layout.
 * The Table of Contents inside the Bible only displays the 66 books in a clean list. From here you can easily reference each books "shortname". This is useful when searching.

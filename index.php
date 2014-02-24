@@ -17,6 +17,7 @@ $header = '';
 $body = '';
 $intro = '';
 $footer = '';
+$pics = '';
 
 $i = 1;
 $order = 2; //toc is first
@@ -48,10 +49,10 @@ $html = '';
 <?php
 $intro .= '<br />';
 $intro .= '<br />';
-$intro .= '<h1>Holy Bible</h1>';
+$intro .= '<h1>The Holy Bible</h1>';
 $intro .= '<br />';
 $intro .= '<br />';
-$intro .= '<p class="center">Authorized King James Version<p>';
+$intro .= '<h3 class="center">Authorized King James Version<h3>';
 // $intro .= '<mbp:pagebreak />';
 
 file_put_contents( "html/intro.html", $header . $intro . $footer );
@@ -117,7 +118,7 @@ ob_start(); ?>
 <?php $ncx .= ob_get_contents();
 $order++;
 
-	$toc .= '<li><a href="'.$o['anchor'].'.html">'.$o['fullname'].'</a><span class="toc-shortname">'.$o['short'].'</span></li>';
+	$toc .= '<li><a href="'.$o['anchor'].'.html">'.$o['fullname'].'</a><span class="toc-shortname">'.str_replace( ' ', '', $o['short'] ).'</span></li>';
 
 	$body .= '<a class="book-anchor" name="'.$o['anchor'].'"></a>';
 	$body .= '<h3>' . $o['title'] . '</h3>';
@@ -145,7 +146,7 @@ $order++;
 
 		$r2 = mysqli_query($con, "SELECT * FROM bible_kjv WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
 		while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {
-			$body .= '<p><a class="verse-anchor" name="'.$o['anchor'].'-ch'.$ch.'-v'.$oo['verse'].'"><strong><span class="hide-this">'.str_replace( ' ', '', $o['short'] ).$oo['chapter'].'.</span>'.$oo['verse'].'</strong></a> ' . $oo['text'] . '</p>';
+			$body .= '<p class="verse"><a class="verse-anchor" name="'.$o['anchor'].'-ch'.$ch.'-v'.$oo['verse'].'"><strong><span class="hide-this">'.str_replace( ' ', '', $o['short'] ).$oo['chapter'].'.</span>'.$oo['verse'].'</strong></a> ' . $oo['text'] . '</p>';
 		}
 	}
 
@@ -162,10 +163,48 @@ ob_start(); ?>
 <?php $ncx .= ob_get_contents();
 
 }
+
+ob_start(); ?>
+		<navPoint class="appendix" id="appendix" playOrder="<?php echo $order++; ?>">
+			<navLabel>
+				<text>Appendix</text>
+			</navLabel>
+			<content src="html/appendix.html"/>
+			<navPoint class="illustrations" id="illustrations" playOrder="<?php echo $order; ?>">
+				<navLabel>
+					<text>Illustrations</text>
+				</navLabel>
+				<content src="html/illustrations.html"/>
+			</navPoint>
+		</navPoint>
+<?php $ncx .= ob_get_contents();
+
 $toc .= '</ul>';
+$toc .= '<h3>Appendix</h3>';
+$toc .= '<ul class="toc"><li><a href="illustrations.html">Illustrations</a></li></ul>';
 // $toc .= '<mbp:pagebreak />';
 
 file_put_contents( "html/toc.html", $header . $toc . $footer );
+
+$appendix = '<br /><br /><h2>Appendix</h2>';
+file_put_contents( "html/appendix.html", $header . $appendix . $footer );
+
+$pics .= '<br /><br /><h3>Illustrations by Gustave Dore</h3>';
+$pics .= '<mbp:pagebreak />';
+
+$r = mysqli_query($con, "SELECT * FROM bible_images ORDER BY sort ASC");
+while( $o = mysqli_fetch_array( $r, MYSQLI_ASSOC ) ) {
+	$pics .= '<div class="woodcuts"><img src="../images/'.$o['file'].'" /></div>';
+	$pics .= '<mbp:pagebreak />';
+}
+
+$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/appendix.html"></item>'."\n";
+$spine .= '<itemref idref="item'.$i.'"/>'."\n";
+$i++;
+$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/illustrations.html"></item>'."\n";
+$spine .= '<itemref idref="item'.$i.'"/>'."\n";
+
+file_put_contents( "html/illustrations.html", $header . $pics . $footer );
 
 mysqli_close($con);
 

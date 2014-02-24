@@ -7511,3 +7511,15 @@
 				<content src="html/revelation.html#revelation-ch22"/>
 			</navPoint>
 		</navPoint>
+		<navPoint class="appendix" id="appendix" playOrder="1254">
+			<navLabel>
+				<text>Appendix</text>
+			</navLabel>
+			<content src="html/appendix.html"/>
+			<navPoint class="illustrations" id="illustrations" playOrder="1255">
+				<navLabel>
+					<text>Illustrations</text>
+				</navLabel>
+				<content src="html/illustrations.html"/>
+			</navPoint>
+		</navPoint>

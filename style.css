@@ -28,7 +28,11 @@ ul.children {
 .toc-shortname {
 	float: right;
 }
-p {
+.verse {
 	margin-bottom: 0px;
 	margin-top: 0px;
+	text-indent: 0px;
+}
+.woodcuts {
+	text-align: center;
 }

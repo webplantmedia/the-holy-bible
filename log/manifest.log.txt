@@ -68,3 +68,5 @@
 <item id="item68" media-type="application/xhtml+xml" href="html/3-john.html"></item>
 <item id="item69" media-type="application/xhtml+xml" href="html/jude.html"></item>
 <item id="item70" media-type="application/xhtml+xml" href="html/revelation.html"></item>
+<item id="item71" media-type="application/xhtml+xml" href="html/appendix.html"></item>
+<item id="item72" media-type="application/xhtml+xml" href="html/illustrations.html"></item>

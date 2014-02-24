@@ -158,6 +158,8 @@
 	<item id="item68" media-type="application/xhtml+xml" href="html/3-john.html"></item>
 	<item id="item69" media-type="application/xhtml+xml" href="html/jude.html"></item>
 	<item id="item70" media-type="application/xhtml+xml" href="html/revelation.html"></item>
+	<item id="item71" media-type="application/xhtml+xml" href="html/appendix.html"></item>
+	<item id="item72" media-type="application/xhtml+xml" href="html/illustrations.html"></item>
 	
   <!-- table of contents [mandatory] -->
 	<item id="My_Table_of_Contents" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
@@ -252,6 +254,8 @@
 	<itemref idref="item68"/>
 	<itemref idref="item69"/>
 	<itemref idref="item70"/>
+	<itemref idref="item71"/>
+	<itemref idref="item72"/>
 </spine>
 
 <!--

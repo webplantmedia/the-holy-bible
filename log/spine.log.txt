@@ -68,3 +68,5 @@
 <itemref idref="item68"/>
 <itemref idref="item69"/>
 <itemref idref="item70"/>
+<itemref idref="item71"/>
+<itemref idref="item72"/>

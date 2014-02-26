@@ -24,11 +24,13 @@ foreach ( $book as $key => $value ) {
 	$prev = $key - 1;
 	$next = $key + 1;
 	if ( isset( $book[ $prev ] ) ) {
-		$book[ $key ]['prev_link'] = $book[ $prev ]['anchor'] . '.html';
+		$book[ $key ]['prev_link'] = $book[ $key ]['anchor'] . '.html';
+		$book[ $key ]['prev_chap'] = $book[ $prev ]['anchor'] . '.html#' . $book[ $prev ]['anchor'] . '-ch' . $book[ $prev ]['chapters'];
 	}
 	if ( isset( $book[ $next ] ) ) {
 		$book[ $key ]['next_link'] = $book[ $next ]['anchor'] . '.html';
 	}
+	$book[ $key ]['next_chap'] = $book[ $key ]['anchor'] . '.html#' . $book[ $key ]['anchor'] . '-ch1';
 }
 
 $header = get_html_header();

@@ -1,55 +1,30 @@
-.book-nav {
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
-}
-.book-nav li {
-	display: inline-block;
-	margin-left: 3px;
-	margin-right: 3px;
-	margin-bottom: 1em;
-	margin-top: 1em;
-}
-.book-nav li span,
-.book-nav li a {
-	display: block;
-	padding: 3px 7px;
-	border: 1px solid #ccc;
-	text-decoration: none;
-}
-.book-nav li span {
-	color: #eee;
-	border-color: #eee;
-}
-
 .title-nav {
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 .title-nav li {
 	display: inline-block;
-	margin-left: 3px;
-	margin-right: 3px;
-	margin-bottom: 1em;
-	margin-top: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px 10px;
 }
 .title-nav li strong {
-	display: block;
-	padding: 3px 3px;
+	padding: 5px 10px;
+}
+.title-nav .left-pos {
+	float: left;
+}
+.title-nav .right-pos {
+	float: right;
 }
 
-.title-nav li .left-pos,
-.title-nav li .right-pos {
-	display: block;
-	padding: 3px 7px;
-	border: 1px solid #ccc;
-	text-decoration: none;
-}
-.title-nav li span.left-pos,
-.title-nav li span.right-pos {
-	color: #eee;
-	border-color: #eee;
+.title-nav li span {
+	color: #ccc;
 }
 
 /* .title-nav li.left-li {
@@ -68,15 +43,13 @@
 }
 .ch-nav li {
 	display: inline-block;
-	margin-left: 3px;
-	margin-right: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
 	margin-bottom: 10px;
 }
 .ch-nav li a {
 	display: block;
 	padding: 3px 7px;
-	border: 1px solid #ccc;
-	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;

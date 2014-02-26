@@ -1,17 +1,94 @@
+.book-nav {
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.book-nav li {
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.book-nav li span,
+.book-nav li a {
+	display: block;
+	padding: 3px 7px;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+.book-nav li span {
+	color: #eee;
+	border-color: #eee;
+}
+
+.title-nav {
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.title-nav li {
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.title-nav li strong {
+	display: block;
+	padding: 3px 3px;
+}
+
+.title-nav li .left-pos,
+.title-nav li .right-pos {
+	display: block;
+	padding: 3px 7px;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+.title-nav li span.left-pos,
+.title-nav li span.right-pos {
+	color: #eee;
+	border-color: #eee;
+}
+
+/* .title-nav li.left-li {
+	float: left;
+}
+.title-nav li.right-li {
+	float: right;
+} */
 .toc {
 	padding: 0;
+}
+.ch-nav {
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.ch-nav li {
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 10px;
+}
+.ch-nav li a {
+	display: block;
+	padding: 3px 7px;
+	border: 1px solid #ccc;
+	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
-ul {
+ul.toc {
 	list-style-type: none;
 }
-ul li {
+ul.toc li {
 	margin: 5px 0;
 	border-bottom: 1px dashed #000;
 }
-ul.children li {
+ul.toc.children li {
 	display: inline-block;
 	margin-right: 10px;
 	margin-bottom: 10px;
@@ -31,8 +108,11 @@ ul.children {
 .verse {
 	margin-bottom: 0px;
 	margin-top: 0px;
-	text-indent: 0px;
+	text-indent: 0.8em;
 }
 .woodcuts {
 	text-align: center;
+}
+.verse-anchor sup {
+	color: #ddd;
 }

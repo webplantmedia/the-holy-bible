@@ -1,26 +1,22 @@
 .title-nav {
-	padding: 0;
+	margin: 0;
 	list-style-type: none;
 	text-align: center;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
+	padding: 0.5em 0;
 }
 .title-nav li {
 	display: inline-block;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-top: 0;
+	margin: 0;
 	padding: 5px 10px;
 }
 .title-nav li strong {
 	padding: 5px 10px;
 }
 .title-nav .left-pos {
-	float: left;
+	/* float: left; */
 }
 .title-nav .right-pos {
-	float: right;
+	/* float: right; */
 }
 
 .title-nav li span {
@@ -61,13 +57,10 @@ ul.toc li {
 	margin: 5px 0;
 	border-bottom: 1px dashed #000;
 }
-ul.toc.children li {
+ul.toc li .book-link {
 	display: inline-block;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-ul.children {
-	display: block;
+	width: 50%;
+	text-align: left;
 }
 .hide-this {
 	display: none;
@@ -76,7 +69,9 @@ ul.children {
 	text-align: center;
 }
 .toc-shortname {
-	float: right;
+	display: inline-block;
+	text-align: right;
+	width: 50%;
 }
 .verse {
 	margin-bottom: 0px;

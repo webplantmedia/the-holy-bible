@@ -17,20 +17,22 @@ if ( mysqli_connect_errno() ) {
 $r = mysqli_query($con, "SELECT * FROM bible_books_en ORDER BY number ASC");
 $book = array();
 while( $b = mysqli_fetch_array( $r, MYSQLI_ASSOC ) ) {
-	$b['anchor'] = str_replace( " ", "-", strtolower( $b['fullname'] ) );
+	$b['filename'] = str_replace( " ", "-", strtolower( $b['fullname'] ) );
+	$b['anchor'] = str_replace( " ", "-", strtolower( $b['short'] ) );
 	$book[ $b['number'] ] = $b;
 }
 foreach ( $book as $key => $value ) {
 	$prev = $key - 1;
 	$next = $key + 1;
+
+	$book[ $key ]['prev_link'] = $book[ $key ]['filename'] . '-intro.html';
 	if ( isset( $book[ $prev ] ) ) {
-		$book[ $key ]['prev_link'] = $book[ $key ]['anchor'] . '.html';
-		$book[ $key ]['prev_chap'] = $book[ $prev ]['anchor'] . '.html#' . $book[ $prev ]['anchor'] . '-ch' . $book[ $prev ]['chapters'];
+		$book[ $key ]['prev_chap'] = $book[ $prev ]['filename'] . '.html#' . $book[ $prev ]['anchor'] . '-ch' . $book[ $prev ]['chapters'];
 	}
 	if ( isset( $book[ $next ] ) ) {
-		$book[ $key ]['next_link'] = $book[ $next ]['anchor'] . '.html';
+		$book[ $key ]['next_link'] = $book[ $next ]['filename'] . '-intro.html';
 	}
-	$book[ $key ]['next_chap'] = $book[ $key ]['anchor'] . '.html#' . $book[ $key ]['anchor'] . '-ch1';
+	$book[ $key ]['next_chap'] = $book[ $key ]['filename'] . '.html#' . $book[ $key ]['anchor'] . '-ch1';
 }
 
 $header = get_html_header();

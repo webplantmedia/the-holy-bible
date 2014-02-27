@@ -5,7 +5,7 @@ function get_html_header() {
 	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
 			<title>The Holy Bible</title>
-			<link rel="stylesheet" type="text/css" href="../style.css">
+			<link rel="stylesheet" type="text/css" href="../style.css" />
 		</head>
 		<body>
 	<?php $header = ob_get_contents(); ?>
@@ -31,25 +31,30 @@ function build_html_intro( $book, $header, $footer ) {
 }
 
 function build_html_toc( $book, $header, $footer ) {
-	$toc = '<h2>Table of Contents</h2>';
+	$toc = '';
+
+	$toc .= '<div>';
+	$toc .= '<h2>Table of Contents</h2>';
 
 	foreach ( $book as $o ) {
 		if ( 1 == $o['number'] ) {
-			$toc .= '<h3>The Old Testament</h3>';
+			$toc .= '<h3>The Old Testament</h3>'."\n";
 			$toc .= '<ul class="toc">';
 		}
 		if ( 40 == $o['number'] ) {
-			$toc .= '</ul>';
-			$toc .= '<h3>The New Testament</h3>';
+			$toc .= '</ul>'."\n";
+			$toc .= '<h3>The New Testament</h3>'."\n";
 			$toc .= '<ul class="toc">';
 		}
 
-		$toc .= '<li><a name="toc-'.$o['anchor'].'" href="'.$o['anchor'].'.html">'.$o['fullname'].'</a><span class="toc-shortname">'.str_replace( ' ', '', $o['short'] ).'</span></li>';
+		$toc .= '<li id="toc-'.$o['anchor'].'"><span class="book-link"><a href="'.$o['filename'].'-intro.html">'.$o['fullname'].'</a></span><span class="toc-shortname">'.str_replace( ' ', '', $o['short'] ).'</span></li>';
 	}
 
-	$toc .= '</ul>';
-	$toc .= '<h3>Appendix</h3>';
-	$toc .= '<ul class="toc"><li><a name="toc-illustrations" href="illustrations.html">Illustrations</a></li></ul>';
+	$toc .= '</ul>'."\n";
+	$toc .= '<h3>Appendix</h3>'."\n";
+	$toc .= '<ul class="toc"><li id="toc-illustrations"><a href="illustrations.html">Illustrations</a></li></ul>'."\n";
+
+	$toc .= '</div>';
 
 	file_put_contents( "html/toc.html", $header . $toc . $footer );
 }
@@ -57,89 +62,105 @@ function build_html_toc( $book, $header, $footer ) {
 function build_html_body( $book, $header, $footer, $con ) {
 	foreach ( $book as $o ) {
 		$body = '';
+		$intro = '';
 		$prev = "&larr;";
 		$next = "&rarr;";
+		$space = "";
 
 		if ( 1 == $o['number'] ) {
-			$temp = '<br /><br /><h2>The Old Testament</h2>';
+			$temp = '<br /><br /><h2>The Old Testament</h2>'."\n";
 			file_put_contents( "html/old-testament.html", $header . $temp . $footer );
 		}
 		if ( 40 == $o['number'] ) {
-			$temp = '<br /><br /><h2>The New Testament</h2>';
+			$temp = '<br /><br /><h2>The New Testament</h2>'."\n";
 			file_put_contents( "html/new-testament.html", $header . $temp . $footer );
 		}
 
-		$body .= '<a class="book-anchor" name="'.$o['anchor'].'"></a>';
-		$body .= '<h3>' . $o['title'] . '</h3>';
-		$body .= '<ul class="title-nav">';
+		$intro .= '<div id="'.$o['anchor'].'">';
+		$intro .= '<p class="center"><a href="toc.html">Table of Contents</a></p>';
+		/* $intro .= '<ul class="title-nav">';
 
 		if ( isset( $o['prev_chap'] ) )
-			$body .= '<li class="left-pos"><a href="'.$o['prev_chap'].'">'.$prev.'</a></li>';
+			$intro .= '<li class="left-pos"><a href="'.$o['prev_chap'].'">'.$prev.'</a>'.$space.'</li>';
 		else
-			$body .= '<li class="left-pos"><span>'.$prev.'</span></li>';
+			$intro .= '<li class="left-pos"><span>'.$prev.'</span>'.$space.'</li>';
 
-		$body .= '<li><a href="toc.html#toc-'.$o['anchor'].'">Table of Contents</a></li>';
+		$intro .= '<li><a href="toc.html#toc-'.$o['anchor'].'">Table of Contents</a></li>';
 
 		if ( isset( $o['next_chap'] ) )
-			$body .= '<li class="right-pos"><a href="'.$o['next_chap'].'">'.$next.'</a></li>';
+			$intro .= '<li class="right-pos">'.$space.'<a href="'.$o['next_chap'].'">'.$next.'</a></li>';
 		else
-			$body .= '<li class="right-pos"><span>'.$next.'</span></li>';
+			$intro .= '<li class="right-pos">'.$space.'<span>'.$next.'</span></li>';
 
-		$body .= '</ul>';
-		$body .= '<p class="center"><strong>Chapters</strong></p>';
+		$intro .= '</ul>'."\n"; */
+		$intro .= '<h3>' . $o['title'] . '</h3>'."\n";
+		$intro .= '<p class="center"><strong>Chapters</strong></p>'."\n";
 
 		$ch_nav = '';
 		$temp = '';
 		for ( $ch = 1; $ch <= $o['chapters']; $ch++ ) {
-			$content_link = 'html/'.$o['anchor'].'.html';
+			$temp .= '<div id="'.$o['anchor'].'-ch'.$ch.'">';
+
+			$content_link = 'html/'.$o['filename'].'.html';
 			$content_link .= '#'.$o['anchor'].'-ch'.$ch;
 
-			$ch_nav .= '<li><a href="'.$o['anchor'].'.html#'.$o['anchor'].'-ch'.$ch.'">'.$ch.'</a></li>';
+			$ch_nav .= '<li><a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">'.$ch.'</a></li>';
 
-			$temp .= '<a class="chapter-anchor" name="'.$o['anchor'].'-ch'.$ch.'"></a>';
-			$temp .= '<ul class="title-nav">';
+			$temp .= '<h4><strong><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a> ' . $ch . '</strong></h4>'; 
 
-			// Prev Chapter
+			/* $temp .= '<ul class="title-nav">';
+
 			$prevch = $ch - 1;
 			$nextch = $ch + 1;
+
+			// Prev Chapter
 			if ( $prevch > 0 )
-				$temp .= '<li class="left-pos"><a href="'.$o['anchor'].'.html#'.$o['anchor'].'-ch'.$prevch.'">'.$prev.'</a></li>';
+				$temp .= '<li class="left-pos"><a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$prevch.'">'.$prev.'</a>'.$space.'</li>';
 			else {
 				// Prev Book
 				if ( isset( $o['prev_link'] ) )
-					$temp .= '<li class="left-pos"><a href="'.$o['prev_link'].'">'.$prev.'</a></li>';
+					$temp .= '<li class="left-pos"><a href="'.$o['prev_link'].'">'.$prev.'</a>'.$space.'</li>';
 				else
-					$temp .= '<li class="left-pos"><span>'.$prev.'</span></li>';
+					$temp .= '<li class="left-pos"><span>'.$prev.'</span>'.$space.'</li>';
 			}
 
 			// Current Book
-			$temp .= '<li><strong><a href="'.$o['anchor'].'.html">' . $o['fullname'] . '</a> ' . $ch . '</strong></li>'; 
+			$temp .= '<li><strong><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a> ' . $ch . '</strong></li>'; 
 
 			// Next Chapter
 			if ( $nextch <= $o['chapters'] )
-				$temp .= '<li class="right-pos"><a href="'.$o['anchor'].'.html#'.$o['anchor'].'-ch'.$nextch.'">'.$next.'</a></li>';
+				$temp .= '<li class="right-pos">'.$space.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$nextch.'">'.$next.'</a></li>';
 			else {
 				// Next Book
 				if ( isset( $o['next_link'] ) )
-					$temp .= '<li class="right-pos"><a href="'.$o['next_link'].'">'.$next.'</a></li>';
+					$temp .= '<li class="right-pos">'.$space.'<a href="'.$o['next_link'].'">'.$next.'</a></li>';
 				else
-					$temp .= '<li class="right-pos"><span>'.$next.'</span></li>';
+					$temp .= '<li class="right-pos">'.$space.'<span>'.$next.'</span></li>';
 			}
 
-			$temp .= '</ul>';
+			$temp .= '</ul>'."\n"; */
 
 			$r2 = mysqli_query($con, "SELECT * FROM bible_kjv WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
 			while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {
-				$temp .= '<p class="verse"><a class="verse-anchor" name="'.$o['anchor'].'-ch'.$ch.'-v'.$oo['verse'].'"><strong><span class="hide-this">'.str_replace( ' ', '', $o['short'] ).$oo['chapter'].'.</span>'.$oo['verse'].'</strong></a> ' . $oo['text'] . '</p>';
+				$temp .= '<p class="verse">';
+					$temp .= '<a class="verse-anchor">';
+							$temp .= '<strong><span class="hide-this">'.str_replace( ' ', '', $o['short'] ) . $oo['chapter'] . '.</span>'.$oo['verse'].'</strong>';
+					$temp .= '</a>';
+					$temp .= $oo['text'];
+				$temp .= '</p>'."\n";
 			}
+
+			$temp .= '</div>';
 		}
+
 		$ch_nav = '<ul class="ch-nav">'.$ch_nav.'</ul>';
-		$body .= $ch_nav;
-		$body .= '<mbp:pagebreak />';
+		$intro .= $ch_nav;
+		$intro .= '</div>';
+		file_put_contents( "html/".$o['filename']."-intro.html", $header . $intro . $footer );
+
 		$body .= $temp;
 
-		// $body .= '<mbp:pagebreak />';
-		file_put_contents( "html/".$o['anchor'].".html", $header . $body . $footer );
+		file_put_contents( "html/".$o['filename'].".html", $header . $body . $footer );
 	}
 }
 
@@ -167,7 +188,11 @@ function build_spine_manifest( $book ) {
 			$i++;
 		}
 
-		$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/'.$o['anchor'].'.html"></item>'."\n";
+		$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/'.$o['filename'].'-intro.html"></item>'."\n";
+		$spine .= '<itemref idref="item'.$i.'"/>'."\n";
+		$i++;
+
+		$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/'.$o['filename'].'.html"></item>'."\n";
 		$spine .= '<itemref idref="item'.$i.'"/>'."\n";
 		$i++;
 	}
@@ -234,13 +259,13 @@ ob_start(); ?>
 			<navLabel>
 				<text><?php echo $o['fullname']; ?></text>
 			</navLabel>
-			<content src="html/<?php echo $o['anchor'].'.html'; ?>"/>
+			<content src="html/<?php echo $o['filename'].'-intro.html'; ?>"/>
 <?php $ncx .= ob_get_contents();
 $order++;
 
 		$ncx_chapters = '';
 		for ( $ch = 1; $ch <= $o['chapters']; $ch++ ) {
-			$content_link = 'html/'.$o['anchor'].'.html';
+			$content_link = 'html/'.$o['filename'].'.html';
 			$content_link .= '#'.$o['anchor'].'-ch'.$ch;
 
 ob_start(); ?>
@@ -310,13 +335,13 @@ ob_start(); ?>
 				<navLabel>
 					<text><?php echo $o['fullname']; ?></text>
 				</navLabel>
-				<content src="html/<?php echo $o['anchor'].'.html'; ?>"/>
+				<content src="html/<?php echo $o['filename'].'-intro.html'; ?>"/>
 <?php $ncx .= ob_get_contents();
 $order++;
 
 		$ncx_chapters = '';
 		for ( $ch = 1; $ch <= $o['chapters']; $ch++ ) {
-			$content_link = 'html/'.$o['anchor'].'.html';
+			$content_link = 'html/'.$o['filename'].'.html';
 			$content_link .= '#'.$o['anchor'].'-ch'.$ch;
 
 ob_start(); ?>

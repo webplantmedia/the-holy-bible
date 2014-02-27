@@ -77,8 +77,8 @@ function build_html_body( $book, $header, $footer, $con ) {
 		}
 
 		$intro .= '<div id="'.$o['anchor'].'">';
-		$intro .= '<p class="center"><a href="toc.html">Table of Contents</a></p>';
-		/* $intro .= '<ul class="title-nav">';
+		$intro .= '<h3>' . $o['title'] . '</h3>'."\n";
+		$intro .= '<ul class="title-nav">';
 
 		if ( isset( $o['prev_chap'] ) )
 			$intro .= '<li class="left-pos"><a href="'.$o['prev_chap'].'">'.$prev.'</a>'.$space.'</li>';
@@ -92,8 +92,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 		else
 			$intro .= '<li class="right-pos">'.$space.'<span>'.$next.'</span></li>';
 
-		$intro .= '</ul>'."\n"; */
-		$intro .= '<h3>' . $o['title'] . '</h3>'."\n";
+		$intro .= '</ul>'."\n";
 		$intro .= '<p class="center"><strong>Chapters</strong></p>'."\n";
 
 		$ch_nav = '';
@@ -106,9 +105,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 
 			$ch_nav .= '<li><a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">'.$ch.'</a></li>';
 
-			$temp .= '<h4><strong><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a> ' . $ch . '</strong></h4>'; 
-
-			/* $temp .= '<ul class="title-nav">';
+			$temp .= '<ul class="title-nav">';
 
 			$prevch = $ch - 1;
 			$nextch = $ch + 1;
@@ -138,7 +135,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 					$temp .= '<li class="right-pos">'.$space.'<span>'.$next.'</span></li>';
 			}
 
-			$temp .= '</ul>'."\n"; */
+			$temp .= '</ul>'."\n";
 
 			$r2 = mysqli_query($con, "SELECT * FROM bible_kjv WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
 			while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {

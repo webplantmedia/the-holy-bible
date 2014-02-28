@@ -28,9 +28,13 @@ foreach ( $book as $key => $value ) {
 	$book[ $key ]['prev_link'] = $book[ $key ]['filename'] . '-intro.html';
 	if ( isset( $book[ $prev ] ) ) {
 		$book[ $key ]['prev_chap'] = $book[ $prev ]['filename'] . '.html#' . $book[ $prev ]['anchor'] . '-ch' . $book[ $prev ]['chapters'];
+		$book[ $key ]['prev_book'] = $book[ $prev ]['filename'] . '-intro.html';
+		$book[ $key ]['prev_book_title'] = $book[ $prev ]['fullname'];
 	}
 	if ( isset( $book[ $next ] ) ) {
 		$book[ $key ]['next_link'] = $book[ $next ]['filename'] . '-intro.html';
+		$book[ $key ]['next_book'] = $book[ $next ]['filename'] . '-intro.html';
+		$book[ $key ]['next_book_title'] = $book[ $next ]['fullname'];
 	}
 	$book[ $key ]['next_chap'] = $book[ $key ]['filename'] . '.html#' . $book[ $key ]['anchor'] . '-ch1';
 }

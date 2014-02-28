@@ -412,7 +412,7 @@
 	
 <guide>
 	<reference type="toc" title="Table of Contents" href="html/toc.html"></reference>
-	<reference type="text" title="The Old Testament" href="html/old-testament.html"></reference>
+	<reference type="text" title="Table of Contents" href="html/toc.html"></reference>
 </guide>
 
 </package>

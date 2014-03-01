@@ -1,3 +1,6 @@
+.no-link {
+	visibility: hidden;
+}
 .title-nav {
 	text-align: center;
 }

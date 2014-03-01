@@ -25,7 +25,7 @@ function build_html_intro( $book, $header, $footer ) {
 	$intro .= '<h1>The Holy Bible</h1>';
 	$intro .= '<br />';
 	$intro .= '<br />';
-	$intro .= '<h3 class="center">Authorized King James Version<h3>';
+	$intro .= '<h3 class="center">Authorized King James Version</h3>';
 	
 	file_put_contents( "html/intro.html", $header . $intro . $footer );
 }
@@ -139,15 +139,10 @@ function build_html_body( $book, $header, $footer, $con ) {
 		$intro .= '<p class="title-nav hide-this">';
 		// Prev Book
 		if ( isset( $o['prev_book'] ) )
-			$intro .= '<span class="left-book"><a href="'.$o['prev_book'].'">'. "&laquo;". ' ' . $o['prev_book_title'] . '</a></span>';
-		else
-			$intro .= '<span class="left-book"><span class="no-link">'.$blank.'</span></span>';
-		$intro .= '<br />';
+			$intro .= '<span class="left-book"><a href="'.$o['prev_book'].'">'. "&laquo;". ' ' . $o['prev_book_title'] . '</a></span><br />';
 		// Next Book
 		if ( isset( $o['next_book'] ) )
 			$intro .= '<span class="right-book"><a href="'.$o['next_book'].'">'.$o['next_book_title'] . ' ' . "&raquo;".'</a></span>';
-		else
-			$intro .= '<span class="right-book"><span class="no-link">'.$blank.'</span></span>';
 		$intro .= '</p>';
 		$intro .= '<p class="title-nav">';
 

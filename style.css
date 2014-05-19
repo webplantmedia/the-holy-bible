@@ -5,15 +5,18 @@
 	text-align: center;
 }
 
+.verse-nav,
 .ch-nav {
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
 }
+.verse-nav li,
 .ch-nav li {
 	display: inline-block;
 	margin-bottom: 10px;
 }
+.verse-nav li a,
 .ch-nav li a {
 	padding: 5px;
 }

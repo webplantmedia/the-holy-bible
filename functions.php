@@ -85,7 +85,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 		for ( $ch = 1; $ch <= $o['chapters']; $ch++ ) {
 			$r2 = mysqli_query($con, "SELECT * FROM bible_kjv WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
 
-			$temp .= '<div id="'.$o['anchor'].'-ch'.$ch.'"><div>';
+			$temp .= '<div id="'.$o['anchor'].'-ch'.$ch.'">';
 
 			$content_link = 'html/'.$o['filename'].'.html';
 			$content_link .= '#'.$o['anchor'].'-ch'.$ch;
@@ -109,7 +109,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 			} */
 
 			// Current Book
-			$temp .= '<span class="tn-heading"><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a> ' . $ch . '</span>'; 
+			$temp .= '<span class="tn-heading"><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a>' . $blank . $ch . '</span>'; 
 
 			/* // Next Chapter
 			if ( $nextch <= $o['chapters'] )
@@ -126,9 +126,10 @@ function build_html_body( $book, $header, $footer, $con ) {
 
 			$temp .= '<ul class="verse-nav">'."\n";
 			for ( $i = 1; $i <= $r2->num_rows; $i++ ) {
-				$temp .= '<li class="verse-link">'.$space.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'-v'.$i.'">'.$i.'</a>'.$space.'</li>';
+				$temp .= '<li class="verse-link">'.$blank.$blank.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'-v'.$i.'">'.$i.'</a>'.$blank.$blank.' </li>';
 			}
 			$temp .= '</ul>'."\n";
+
 
 			while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {
 				$temp .= '<p id="'.$o['anchor'].'-ch'.$ch.'-v'.$oo['verse'].'" class="verse">';

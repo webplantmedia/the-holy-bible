@@ -83,19 +83,21 @@ function build_html_body( $book, $header, $footer, $con ) {
 		$ch_nav = '';
 		$temp = '';
 		for ( $ch = 1; $ch <= $o['chapters']; $ch++ ) {
-			$temp .= '<div>';
+			$r2 = mysqli_query($con, "SELECT * FROM bible_kjv WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
+
+			$temp .= '<div id="'.$o['anchor'].'-ch'.$ch.'"><div>';
 
 			$content_link = 'html/'.$o['filename'].'.html';
 			$content_link .= '#'.$o['anchor'].'-ch'.$ch;
 
 			$ch_nav .= '<li>'.$blank.$blank.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">'.$ch.'</a>'.$blank.$blank.'</li>';
 
-			$temp .= '<h4 class="title-nav chapter-nav chapter-'.$ch.'">';
+			$temp .= '<h4 href="'.$o['filename'].'-intro.html" class="title-nav chapter-nav chapter-'.$ch.'">';
 
 			$prevch = $ch - 1;
 			$nextch = $ch + 1;
 
-			// Prev Chapter
+			/* // Prev Chapter
 			if ( $prevch > 0 )
 				$temp .= '<span class="left-pos"><a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$prevch.'">'.$prev.'</a>'.$space.'</span>';
 			else {
@@ -104,12 +106,12 @@ function build_html_body( $book, $header, $footer, $con ) {
 					$temp .= '<span class="left-pos"><a href="'.$o['prev_link'].'">'.$prev.'</a>'.$space.'</span>';
 				else
 					$temp .= '<span class="left-pos"><span class="no-link">'.$prev.'</span>'.$space.'</span>';
-			}
+			} */
 
 			// Current Book
-			$temp .= '<span class="tn-heading"><a id="'.$o['anchor'].'-ch'.$ch.'" href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a> ' . $ch . '</span>'; 
+			$temp .= '<span class="tn-heading"><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a> ' . $ch . '</span>'; 
 
-			// Next Chapter
+			/* // Next Chapter
 			if ( $nextch <= $o['chapters'] )
 				$temp .= '<span class="right-pos">'.$space.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$nextch.'">'.$next.'</a></span>';
 			else {
@@ -118,14 +120,19 @@ function build_html_body( $book, $header, $footer, $con ) {
 					$temp .= '<span class="right-pos">'.$space.'<a href="'.$o['next_link'].'">'.$next.'</a></span>';
 				else
 					$temp .= '<span class="right-pos">'.$space.'<span class="no-link">'.$next.'</span></span>';
-			}
+			} */
 
 			$temp .= '</h4>'."\n";
 
-			$r2 = mysqli_query($con, "SELECT * FROM bible_kjv WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
+			$temp .= '<ul class="verse-nav">'."\n";
+			for ( $i = 1; $i <= $r2->num_rows; $i++ ) {
+				$temp .= '<li class="verse-link">'.$space.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'-v'.$i.'">'.$i.'</a>'.$space.'</li>';
+			}
+			$temp .= '</ul>'."\n";
+
 			while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {
-				$temp .= '<p class="verse">';
-					$temp .= '<a class="verse-anchor">';
+				$temp .= '<p id="'.$o['anchor'].'-ch'.$ch.'-v'.$oo['verse'].'" class="verse">';
+					$temp .= '<a class="verse-anchor" href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">';
 							$temp .= '<strong><span class="hide-this">'.str_replace( ' ', '', $o['short'] ) . $oo['chapter'] . '.</span>'.$oo['verse'].'</strong>';
 					$temp .= '</a>';
 					$temp .= $oo['text'];
@@ -146,17 +153,17 @@ function build_html_body( $book, $header, $footer, $con ) {
 		$intro .= '</p>';
 		$intro .= '<p class="title-nav">';
 
-		if ( isset( $o['prev_chap'] ) )
-			$intro .= '<span class="left-pos"><a href="'.$o['prev_chap'].'">'.$prev.'</a>'.$space.'</span>';
-		else
-			$intro .= '<span class="left-pos"><span class="no-link">'.$prev.'</span>'.$space.'</span>';
+		// if ( isset( $o['prev_chap'] ) )
+			// $intro .= '<span class="left-pos"><a href="'.$o['prev_chap'].'">'.$prev.'</a>'.$space.'</span>';
+		// else
+			// $intro .= '<span class="left-pos"><span class="no-link">'.$prev.'</span>'.$space.'</span>';
 
 		$intro .= '<span class="tn-heading"><a href="toc.html#book-'.$o['anchor'].'">Table of Contents</a></span>';
 
-		if ( isset( $o['next_chap'] ) )
-			$intro .= '<span class="right-pos">'.$space.'<a href="'.$o['next_chap'].'">'.$next.'</a></span>';
-		else
-			$intro .= '<span class="right-pos">'.$space.'<span class="no-link">'.$next.'</span></span>';
+		// if ( isset( $o['next_chap'] ) )
+			// $intro .= '<span class="right-pos">'.$space.'<a href="'.$o['next_chap'].'">'.$next.'</a></span>';
+		// else
+			// $intro .= '<span class="right-pos">'.$space.'<span class="no-link">'.$next.'</span></span>';
 
 		$intro .= '</p>'."\n";
 		$intro .= '<h4 class="center">Chapters</h4>'."\n";

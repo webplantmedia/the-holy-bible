@@ -1,4 +1,14 @@
 <?php
+// King James Version
+// $bible_book = 'bible_books_en';
+// $bible_text = 'bible_kjv';
+// $bible_images = 'bible_images';
+
+// Authorized King James Version
+$bible_book = 'cpe_book';
+$bible_text = 'cpe_bible';
+$bible_images = 'bible_images';
+
 function get_html_header() {
 	?>
 	<?php ob_start(); ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -60,6 +70,8 @@ function build_html_toc( $book, $header, $footer ) {
 }
 
 function build_html_body( $book, $header, $footer, $con ) {
+	global $bible_text;
+
 	foreach ( $book as $o ) {
 		$body = '';
 		$intro = '';
@@ -83,7 +95,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 		$ch_nav = '';
 		$temp = '';
 		for ( $ch = 1; $ch <= $o['chapters']; $ch++ ) {
-			$r2 = mysqli_query($con, "SELECT * FROM bible_kjv WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
+			$r2 = mysqli_query($con, "SELECT * FROM $bible_text WHERE book=".$o['number']." AND chapter=".$ch." ORDER BY verse ASC");
 
 			$temp .= '<div id="'.$o['anchor'].'-ch'.$ch.'">';
 
@@ -132,12 +144,14 @@ function build_html_body( $book, $header, $footer, $con ) {
 
 
 			while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {
+				$temp .= get_subheading( $oo['text'] );
 				$temp .= '<p id="'.$o['anchor'].'-ch'.$ch.'-v'.$oo['verse'].'" class="verse">';
 					$temp .= '<a class="verse-anchor" href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">';
 							$temp .= '<strong><span class="hide-this">'.str_replace( ' ', '', $o['short'] ) . $oo['chapter'] . '.</span>'.$oo['verse'].'</strong>';
 					$temp .= '</a>';
-					$temp .= $oo['text'];
+					$temp .= ' ' . format( $oo['text'] );
 				$temp .= '</p>'."\n";
+				$temp .= get_footer( $oo['text'] );
 			}
 
 			$temp .= '</div>';
@@ -225,6 +239,8 @@ function build_spine_manifest( $book ) {
 }
 
 function build_html_appendix( $book, $header, $footer, $con ) {
+	global $bible_images;
+
 	$appendix = '<br /><br /><h2>Appendix</h2>';
 	file_put_contents( "html/appendix.html", $header . $appendix . $footer );
 
@@ -232,7 +248,7 @@ function build_html_appendix( $book, $header, $footer, $con ) {
 	$pics .= '<p class="center"><a href="toc.html"><small>(Back to Table of Contents)</small></a></p>';
 	$pics .= '<mbp:pagebreak />';
 
-	$r = mysqli_query($con, "SELECT * FROM bible_images ORDER BY sort ASC");
+	$r = mysqli_query($con, "SELECT * FROM $bible_images ORDER BY sort ASC");
 	while( $o = mysqli_fetch_array( $r, MYSQLI_ASSOC ) ) {
 		$pics .= '<div class="woodcuts"><img src="../images/'.$o['file'].'" /></div>';
 		$pics .= '<mbp:pagebreak />';
@@ -395,4 +411,48 @@ ob_start(); ?>
 <?php $ncx .= ob_get_contents();
 
 	file_put_contents( "log/ncx.log.txt", $ncx );
+}
+
+function format( $text ) {
+	$text = preg_replace( "#<<(.+?)>>#", "", $text );
+	$text = str_replace( "[", "<i>", $text );
+	$text = str_replace( "]", "</i>", $text );
+
+	$text = trim( $text );
+
+	return $text;
+}
+function get_subheading( $text ) {
+	$heading = '';
+
+	$text = trim( $text );
+
+	preg_match( "#^<<(.+?)>>#", $text, $matches );
+
+	if ( ! empty( $matches ) && is_array( $matches ) ) {
+		if ( isset( $matches[1] ) ) {
+			$heading = '<h5>' . format( $matches[1] ) . '</h5>';
+		}
+	}
+
+	return $heading;
+}
+function get_footer( $text ) {
+	$footer = '';
+
+	$text = trim( $text );
+
+	preg_match( "#<<(.+?)>>$#", $text, $matches );
+
+	if ( ! empty( $matches ) && is_array( $matches ) ) {
+		if ( isset( $matches[1] ) ) {
+			$footer = $matches[1];
+			$footer = preg_replace( "#<<(.+?)>>#", "", $footer );
+			$footer = str_replace( "[", "", $footer );
+			$footer = str_replace( "]", "", $footer );
+			$footer = '<p><b>' . $footer . '</b></p>';
+		}
+	}
+
+	return $footer;
 }

@@ -1305,136 +1305,136 @@
 					<content src="html/joshua.html#jos-ch24"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="ju" playOrder="220">
+			<navPoint class="book" id="jg" playOrder="220">
 				<navLabel>
 					<text>Judges</text>
 				</navLabel>
 				<content src="html/judges-intro.html"/>
-				<navPoint class="chapter" id="ju-ch1" playOrder="221">
+				<navPoint class="chapter" id="jg-ch1" playOrder="221">
 					<navLabel>
 						<text>Judges 1</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch1"/>
+					<content src="html/judges.html#jg-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch2" playOrder="222">
+				<navPoint class="chapter" id="jg-ch2" playOrder="222">
 					<navLabel>
 						<text>Judges 2</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch2"/>
+					<content src="html/judges.html#jg-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch3" playOrder="223">
+				<navPoint class="chapter" id="jg-ch3" playOrder="223">
 					<navLabel>
 						<text>Judges 3</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch3"/>
+					<content src="html/judges.html#jg-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch4" playOrder="224">
+				<navPoint class="chapter" id="jg-ch4" playOrder="224">
 					<navLabel>
 						<text>Judges 4</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch4"/>
+					<content src="html/judges.html#jg-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch5" playOrder="225">
+				<navPoint class="chapter" id="jg-ch5" playOrder="225">
 					<navLabel>
 						<text>Judges 5</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch5"/>
+					<content src="html/judges.html#jg-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch6" playOrder="226">
+				<navPoint class="chapter" id="jg-ch6" playOrder="226">
 					<navLabel>
 						<text>Judges 6</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch6"/>
+					<content src="html/judges.html#jg-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch7" playOrder="227">
+				<navPoint class="chapter" id="jg-ch7" playOrder="227">
 					<navLabel>
 						<text>Judges 7</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch7"/>
+					<content src="html/judges.html#jg-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch8" playOrder="228">
+				<navPoint class="chapter" id="jg-ch8" playOrder="228">
 					<navLabel>
 						<text>Judges 8</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch8"/>
+					<content src="html/judges.html#jg-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch9" playOrder="229">
+				<navPoint class="chapter" id="jg-ch9" playOrder="229">
 					<navLabel>
 						<text>Judges 9</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch9"/>
+					<content src="html/judges.html#jg-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch10" playOrder="230">
+				<navPoint class="chapter" id="jg-ch10" playOrder="230">
 					<navLabel>
 						<text>Judges 10</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch10"/>
+					<content src="html/judges.html#jg-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch11" playOrder="231">
+				<navPoint class="chapter" id="jg-ch11" playOrder="231">
 					<navLabel>
 						<text>Judges 11</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch11"/>
+					<content src="html/judges.html#jg-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch12" playOrder="232">
+				<navPoint class="chapter" id="jg-ch12" playOrder="232">
 					<navLabel>
 						<text>Judges 12</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch12"/>
+					<content src="html/judges.html#jg-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch13" playOrder="233">
+				<navPoint class="chapter" id="jg-ch13" playOrder="233">
 					<navLabel>
 						<text>Judges 13</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch13"/>
+					<content src="html/judges.html#jg-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch14" playOrder="234">
+				<navPoint class="chapter" id="jg-ch14" playOrder="234">
 					<navLabel>
 						<text>Judges 14</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch14"/>
+					<content src="html/judges.html#jg-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch15" playOrder="235">
+				<navPoint class="chapter" id="jg-ch15" playOrder="235">
 					<navLabel>
 						<text>Judges 15</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch15"/>
+					<content src="html/judges.html#jg-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch16" playOrder="236">
+				<navPoint class="chapter" id="jg-ch16" playOrder="236">
 					<navLabel>
 						<text>Judges 16</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch16"/>
+					<content src="html/judges.html#jg-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch17" playOrder="237">
+				<navPoint class="chapter" id="jg-ch17" playOrder="237">
 					<navLabel>
 						<text>Judges 17</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch17"/>
+					<content src="html/judges.html#jg-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch18" playOrder="238">
+				<navPoint class="chapter" id="jg-ch18" playOrder="238">
 					<navLabel>
 						<text>Judges 18</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch18"/>
+					<content src="html/judges.html#jg-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch19" playOrder="239">
+				<navPoint class="chapter" id="jg-ch19" playOrder="239">
 					<navLabel>
 						<text>Judges 19</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch19"/>
+					<content src="html/judges.html#jg-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch20" playOrder="240">
+				<navPoint class="chapter" id="jg-ch20" playOrder="240">
 					<navLabel>
 						<text>Judges 20</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch20"/>
+					<content src="html/judges.html#jg-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="ju-ch21" playOrder="241">
+				<navPoint class="chapter" id="jg-ch21" playOrder="241">
 					<navLabel>
 						<text>Judges 21</text>
 					</navLabel>
-					<content src="html/judges.html#ju-ch21"/>
+					<content src="html/judges.html#jg-ch21"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="ru" playOrder="242">
@@ -1467,1108 +1467,1108 @@
 					<content src="html/ruth.html#ru-ch4"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-sa" playOrder="247">
+			<navPoint class="book" id="1sa" playOrder="247">
 				<navLabel>
 					<text>1 Samuel</text>
 				</navLabel>
 				<content src="html/1-samuel-intro.html"/>
-				<navPoint class="chapter" id="1-sa-ch1" playOrder="248">
+				<navPoint class="chapter" id="1sa-ch1" playOrder="248">
 					<navLabel>
 						<text>1 Samuel 1</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch1"/>
+					<content src="html/1-samuel.html#1sa-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch2" playOrder="249">
+				<navPoint class="chapter" id="1sa-ch2" playOrder="249">
 					<navLabel>
 						<text>1 Samuel 2</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch2"/>
+					<content src="html/1-samuel.html#1sa-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch3" playOrder="250">
+				<navPoint class="chapter" id="1sa-ch3" playOrder="250">
 					<navLabel>
 						<text>1 Samuel 3</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch3"/>
+					<content src="html/1-samuel.html#1sa-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch4" playOrder="251">
+				<navPoint class="chapter" id="1sa-ch4" playOrder="251">
 					<navLabel>
 						<text>1 Samuel 4</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch4"/>
+					<content src="html/1-samuel.html#1sa-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch5" playOrder="252">
+				<navPoint class="chapter" id="1sa-ch5" playOrder="252">
 					<navLabel>
 						<text>1 Samuel 5</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch5"/>
+					<content src="html/1-samuel.html#1sa-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch6" playOrder="253">
+				<navPoint class="chapter" id="1sa-ch6" playOrder="253">
 					<navLabel>
 						<text>1 Samuel 6</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch6"/>
+					<content src="html/1-samuel.html#1sa-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch7" playOrder="254">
+				<navPoint class="chapter" id="1sa-ch7" playOrder="254">
 					<navLabel>
 						<text>1 Samuel 7</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch7"/>
+					<content src="html/1-samuel.html#1sa-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch8" playOrder="255">
+				<navPoint class="chapter" id="1sa-ch8" playOrder="255">
 					<navLabel>
 						<text>1 Samuel 8</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch8"/>
+					<content src="html/1-samuel.html#1sa-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch9" playOrder="256">
+				<navPoint class="chapter" id="1sa-ch9" playOrder="256">
 					<navLabel>
 						<text>1 Samuel 9</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch9"/>
+					<content src="html/1-samuel.html#1sa-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch10" playOrder="257">
+				<navPoint class="chapter" id="1sa-ch10" playOrder="257">
 					<navLabel>
 						<text>1 Samuel 10</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch10"/>
+					<content src="html/1-samuel.html#1sa-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch11" playOrder="258">
+				<navPoint class="chapter" id="1sa-ch11" playOrder="258">
 					<navLabel>
 						<text>1 Samuel 11</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch11"/>
+					<content src="html/1-samuel.html#1sa-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch12" playOrder="259">
+				<navPoint class="chapter" id="1sa-ch12" playOrder="259">
 					<navLabel>
 						<text>1 Samuel 12</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch12"/>
+					<content src="html/1-samuel.html#1sa-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch13" playOrder="260">
+				<navPoint class="chapter" id="1sa-ch13" playOrder="260">
 					<navLabel>
 						<text>1 Samuel 13</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch13"/>
+					<content src="html/1-samuel.html#1sa-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch14" playOrder="261">
+				<navPoint class="chapter" id="1sa-ch14" playOrder="261">
 					<navLabel>
 						<text>1 Samuel 14</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch14"/>
+					<content src="html/1-samuel.html#1sa-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch15" playOrder="262">
+				<navPoint class="chapter" id="1sa-ch15" playOrder="262">
 					<navLabel>
 						<text>1 Samuel 15</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch15"/>
+					<content src="html/1-samuel.html#1sa-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch16" playOrder="263">
+				<navPoint class="chapter" id="1sa-ch16" playOrder="263">
 					<navLabel>
 						<text>1 Samuel 16</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch16"/>
+					<content src="html/1-samuel.html#1sa-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch17" playOrder="264">
+				<navPoint class="chapter" id="1sa-ch17" playOrder="264">
 					<navLabel>
 						<text>1 Samuel 17</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch17"/>
+					<content src="html/1-samuel.html#1sa-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch18" playOrder="265">
+				<navPoint class="chapter" id="1sa-ch18" playOrder="265">
 					<navLabel>
 						<text>1 Samuel 18</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch18"/>
+					<content src="html/1-samuel.html#1sa-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch19" playOrder="266">
+				<navPoint class="chapter" id="1sa-ch19" playOrder="266">
 					<navLabel>
 						<text>1 Samuel 19</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch19"/>
+					<content src="html/1-samuel.html#1sa-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch20" playOrder="267">
+				<navPoint class="chapter" id="1sa-ch20" playOrder="267">
 					<navLabel>
 						<text>1 Samuel 20</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch20"/>
+					<content src="html/1-samuel.html#1sa-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch21" playOrder="268">
+				<navPoint class="chapter" id="1sa-ch21" playOrder="268">
 					<navLabel>
 						<text>1 Samuel 21</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch21"/>
+					<content src="html/1-samuel.html#1sa-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch22" playOrder="269">
+				<navPoint class="chapter" id="1sa-ch22" playOrder="269">
 					<navLabel>
 						<text>1 Samuel 22</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch22"/>
+					<content src="html/1-samuel.html#1sa-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch23" playOrder="270">
+				<navPoint class="chapter" id="1sa-ch23" playOrder="270">
 					<navLabel>
 						<text>1 Samuel 23</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch23"/>
+					<content src="html/1-samuel.html#1sa-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch24" playOrder="271">
+				<navPoint class="chapter" id="1sa-ch24" playOrder="271">
 					<navLabel>
 						<text>1 Samuel 24</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch24"/>
+					<content src="html/1-samuel.html#1sa-ch24"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch25" playOrder="272">
+				<navPoint class="chapter" id="1sa-ch25" playOrder="272">
 					<navLabel>
 						<text>1 Samuel 25</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch25"/>
+					<content src="html/1-samuel.html#1sa-ch25"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch26" playOrder="273">
+				<navPoint class="chapter" id="1sa-ch26" playOrder="273">
 					<navLabel>
 						<text>1 Samuel 26</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch26"/>
+					<content src="html/1-samuel.html#1sa-ch26"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch27" playOrder="274">
+				<navPoint class="chapter" id="1sa-ch27" playOrder="274">
 					<navLabel>
 						<text>1 Samuel 27</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch27"/>
+					<content src="html/1-samuel.html#1sa-ch27"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch28" playOrder="275">
+				<navPoint class="chapter" id="1sa-ch28" playOrder="275">
 					<navLabel>
 						<text>1 Samuel 28</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch28"/>
+					<content src="html/1-samuel.html#1sa-ch28"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch29" playOrder="276">
+				<navPoint class="chapter" id="1sa-ch29" playOrder="276">
 					<navLabel>
 						<text>1 Samuel 29</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch29"/>
+					<content src="html/1-samuel.html#1sa-ch29"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch30" playOrder="277">
+				<navPoint class="chapter" id="1sa-ch30" playOrder="277">
 					<navLabel>
 						<text>1 Samuel 30</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch30"/>
+					<content src="html/1-samuel.html#1sa-ch30"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-sa-ch31" playOrder="278">
+				<navPoint class="chapter" id="1sa-ch31" playOrder="278">
 					<navLabel>
 						<text>1 Samuel 31</text>
 					</navLabel>
-					<content src="html/1-samuel.html#1-sa-ch31"/>
+					<content src="html/1-samuel.html#1sa-ch31"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-sa" playOrder="279">
+			<navPoint class="book" id="2sa" playOrder="279">
 				<navLabel>
 					<text>2 Samuel</text>
 				</navLabel>
 				<content src="html/2-samuel-intro.html"/>
-				<navPoint class="chapter" id="2-sa-ch1" playOrder="280">
+				<navPoint class="chapter" id="2sa-ch1" playOrder="280">
 					<navLabel>
 						<text>2 Samuel 1</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch1"/>
+					<content src="html/2-samuel.html#2sa-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch2" playOrder="281">
+				<navPoint class="chapter" id="2sa-ch2" playOrder="281">
 					<navLabel>
 						<text>2 Samuel 2</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch2"/>
+					<content src="html/2-samuel.html#2sa-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch3" playOrder="282">
+				<navPoint class="chapter" id="2sa-ch3" playOrder="282">
 					<navLabel>
 						<text>2 Samuel 3</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch3"/>
+					<content src="html/2-samuel.html#2sa-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch4" playOrder="283">
+				<navPoint class="chapter" id="2sa-ch4" playOrder="283">
 					<navLabel>
 						<text>2 Samuel 4</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch4"/>
+					<content src="html/2-samuel.html#2sa-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch5" playOrder="284">
+				<navPoint class="chapter" id="2sa-ch5" playOrder="284">
 					<navLabel>
 						<text>2 Samuel 5</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch5"/>
+					<content src="html/2-samuel.html#2sa-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch6" playOrder="285">
+				<navPoint class="chapter" id="2sa-ch6" playOrder="285">
 					<navLabel>
 						<text>2 Samuel 6</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch6"/>
+					<content src="html/2-samuel.html#2sa-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch7" playOrder="286">
+				<navPoint class="chapter" id="2sa-ch7" playOrder="286">
 					<navLabel>
 						<text>2 Samuel 7</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch7"/>
+					<content src="html/2-samuel.html#2sa-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch8" playOrder="287">
+				<navPoint class="chapter" id="2sa-ch8" playOrder="287">
 					<navLabel>
 						<text>2 Samuel 8</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch8"/>
+					<content src="html/2-samuel.html#2sa-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch9" playOrder="288">
+				<navPoint class="chapter" id="2sa-ch9" playOrder="288">
 					<navLabel>
 						<text>2 Samuel 9</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch9"/>
+					<content src="html/2-samuel.html#2sa-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch10" playOrder="289">
+				<navPoint class="chapter" id="2sa-ch10" playOrder="289">
 					<navLabel>
 						<text>2 Samuel 10</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch10"/>
+					<content src="html/2-samuel.html#2sa-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch11" playOrder="290">
+				<navPoint class="chapter" id="2sa-ch11" playOrder="290">
 					<navLabel>
 						<text>2 Samuel 11</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch11"/>
+					<content src="html/2-samuel.html#2sa-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch12" playOrder="291">
+				<navPoint class="chapter" id="2sa-ch12" playOrder="291">
 					<navLabel>
 						<text>2 Samuel 12</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch12"/>
+					<content src="html/2-samuel.html#2sa-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch13" playOrder="292">
+				<navPoint class="chapter" id="2sa-ch13" playOrder="292">
 					<navLabel>
 						<text>2 Samuel 13</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch13"/>
+					<content src="html/2-samuel.html#2sa-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch14" playOrder="293">
+				<navPoint class="chapter" id="2sa-ch14" playOrder="293">
 					<navLabel>
 						<text>2 Samuel 14</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch14"/>
+					<content src="html/2-samuel.html#2sa-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch15" playOrder="294">
+				<navPoint class="chapter" id="2sa-ch15" playOrder="294">
 					<navLabel>
 						<text>2 Samuel 15</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch15"/>
+					<content src="html/2-samuel.html#2sa-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch16" playOrder="295">
+				<navPoint class="chapter" id="2sa-ch16" playOrder="295">
 					<navLabel>
 						<text>2 Samuel 16</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch16"/>
+					<content src="html/2-samuel.html#2sa-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch17" playOrder="296">
+				<navPoint class="chapter" id="2sa-ch17" playOrder="296">
 					<navLabel>
 						<text>2 Samuel 17</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch17"/>
+					<content src="html/2-samuel.html#2sa-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch18" playOrder="297">
+				<navPoint class="chapter" id="2sa-ch18" playOrder="297">
 					<navLabel>
 						<text>2 Samuel 18</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch18"/>
+					<content src="html/2-samuel.html#2sa-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch19" playOrder="298">
+				<navPoint class="chapter" id="2sa-ch19" playOrder="298">
 					<navLabel>
 						<text>2 Samuel 19</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch19"/>
+					<content src="html/2-samuel.html#2sa-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch20" playOrder="299">
+				<navPoint class="chapter" id="2sa-ch20" playOrder="299">
 					<navLabel>
 						<text>2 Samuel 20</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch20"/>
+					<content src="html/2-samuel.html#2sa-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch21" playOrder="300">
+				<navPoint class="chapter" id="2sa-ch21" playOrder="300">
 					<navLabel>
 						<text>2 Samuel 21</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch21"/>
+					<content src="html/2-samuel.html#2sa-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch22" playOrder="301">
+				<navPoint class="chapter" id="2sa-ch22" playOrder="301">
 					<navLabel>
 						<text>2 Samuel 22</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch22"/>
+					<content src="html/2-samuel.html#2sa-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch23" playOrder="302">
+				<navPoint class="chapter" id="2sa-ch23" playOrder="302">
 					<navLabel>
 						<text>2 Samuel 23</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch23"/>
+					<content src="html/2-samuel.html#2sa-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-sa-ch24" playOrder="303">
+				<navPoint class="chapter" id="2sa-ch24" playOrder="303">
 					<navLabel>
 						<text>2 Samuel 24</text>
 					</navLabel>
-					<content src="html/2-samuel.html#2-sa-ch24"/>
+					<content src="html/2-samuel.html#2sa-ch24"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-ki" playOrder="304">
+			<navPoint class="book" id="1ki" playOrder="304">
 				<navLabel>
 					<text>1 Kings</text>
 				</navLabel>
 				<content src="html/1-kings-intro.html"/>
-				<navPoint class="chapter" id="1-ki-ch1" playOrder="305">
+				<navPoint class="chapter" id="1ki-ch1" playOrder="305">
 					<navLabel>
 						<text>1 Kings 1</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch1"/>
+					<content src="html/1-kings.html#1ki-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch2" playOrder="306">
+				<navPoint class="chapter" id="1ki-ch2" playOrder="306">
 					<navLabel>
 						<text>1 Kings 2</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch2"/>
+					<content src="html/1-kings.html#1ki-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch3" playOrder="307">
+				<navPoint class="chapter" id="1ki-ch3" playOrder="307">
 					<navLabel>
 						<text>1 Kings 3</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch3"/>
+					<content src="html/1-kings.html#1ki-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch4" playOrder="308">
+				<navPoint class="chapter" id="1ki-ch4" playOrder="308">
 					<navLabel>
 						<text>1 Kings 4</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch4"/>
+					<content src="html/1-kings.html#1ki-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch5" playOrder="309">
+				<navPoint class="chapter" id="1ki-ch5" playOrder="309">
 					<navLabel>
 						<text>1 Kings 5</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch5"/>
+					<content src="html/1-kings.html#1ki-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch6" playOrder="310">
+				<navPoint class="chapter" id="1ki-ch6" playOrder="310">
 					<navLabel>
 						<text>1 Kings 6</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch6"/>
+					<content src="html/1-kings.html#1ki-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch7" playOrder="311">
+				<navPoint class="chapter" id="1ki-ch7" playOrder="311">
 					<navLabel>
 						<text>1 Kings 7</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch7"/>
+					<content src="html/1-kings.html#1ki-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch8" playOrder="312">
+				<navPoint class="chapter" id="1ki-ch8" playOrder="312">
 					<navLabel>
 						<text>1 Kings 8</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch8"/>
+					<content src="html/1-kings.html#1ki-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch9" playOrder="313">
+				<navPoint class="chapter" id="1ki-ch9" playOrder="313">
 					<navLabel>
 						<text>1 Kings 9</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch9"/>
+					<content src="html/1-kings.html#1ki-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch10" playOrder="314">
+				<navPoint class="chapter" id="1ki-ch10" playOrder="314">
 					<navLabel>
 						<text>1 Kings 10</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch10"/>
+					<content src="html/1-kings.html#1ki-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch11" playOrder="315">
+				<navPoint class="chapter" id="1ki-ch11" playOrder="315">
 					<navLabel>
 						<text>1 Kings 11</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch11"/>
+					<content src="html/1-kings.html#1ki-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch12" playOrder="316">
+				<navPoint class="chapter" id="1ki-ch12" playOrder="316">
 					<navLabel>
 						<text>1 Kings 12</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch12"/>
+					<content src="html/1-kings.html#1ki-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch13" playOrder="317">
+				<navPoint class="chapter" id="1ki-ch13" playOrder="317">
 					<navLabel>
 						<text>1 Kings 13</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch13"/>
+					<content src="html/1-kings.html#1ki-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch14" playOrder="318">
+				<navPoint class="chapter" id="1ki-ch14" playOrder="318">
 					<navLabel>
 						<text>1 Kings 14</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch14"/>
+					<content src="html/1-kings.html#1ki-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch15" playOrder="319">
+				<navPoint class="chapter" id="1ki-ch15" playOrder="319">
 					<navLabel>
 						<text>1 Kings 15</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch15"/>
+					<content src="html/1-kings.html#1ki-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch16" playOrder="320">
+				<navPoint class="chapter" id="1ki-ch16" playOrder="320">
 					<navLabel>
 						<text>1 Kings 16</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch16"/>
+					<content src="html/1-kings.html#1ki-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch17" playOrder="321">
+				<navPoint class="chapter" id="1ki-ch17" playOrder="321">
 					<navLabel>
 						<text>1 Kings 17</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch17"/>
+					<content src="html/1-kings.html#1ki-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch18" playOrder="322">
+				<navPoint class="chapter" id="1ki-ch18" playOrder="322">
 					<navLabel>
 						<text>1 Kings 18</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch18"/>
+					<content src="html/1-kings.html#1ki-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch19" playOrder="323">
+				<navPoint class="chapter" id="1ki-ch19" playOrder="323">
 					<navLabel>
 						<text>1 Kings 19</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch19"/>
+					<content src="html/1-kings.html#1ki-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch20" playOrder="324">
+				<navPoint class="chapter" id="1ki-ch20" playOrder="324">
 					<navLabel>
 						<text>1 Kings 20</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch20"/>
+					<content src="html/1-kings.html#1ki-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch21" playOrder="325">
+				<navPoint class="chapter" id="1ki-ch21" playOrder="325">
 					<navLabel>
 						<text>1 Kings 21</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch21"/>
+					<content src="html/1-kings.html#1ki-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ki-ch22" playOrder="326">
+				<navPoint class="chapter" id="1ki-ch22" playOrder="326">
 					<navLabel>
 						<text>1 Kings 22</text>
 					</navLabel>
-					<content src="html/1-kings.html#1-ki-ch22"/>
+					<content src="html/1-kings.html#1ki-ch22"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-ki" playOrder="327">
+			<navPoint class="book" id="2ki" playOrder="327">
 				<navLabel>
 					<text>2 Kings</text>
 				</navLabel>
 				<content src="html/2-kings-intro.html"/>
-				<navPoint class="chapter" id="2-ki-ch1" playOrder="328">
+				<navPoint class="chapter" id="2ki-ch1" playOrder="328">
 					<navLabel>
 						<text>2 Kings 1</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch1"/>
+					<content src="html/2-kings.html#2ki-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch2" playOrder="329">
+				<navPoint class="chapter" id="2ki-ch2" playOrder="329">
 					<navLabel>
 						<text>2 Kings 2</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch2"/>
+					<content src="html/2-kings.html#2ki-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch3" playOrder="330">
+				<navPoint class="chapter" id="2ki-ch3" playOrder="330">
 					<navLabel>
 						<text>2 Kings 3</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch3"/>
+					<content src="html/2-kings.html#2ki-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch4" playOrder="331">
+				<navPoint class="chapter" id="2ki-ch4" playOrder="331">
 					<navLabel>
 						<text>2 Kings 4</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch4"/>
+					<content src="html/2-kings.html#2ki-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch5" playOrder="332">
+				<navPoint class="chapter" id="2ki-ch5" playOrder="332">
 					<navLabel>
 						<text>2 Kings 5</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch5"/>
+					<content src="html/2-kings.html#2ki-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch6" playOrder="333">
+				<navPoint class="chapter" id="2ki-ch6" playOrder="333">
 					<navLabel>
 						<text>2 Kings 6</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch6"/>
+					<content src="html/2-kings.html#2ki-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch7" playOrder="334">
+				<navPoint class="chapter" id="2ki-ch7" playOrder="334">
 					<navLabel>
 						<text>2 Kings 7</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch7"/>
+					<content src="html/2-kings.html#2ki-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch8" playOrder="335">
+				<navPoint class="chapter" id="2ki-ch8" playOrder="335">
 					<navLabel>
 						<text>2 Kings 8</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch8"/>
+					<content src="html/2-kings.html#2ki-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch9" playOrder="336">
+				<navPoint class="chapter" id="2ki-ch9" playOrder="336">
 					<navLabel>
 						<text>2 Kings 9</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch9"/>
+					<content src="html/2-kings.html#2ki-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch10" playOrder="337">
+				<navPoint class="chapter" id="2ki-ch10" playOrder="337">
 					<navLabel>
 						<text>2 Kings 10</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch10"/>
+					<content src="html/2-kings.html#2ki-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch11" playOrder="338">
+				<navPoint class="chapter" id="2ki-ch11" playOrder="338">
 					<navLabel>
 						<text>2 Kings 11</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch11"/>
+					<content src="html/2-kings.html#2ki-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch12" playOrder="339">
+				<navPoint class="chapter" id="2ki-ch12" playOrder="339">
 					<navLabel>
 						<text>2 Kings 12</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch12"/>
+					<content src="html/2-kings.html#2ki-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch13" playOrder="340">
+				<navPoint class="chapter" id="2ki-ch13" playOrder="340">
 					<navLabel>
 						<text>2 Kings 13</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch13"/>
+					<content src="html/2-kings.html#2ki-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch14" playOrder="341">
+				<navPoint class="chapter" id="2ki-ch14" playOrder="341">
 					<navLabel>
 						<text>2 Kings 14</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch14"/>
+					<content src="html/2-kings.html#2ki-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch15" playOrder="342">
+				<navPoint class="chapter" id="2ki-ch15" playOrder="342">
 					<navLabel>
 						<text>2 Kings 15</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch15"/>
+					<content src="html/2-kings.html#2ki-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch16" playOrder="343">
+				<navPoint class="chapter" id="2ki-ch16" playOrder="343">
 					<navLabel>
 						<text>2 Kings 16</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch16"/>
+					<content src="html/2-kings.html#2ki-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch17" playOrder="344">
+				<navPoint class="chapter" id="2ki-ch17" playOrder="344">
 					<navLabel>
 						<text>2 Kings 17</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch17"/>
+					<content src="html/2-kings.html#2ki-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch18" playOrder="345">
+				<navPoint class="chapter" id="2ki-ch18" playOrder="345">
 					<navLabel>
 						<text>2 Kings 18</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch18"/>
+					<content src="html/2-kings.html#2ki-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch19" playOrder="346">
+				<navPoint class="chapter" id="2ki-ch19" playOrder="346">
 					<navLabel>
 						<text>2 Kings 19</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch19"/>
+					<content src="html/2-kings.html#2ki-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch20" playOrder="347">
+				<navPoint class="chapter" id="2ki-ch20" playOrder="347">
 					<navLabel>
 						<text>2 Kings 20</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch20"/>
+					<content src="html/2-kings.html#2ki-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch21" playOrder="348">
+				<navPoint class="chapter" id="2ki-ch21" playOrder="348">
 					<navLabel>
 						<text>2 Kings 21</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch21"/>
+					<content src="html/2-kings.html#2ki-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch22" playOrder="349">
+				<navPoint class="chapter" id="2ki-ch22" playOrder="349">
 					<navLabel>
 						<text>2 Kings 22</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch22"/>
+					<content src="html/2-kings.html#2ki-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch23" playOrder="350">
+				<navPoint class="chapter" id="2ki-ch23" playOrder="350">
 					<navLabel>
 						<text>2 Kings 23</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch23"/>
+					<content src="html/2-kings.html#2ki-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch24" playOrder="351">
+				<navPoint class="chapter" id="2ki-ch24" playOrder="351">
 					<navLabel>
 						<text>2 Kings 24</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch24"/>
+					<content src="html/2-kings.html#2ki-ch24"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ki-ch25" playOrder="352">
+				<navPoint class="chapter" id="2ki-ch25" playOrder="352">
 					<navLabel>
 						<text>2 Kings 25</text>
 					</navLabel>
-					<content src="html/2-kings.html#2-ki-ch25"/>
+					<content src="html/2-kings.html#2ki-ch25"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-ch" playOrder="353">
+			<navPoint class="book" id="1ch" playOrder="353">
 				<navLabel>
 					<text>1 Chronicles</text>
 				</navLabel>
 				<content src="html/1-chronicles-intro.html"/>
-				<navPoint class="chapter" id="1-ch-ch1" playOrder="354">
+				<navPoint class="chapter" id="1ch-ch1" playOrder="354">
 					<navLabel>
 						<text>1 Chronicles 1</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch1"/>
+					<content src="html/1-chronicles.html#1ch-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch2" playOrder="355">
+				<navPoint class="chapter" id="1ch-ch2" playOrder="355">
 					<navLabel>
 						<text>1 Chronicles 2</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch2"/>
+					<content src="html/1-chronicles.html#1ch-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch3" playOrder="356">
+				<navPoint class="chapter" id="1ch-ch3" playOrder="356">
 					<navLabel>
 						<text>1 Chronicles 3</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch3"/>
+					<content src="html/1-chronicles.html#1ch-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch4" playOrder="357">
+				<navPoint class="chapter" id="1ch-ch4" playOrder="357">
 					<navLabel>
 						<text>1 Chronicles 4</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch4"/>
+					<content src="html/1-chronicles.html#1ch-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch5" playOrder="358">
+				<navPoint class="chapter" id="1ch-ch5" playOrder="358">
 					<navLabel>
 						<text>1 Chronicles 5</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch5"/>
+					<content src="html/1-chronicles.html#1ch-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch6" playOrder="359">
+				<navPoint class="chapter" id="1ch-ch6" playOrder="359">
 					<navLabel>
 						<text>1 Chronicles 6</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch6"/>
+					<content src="html/1-chronicles.html#1ch-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch7" playOrder="360">
+				<navPoint class="chapter" id="1ch-ch7" playOrder="360">
 					<navLabel>
 						<text>1 Chronicles 7</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch7"/>
+					<content src="html/1-chronicles.html#1ch-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch8" playOrder="361">
+				<navPoint class="chapter" id="1ch-ch8" playOrder="361">
 					<navLabel>
 						<text>1 Chronicles 8</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch8"/>
+					<content src="html/1-chronicles.html#1ch-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch9" playOrder="362">
+				<navPoint class="chapter" id="1ch-ch9" playOrder="362">
 					<navLabel>
 						<text>1 Chronicles 9</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch9"/>
+					<content src="html/1-chronicles.html#1ch-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch10" playOrder="363">
+				<navPoint class="chapter" id="1ch-ch10" playOrder="363">
 					<navLabel>
 						<text>1 Chronicles 10</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch10"/>
+					<content src="html/1-chronicles.html#1ch-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch11" playOrder="364">
+				<navPoint class="chapter" id="1ch-ch11" playOrder="364">
 					<navLabel>
 						<text>1 Chronicles 11</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch11"/>
+					<content src="html/1-chronicles.html#1ch-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch12" playOrder="365">
+				<navPoint class="chapter" id="1ch-ch12" playOrder="365">
 					<navLabel>
 						<text>1 Chronicles 12</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch12"/>
+					<content src="html/1-chronicles.html#1ch-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch13" playOrder="366">
+				<navPoint class="chapter" id="1ch-ch13" playOrder="366">
 					<navLabel>
 						<text>1 Chronicles 13</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch13"/>
+					<content src="html/1-chronicles.html#1ch-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch14" playOrder="367">
+				<navPoint class="chapter" id="1ch-ch14" playOrder="367">
 					<navLabel>
 						<text>1 Chronicles 14</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch14"/>
+					<content src="html/1-chronicles.html#1ch-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch15" playOrder="368">
+				<navPoint class="chapter" id="1ch-ch15" playOrder="368">
 					<navLabel>
 						<text>1 Chronicles 15</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch15"/>
+					<content src="html/1-chronicles.html#1ch-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch16" playOrder="369">
+				<navPoint class="chapter" id="1ch-ch16" playOrder="369">
 					<navLabel>
 						<text>1 Chronicles 16</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch16"/>
+					<content src="html/1-chronicles.html#1ch-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch17" playOrder="370">
+				<navPoint class="chapter" id="1ch-ch17" playOrder="370">
 					<navLabel>
 						<text>1 Chronicles 17</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch17"/>
+					<content src="html/1-chronicles.html#1ch-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch18" playOrder="371">
+				<navPoint class="chapter" id="1ch-ch18" playOrder="371">
 					<navLabel>
 						<text>1 Chronicles 18</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch18"/>
+					<content src="html/1-chronicles.html#1ch-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch19" playOrder="372">
+				<navPoint class="chapter" id="1ch-ch19" playOrder="372">
 					<navLabel>
 						<text>1 Chronicles 19</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch19"/>
+					<content src="html/1-chronicles.html#1ch-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch20" playOrder="373">
+				<navPoint class="chapter" id="1ch-ch20" playOrder="373">
 					<navLabel>
 						<text>1 Chronicles 20</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch20"/>
+					<content src="html/1-chronicles.html#1ch-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch21" playOrder="374">
+				<navPoint class="chapter" id="1ch-ch21" playOrder="374">
 					<navLabel>
 						<text>1 Chronicles 21</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch21"/>
+					<content src="html/1-chronicles.html#1ch-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch22" playOrder="375">
+				<navPoint class="chapter" id="1ch-ch22" playOrder="375">
 					<navLabel>
 						<text>1 Chronicles 22</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch22"/>
+					<content src="html/1-chronicles.html#1ch-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch23" playOrder="376">
+				<navPoint class="chapter" id="1ch-ch23" playOrder="376">
 					<navLabel>
 						<text>1 Chronicles 23</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch23"/>
+					<content src="html/1-chronicles.html#1ch-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch24" playOrder="377">
+				<navPoint class="chapter" id="1ch-ch24" playOrder="377">
 					<navLabel>
 						<text>1 Chronicles 24</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch24"/>
+					<content src="html/1-chronicles.html#1ch-ch24"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch25" playOrder="378">
+				<navPoint class="chapter" id="1ch-ch25" playOrder="378">
 					<navLabel>
 						<text>1 Chronicles 25</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch25"/>
+					<content src="html/1-chronicles.html#1ch-ch25"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch26" playOrder="379">
+				<navPoint class="chapter" id="1ch-ch26" playOrder="379">
 					<navLabel>
 						<text>1 Chronicles 26</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch26"/>
+					<content src="html/1-chronicles.html#1ch-ch26"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch27" playOrder="380">
+				<navPoint class="chapter" id="1ch-ch27" playOrder="380">
 					<navLabel>
 						<text>1 Chronicles 27</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch27"/>
+					<content src="html/1-chronicles.html#1ch-ch27"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch28" playOrder="381">
+				<navPoint class="chapter" id="1ch-ch28" playOrder="381">
 					<navLabel>
 						<text>1 Chronicles 28</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch28"/>
+					<content src="html/1-chronicles.html#1ch-ch28"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ch-ch29" playOrder="382">
+				<navPoint class="chapter" id="1ch-ch29" playOrder="382">
 					<navLabel>
 						<text>1 Chronicles 29</text>
 					</navLabel>
-					<content src="html/1-chronicles.html#1-ch-ch29"/>
+					<content src="html/1-chronicles.html#1ch-ch29"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-ch" playOrder="383">
+			<navPoint class="book" id="2ch" playOrder="383">
 				<navLabel>
 					<text>2 Chronicles</text>
 				</navLabel>
 				<content src="html/2-chronicles-intro.html"/>
-				<navPoint class="chapter" id="2-ch-ch1" playOrder="384">
+				<navPoint class="chapter" id="2ch-ch1" playOrder="384">
 					<navLabel>
 						<text>2 Chronicles 1</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch1"/>
+					<content src="html/2-chronicles.html#2ch-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch2" playOrder="385">
+				<navPoint class="chapter" id="2ch-ch2" playOrder="385">
 					<navLabel>
 						<text>2 Chronicles 2</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch2"/>
+					<content src="html/2-chronicles.html#2ch-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch3" playOrder="386">
+				<navPoint class="chapter" id="2ch-ch3" playOrder="386">
 					<navLabel>
 						<text>2 Chronicles 3</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch3"/>
+					<content src="html/2-chronicles.html#2ch-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch4" playOrder="387">
+				<navPoint class="chapter" id="2ch-ch4" playOrder="387">
 					<navLabel>
 						<text>2 Chronicles 4</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch4"/>
+					<content src="html/2-chronicles.html#2ch-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch5" playOrder="388">
+				<navPoint class="chapter" id="2ch-ch5" playOrder="388">
 					<navLabel>
 						<text>2 Chronicles 5</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch5"/>
+					<content src="html/2-chronicles.html#2ch-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch6" playOrder="389">
+				<navPoint class="chapter" id="2ch-ch6" playOrder="389">
 					<navLabel>
 						<text>2 Chronicles 6</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch6"/>
+					<content src="html/2-chronicles.html#2ch-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch7" playOrder="390">
+				<navPoint class="chapter" id="2ch-ch7" playOrder="390">
 					<navLabel>
 						<text>2 Chronicles 7</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch7"/>
+					<content src="html/2-chronicles.html#2ch-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch8" playOrder="391">
+				<navPoint class="chapter" id="2ch-ch8" playOrder="391">
 					<navLabel>
 						<text>2 Chronicles 8</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch8"/>
+					<content src="html/2-chronicles.html#2ch-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch9" playOrder="392">
+				<navPoint class="chapter" id="2ch-ch9" playOrder="392">
 					<navLabel>
 						<text>2 Chronicles 9</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch9"/>
+					<content src="html/2-chronicles.html#2ch-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch10" playOrder="393">
+				<navPoint class="chapter" id="2ch-ch10" playOrder="393">
 					<navLabel>
 						<text>2 Chronicles 10</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch10"/>
+					<content src="html/2-chronicles.html#2ch-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch11" playOrder="394">
+				<navPoint class="chapter" id="2ch-ch11" playOrder="394">
 					<navLabel>
 						<text>2 Chronicles 11</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch11"/>
+					<content src="html/2-chronicles.html#2ch-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch12" playOrder="395">
+				<navPoint class="chapter" id="2ch-ch12" playOrder="395">
 					<navLabel>
 						<text>2 Chronicles 12</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch12"/>
+					<content src="html/2-chronicles.html#2ch-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch13" playOrder="396">
+				<navPoint class="chapter" id="2ch-ch13" playOrder="396">
 					<navLabel>
 						<text>2 Chronicles 13</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch13"/>
+					<content src="html/2-chronicles.html#2ch-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch14" playOrder="397">
+				<navPoint class="chapter" id="2ch-ch14" playOrder="397">
 					<navLabel>
 						<text>2 Chronicles 14</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch14"/>
+					<content src="html/2-chronicles.html#2ch-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch15" playOrder="398">
+				<navPoint class="chapter" id="2ch-ch15" playOrder="398">
 					<navLabel>
 						<text>2 Chronicles 15</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch15"/>
+					<content src="html/2-chronicles.html#2ch-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch16" playOrder="399">
+				<navPoint class="chapter" id="2ch-ch16" playOrder="399">
 					<navLabel>
 						<text>2 Chronicles 16</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch16"/>
+					<content src="html/2-chronicles.html#2ch-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch17" playOrder="400">
+				<navPoint class="chapter" id="2ch-ch17" playOrder="400">
 					<navLabel>
 						<text>2 Chronicles 17</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch17"/>
+					<content src="html/2-chronicles.html#2ch-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch18" playOrder="401">
+				<navPoint class="chapter" id="2ch-ch18" playOrder="401">
 					<navLabel>
 						<text>2 Chronicles 18</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch18"/>
+					<content src="html/2-chronicles.html#2ch-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch19" playOrder="402">
+				<navPoint class="chapter" id="2ch-ch19" playOrder="402">
 					<navLabel>
 						<text>2 Chronicles 19</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch19"/>
+					<content src="html/2-chronicles.html#2ch-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch20" playOrder="403">
+				<navPoint class="chapter" id="2ch-ch20" playOrder="403">
 					<navLabel>
 						<text>2 Chronicles 20</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch20"/>
+					<content src="html/2-chronicles.html#2ch-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch21" playOrder="404">
+				<navPoint class="chapter" id="2ch-ch21" playOrder="404">
 					<navLabel>
 						<text>2 Chronicles 21</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch21"/>
+					<content src="html/2-chronicles.html#2ch-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch22" playOrder="405">
+				<navPoint class="chapter" id="2ch-ch22" playOrder="405">
 					<navLabel>
 						<text>2 Chronicles 22</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch22"/>
+					<content src="html/2-chronicles.html#2ch-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch23" playOrder="406">
+				<navPoint class="chapter" id="2ch-ch23" playOrder="406">
 					<navLabel>
 						<text>2 Chronicles 23</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch23"/>
+					<content src="html/2-chronicles.html#2ch-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch24" playOrder="407">
+				<navPoint class="chapter" id="2ch-ch24" playOrder="407">
 					<navLabel>
 						<text>2 Chronicles 24</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch24"/>
+					<content src="html/2-chronicles.html#2ch-ch24"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch25" playOrder="408">
+				<navPoint class="chapter" id="2ch-ch25" playOrder="408">
 					<navLabel>
 						<text>2 Chronicles 25</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch25"/>
+					<content src="html/2-chronicles.html#2ch-ch25"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch26" playOrder="409">
+				<navPoint class="chapter" id="2ch-ch26" playOrder="409">
 					<navLabel>
 						<text>2 Chronicles 26</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch26"/>
+					<content src="html/2-chronicles.html#2ch-ch26"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch27" playOrder="410">
+				<navPoint class="chapter" id="2ch-ch27" playOrder="410">
 					<navLabel>
 						<text>2 Chronicles 27</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch27"/>
+					<content src="html/2-chronicles.html#2ch-ch27"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch28" playOrder="411">
+				<navPoint class="chapter" id="2ch-ch28" playOrder="411">
 					<navLabel>
 						<text>2 Chronicles 28</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch28"/>
+					<content src="html/2-chronicles.html#2ch-ch28"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch29" playOrder="412">
+				<navPoint class="chapter" id="2ch-ch29" playOrder="412">
 					<navLabel>
 						<text>2 Chronicles 29</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch29"/>
+					<content src="html/2-chronicles.html#2ch-ch29"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch30" playOrder="413">
+				<navPoint class="chapter" id="2ch-ch30" playOrder="413">
 					<navLabel>
 						<text>2 Chronicles 30</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch30"/>
+					<content src="html/2-chronicles.html#2ch-ch30"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch31" playOrder="414">
+				<navPoint class="chapter" id="2ch-ch31" playOrder="414">
 					<navLabel>
 						<text>2 Chronicles 31</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch31"/>
+					<content src="html/2-chronicles.html#2ch-ch31"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch32" playOrder="415">
+				<navPoint class="chapter" id="2ch-ch32" playOrder="415">
 					<navLabel>
 						<text>2 Chronicles 32</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch32"/>
+					<content src="html/2-chronicles.html#2ch-ch32"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch33" playOrder="416">
+				<navPoint class="chapter" id="2ch-ch33" playOrder="416">
 					<navLabel>
 						<text>2 Chronicles 33</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch33"/>
+					<content src="html/2-chronicles.html#2ch-ch33"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch34" playOrder="417">
+				<navPoint class="chapter" id="2ch-ch34" playOrder="417">
 					<navLabel>
 						<text>2 Chronicles 34</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch34"/>
+					<content src="html/2-chronicles.html#2ch-ch34"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch35" playOrder="418">
+				<navPoint class="chapter" id="2ch-ch35" playOrder="418">
 					<navLabel>
 						<text>2 Chronicles 35</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch35"/>
+					<content src="html/2-chronicles.html#2ch-ch35"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ch-ch36" playOrder="419">
+				<navPoint class="chapter" id="2ch-ch36" playOrder="419">
 					<navLabel>
 						<text>2 Chronicles 36</text>
 					</navLabel>
-					<content src="html/2-chronicles.html#2-ch-ch36"/>
+					<content src="html/2-chronicles.html#2ch-ch36"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="ez" playOrder="420">
+			<navPoint class="book" id="ezr" playOrder="420">
 				<navLabel>
 					<text>Ezra</text>
 				</navLabel>
 				<content src="html/ezra-intro.html"/>
-				<navPoint class="chapter" id="ez-ch1" playOrder="421">
+				<navPoint class="chapter" id="ezr-ch1" playOrder="421">
 					<navLabel>
 						<text>Ezra 1</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch1"/>
+					<content src="html/ezra.html#ezr-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch2" playOrder="422">
+				<navPoint class="chapter" id="ezr-ch2" playOrder="422">
 					<navLabel>
 						<text>Ezra 2</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch2"/>
+					<content src="html/ezra.html#ezr-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch3" playOrder="423">
+				<navPoint class="chapter" id="ezr-ch3" playOrder="423">
 					<navLabel>
 						<text>Ezra 3</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch3"/>
+					<content src="html/ezra.html#ezr-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch4" playOrder="424">
+				<navPoint class="chapter" id="ezr-ch4" playOrder="424">
 					<navLabel>
 						<text>Ezra 4</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch4"/>
+					<content src="html/ezra.html#ezr-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch5" playOrder="425">
+				<navPoint class="chapter" id="ezr-ch5" playOrder="425">
 					<navLabel>
 						<text>Ezra 5</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch5"/>
+					<content src="html/ezra.html#ezr-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch6" playOrder="426">
+				<navPoint class="chapter" id="ezr-ch6" playOrder="426">
 					<navLabel>
 						<text>Ezra 6</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch6"/>
+					<content src="html/ezra.html#ezr-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch7" playOrder="427">
+				<navPoint class="chapter" id="ezr-ch7" playOrder="427">
 					<navLabel>
 						<text>Ezra 7</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch7"/>
+					<content src="html/ezra.html#ezr-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch8" playOrder="428">
+				<navPoint class="chapter" id="ezr-ch8" playOrder="428">
 					<navLabel>
 						<text>Ezra 8</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch8"/>
+					<content src="html/ezra.html#ezr-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch9" playOrder="429">
+				<navPoint class="chapter" id="ezr-ch9" playOrder="429">
 					<navLabel>
 						<text>Ezra 9</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch9"/>
+					<content src="html/ezra.html#ezr-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="ez-ch10" playOrder="430">
+				<navPoint class="chapter" id="ezr-ch10" playOrder="430">
 					<navLabel>
 						<text>Ezra 10</text>
 					</navLabel>
-					<content src="html/ezra.html#ez-ch10"/>
+					<content src="html/ezra.html#ezr-ch10"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="ne" playOrder="431">
@@ -4209,724 +4209,724 @@
 					<content src="html/song-of-solomon.html#song-ch8"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="is" playOrder="704">
+			<navPoint class="book" id="isa" playOrder="704">
 				<navLabel>
 					<text>Isaiah</text>
 				</navLabel>
 				<content src="html/isaiah-intro.html"/>
-				<navPoint class="chapter" id="is-ch1" playOrder="705">
+				<navPoint class="chapter" id="isa-ch1" playOrder="705">
 					<navLabel>
 						<text>Isaiah 1</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch1"/>
+					<content src="html/isaiah.html#isa-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch2" playOrder="706">
+				<navPoint class="chapter" id="isa-ch2" playOrder="706">
 					<navLabel>
 						<text>Isaiah 2</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch2"/>
+					<content src="html/isaiah.html#isa-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch3" playOrder="707">
+				<navPoint class="chapter" id="isa-ch3" playOrder="707">
 					<navLabel>
 						<text>Isaiah 3</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch3"/>
+					<content src="html/isaiah.html#isa-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch4" playOrder="708">
+				<navPoint class="chapter" id="isa-ch4" playOrder="708">
 					<navLabel>
 						<text>Isaiah 4</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch4"/>
+					<content src="html/isaiah.html#isa-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch5" playOrder="709">
+				<navPoint class="chapter" id="isa-ch5" playOrder="709">
 					<navLabel>
 						<text>Isaiah 5</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch5"/>
+					<content src="html/isaiah.html#isa-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch6" playOrder="710">
+				<navPoint class="chapter" id="isa-ch6" playOrder="710">
 					<navLabel>
 						<text>Isaiah 6</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch6"/>
+					<content src="html/isaiah.html#isa-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch7" playOrder="711">
+				<navPoint class="chapter" id="isa-ch7" playOrder="711">
 					<navLabel>
 						<text>Isaiah 7</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch7"/>
+					<content src="html/isaiah.html#isa-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch8" playOrder="712">
+				<navPoint class="chapter" id="isa-ch8" playOrder="712">
 					<navLabel>
 						<text>Isaiah 8</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch8"/>
+					<content src="html/isaiah.html#isa-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch9" playOrder="713">
+				<navPoint class="chapter" id="isa-ch9" playOrder="713">
 					<navLabel>
 						<text>Isaiah 9</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch9"/>
+					<content src="html/isaiah.html#isa-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch10" playOrder="714">
+				<navPoint class="chapter" id="isa-ch10" playOrder="714">
 					<navLabel>
 						<text>Isaiah 10</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch10"/>
+					<content src="html/isaiah.html#isa-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch11" playOrder="715">
+				<navPoint class="chapter" id="isa-ch11" playOrder="715">
 					<navLabel>
 						<text>Isaiah 11</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch11"/>
+					<content src="html/isaiah.html#isa-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch12" playOrder="716">
+				<navPoint class="chapter" id="isa-ch12" playOrder="716">
 					<navLabel>
 						<text>Isaiah 12</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch12"/>
+					<content src="html/isaiah.html#isa-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch13" playOrder="717">
+				<navPoint class="chapter" id="isa-ch13" playOrder="717">
 					<navLabel>
 						<text>Isaiah 13</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch13"/>
+					<content src="html/isaiah.html#isa-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch14" playOrder="718">
+				<navPoint class="chapter" id="isa-ch14" playOrder="718">
 					<navLabel>
 						<text>Isaiah 14</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch14"/>
+					<content src="html/isaiah.html#isa-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch15" playOrder="719">
+				<navPoint class="chapter" id="isa-ch15" playOrder="719">
 					<navLabel>
 						<text>Isaiah 15</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch15"/>
+					<content src="html/isaiah.html#isa-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch16" playOrder="720">
+				<navPoint class="chapter" id="isa-ch16" playOrder="720">
 					<navLabel>
 						<text>Isaiah 16</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch16"/>
+					<content src="html/isaiah.html#isa-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch17" playOrder="721">
+				<navPoint class="chapter" id="isa-ch17" playOrder="721">
 					<navLabel>
 						<text>Isaiah 17</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch17"/>
+					<content src="html/isaiah.html#isa-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch18" playOrder="722">
+				<navPoint class="chapter" id="isa-ch18" playOrder="722">
 					<navLabel>
 						<text>Isaiah 18</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch18"/>
+					<content src="html/isaiah.html#isa-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch19" playOrder="723">
+				<navPoint class="chapter" id="isa-ch19" playOrder="723">
 					<navLabel>
 						<text>Isaiah 19</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch19"/>
+					<content src="html/isaiah.html#isa-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch20" playOrder="724">
+				<navPoint class="chapter" id="isa-ch20" playOrder="724">
 					<navLabel>
 						<text>Isaiah 20</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch20"/>
+					<content src="html/isaiah.html#isa-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch21" playOrder="725">
+				<navPoint class="chapter" id="isa-ch21" playOrder="725">
 					<navLabel>
 						<text>Isaiah 21</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch21"/>
+					<content src="html/isaiah.html#isa-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch22" playOrder="726">
+				<navPoint class="chapter" id="isa-ch22" playOrder="726">
 					<navLabel>
 						<text>Isaiah 22</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch22"/>
+					<content src="html/isaiah.html#isa-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch23" playOrder="727">
+				<navPoint class="chapter" id="isa-ch23" playOrder="727">
 					<navLabel>
 						<text>Isaiah 23</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch23"/>
+					<content src="html/isaiah.html#isa-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch24" playOrder="728">
+				<navPoint class="chapter" id="isa-ch24" playOrder="728">
 					<navLabel>
 						<text>Isaiah 24</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch24"/>
+					<content src="html/isaiah.html#isa-ch24"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch25" playOrder="729">
+				<navPoint class="chapter" id="isa-ch25" playOrder="729">
 					<navLabel>
 						<text>Isaiah 25</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch25"/>
+					<content src="html/isaiah.html#isa-ch25"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch26" playOrder="730">
+				<navPoint class="chapter" id="isa-ch26" playOrder="730">
 					<navLabel>
 						<text>Isaiah 26</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch26"/>
+					<content src="html/isaiah.html#isa-ch26"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch27" playOrder="731">
+				<navPoint class="chapter" id="isa-ch27" playOrder="731">
 					<navLabel>
 						<text>Isaiah 27</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch27"/>
+					<content src="html/isaiah.html#isa-ch27"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch28" playOrder="732">
+				<navPoint class="chapter" id="isa-ch28" playOrder="732">
 					<navLabel>
 						<text>Isaiah 28</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch28"/>
+					<content src="html/isaiah.html#isa-ch28"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch29" playOrder="733">
+				<navPoint class="chapter" id="isa-ch29" playOrder="733">
 					<navLabel>
 						<text>Isaiah 29</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch29"/>
+					<content src="html/isaiah.html#isa-ch29"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch30" playOrder="734">
+				<navPoint class="chapter" id="isa-ch30" playOrder="734">
 					<navLabel>
 						<text>Isaiah 30</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch30"/>
+					<content src="html/isaiah.html#isa-ch30"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch31" playOrder="735">
+				<navPoint class="chapter" id="isa-ch31" playOrder="735">
 					<navLabel>
 						<text>Isaiah 31</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch31"/>
+					<content src="html/isaiah.html#isa-ch31"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch32" playOrder="736">
+				<navPoint class="chapter" id="isa-ch32" playOrder="736">
 					<navLabel>
 						<text>Isaiah 32</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch32"/>
+					<content src="html/isaiah.html#isa-ch32"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch33" playOrder="737">
+				<navPoint class="chapter" id="isa-ch33" playOrder="737">
 					<navLabel>
 						<text>Isaiah 33</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch33"/>
+					<content src="html/isaiah.html#isa-ch33"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch34" playOrder="738">
+				<navPoint class="chapter" id="isa-ch34" playOrder="738">
 					<navLabel>
 						<text>Isaiah 34</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch34"/>
+					<content src="html/isaiah.html#isa-ch34"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch35" playOrder="739">
+				<navPoint class="chapter" id="isa-ch35" playOrder="739">
 					<navLabel>
 						<text>Isaiah 35</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch35"/>
+					<content src="html/isaiah.html#isa-ch35"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch36" playOrder="740">
+				<navPoint class="chapter" id="isa-ch36" playOrder="740">
 					<navLabel>
 						<text>Isaiah 36</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch36"/>
+					<content src="html/isaiah.html#isa-ch36"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch37" playOrder="741">
+				<navPoint class="chapter" id="isa-ch37" playOrder="741">
 					<navLabel>
 						<text>Isaiah 37</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch37"/>
+					<content src="html/isaiah.html#isa-ch37"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch38" playOrder="742">
+				<navPoint class="chapter" id="isa-ch38" playOrder="742">
 					<navLabel>
 						<text>Isaiah 38</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch38"/>
+					<content src="html/isaiah.html#isa-ch38"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch39" playOrder="743">
+				<navPoint class="chapter" id="isa-ch39" playOrder="743">
 					<navLabel>
 						<text>Isaiah 39</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch39"/>
+					<content src="html/isaiah.html#isa-ch39"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch40" playOrder="744">
+				<navPoint class="chapter" id="isa-ch40" playOrder="744">
 					<navLabel>
 						<text>Isaiah 40</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch40"/>
+					<content src="html/isaiah.html#isa-ch40"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch41" playOrder="745">
+				<navPoint class="chapter" id="isa-ch41" playOrder="745">
 					<navLabel>
 						<text>Isaiah 41</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch41"/>
+					<content src="html/isaiah.html#isa-ch41"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch42" playOrder="746">
+				<navPoint class="chapter" id="isa-ch42" playOrder="746">
 					<navLabel>
 						<text>Isaiah 42</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch42"/>
+					<content src="html/isaiah.html#isa-ch42"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch43" playOrder="747">
+				<navPoint class="chapter" id="isa-ch43" playOrder="747">
 					<navLabel>
 						<text>Isaiah 43</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch43"/>
+					<content src="html/isaiah.html#isa-ch43"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch44" playOrder="748">
+				<navPoint class="chapter" id="isa-ch44" playOrder="748">
 					<navLabel>
 						<text>Isaiah 44</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch44"/>
+					<content src="html/isaiah.html#isa-ch44"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch45" playOrder="749">
+				<navPoint class="chapter" id="isa-ch45" playOrder="749">
 					<navLabel>
 						<text>Isaiah 45</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch45"/>
+					<content src="html/isaiah.html#isa-ch45"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch46" playOrder="750">
+				<navPoint class="chapter" id="isa-ch46" playOrder="750">
 					<navLabel>
 						<text>Isaiah 46</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch46"/>
+					<content src="html/isaiah.html#isa-ch46"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch47" playOrder="751">
+				<navPoint class="chapter" id="isa-ch47" playOrder="751">
 					<navLabel>
 						<text>Isaiah 47</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch47"/>
+					<content src="html/isaiah.html#isa-ch47"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch48" playOrder="752">
+				<navPoint class="chapter" id="isa-ch48" playOrder="752">
 					<navLabel>
 						<text>Isaiah 48</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch48"/>
+					<content src="html/isaiah.html#isa-ch48"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch49" playOrder="753">
+				<navPoint class="chapter" id="isa-ch49" playOrder="753">
 					<navLabel>
 						<text>Isaiah 49</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch49"/>
+					<content src="html/isaiah.html#isa-ch49"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch50" playOrder="754">
+				<navPoint class="chapter" id="isa-ch50" playOrder="754">
 					<navLabel>
 						<text>Isaiah 50</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch50"/>
+					<content src="html/isaiah.html#isa-ch50"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch51" playOrder="755">
+				<navPoint class="chapter" id="isa-ch51" playOrder="755">
 					<navLabel>
 						<text>Isaiah 51</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch51"/>
+					<content src="html/isaiah.html#isa-ch51"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch52" playOrder="756">
+				<navPoint class="chapter" id="isa-ch52" playOrder="756">
 					<navLabel>
 						<text>Isaiah 52</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch52"/>
+					<content src="html/isaiah.html#isa-ch52"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch53" playOrder="757">
+				<navPoint class="chapter" id="isa-ch53" playOrder="757">
 					<navLabel>
 						<text>Isaiah 53</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch53"/>
+					<content src="html/isaiah.html#isa-ch53"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch54" playOrder="758">
+				<navPoint class="chapter" id="isa-ch54" playOrder="758">
 					<navLabel>
 						<text>Isaiah 54</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch54"/>
+					<content src="html/isaiah.html#isa-ch54"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch55" playOrder="759">
+				<navPoint class="chapter" id="isa-ch55" playOrder="759">
 					<navLabel>
 						<text>Isaiah 55</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch55"/>
+					<content src="html/isaiah.html#isa-ch55"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch56" playOrder="760">
+				<navPoint class="chapter" id="isa-ch56" playOrder="760">
 					<navLabel>
 						<text>Isaiah 56</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch56"/>
+					<content src="html/isaiah.html#isa-ch56"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch57" playOrder="761">
+				<navPoint class="chapter" id="isa-ch57" playOrder="761">
 					<navLabel>
 						<text>Isaiah 57</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch57"/>
+					<content src="html/isaiah.html#isa-ch57"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch58" playOrder="762">
+				<navPoint class="chapter" id="isa-ch58" playOrder="762">
 					<navLabel>
 						<text>Isaiah 58</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch58"/>
+					<content src="html/isaiah.html#isa-ch58"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch59" playOrder="763">
+				<navPoint class="chapter" id="isa-ch59" playOrder="763">
 					<navLabel>
 						<text>Isaiah 59</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch59"/>
+					<content src="html/isaiah.html#isa-ch59"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch60" playOrder="764">
+				<navPoint class="chapter" id="isa-ch60" playOrder="764">
 					<navLabel>
 						<text>Isaiah 60</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch60"/>
+					<content src="html/isaiah.html#isa-ch60"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch61" playOrder="765">
+				<navPoint class="chapter" id="isa-ch61" playOrder="765">
 					<navLabel>
 						<text>Isaiah 61</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch61"/>
+					<content src="html/isaiah.html#isa-ch61"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch62" playOrder="766">
+				<navPoint class="chapter" id="isa-ch62" playOrder="766">
 					<navLabel>
 						<text>Isaiah 62</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch62"/>
+					<content src="html/isaiah.html#isa-ch62"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch63" playOrder="767">
+				<navPoint class="chapter" id="isa-ch63" playOrder="767">
 					<navLabel>
 						<text>Isaiah 63</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch63"/>
+					<content src="html/isaiah.html#isa-ch63"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch64" playOrder="768">
+				<navPoint class="chapter" id="isa-ch64" playOrder="768">
 					<navLabel>
 						<text>Isaiah 64</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch64"/>
+					<content src="html/isaiah.html#isa-ch64"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch65" playOrder="769">
+				<navPoint class="chapter" id="isa-ch65" playOrder="769">
 					<navLabel>
 						<text>Isaiah 65</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch65"/>
+					<content src="html/isaiah.html#isa-ch65"/>
 				</navPoint>
-				<navPoint class="chapter" id="is-ch66" playOrder="770">
+				<navPoint class="chapter" id="isa-ch66" playOrder="770">
 					<navLabel>
 						<text>Isaiah 66</text>
 					</navLabel>
-					<content src="html/isaiah.html#is-ch66"/>
+					<content src="html/isaiah.html#isa-ch66"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="je" playOrder="771">
+			<navPoint class="book" id="jer" playOrder="771">
 				<navLabel>
 					<text>Jeremiah</text>
 				</navLabel>
 				<content src="html/jeremiah-intro.html"/>
-				<navPoint class="chapter" id="je-ch1" playOrder="772">
+				<navPoint class="chapter" id="jer-ch1" playOrder="772">
 					<navLabel>
 						<text>Jeremiah 1</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch1"/>
+					<content src="html/jeremiah.html#jer-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch2" playOrder="773">
+				<navPoint class="chapter" id="jer-ch2" playOrder="773">
 					<navLabel>
 						<text>Jeremiah 2</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch2"/>
+					<content src="html/jeremiah.html#jer-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch3" playOrder="774">
+				<navPoint class="chapter" id="jer-ch3" playOrder="774">
 					<navLabel>
 						<text>Jeremiah 3</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch3"/>
+					<content src="html/jeremiah.html#jer-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch4" playOrder="775">
+				<navPoint class="chapter" id="jer-ch4" playOrder="775">
 					<navLabel>
 						<text>Jeremiah 4</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch4"/>
+					<content src="html/jeremiah.html#jer-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch5" playOrder="776">
+				<navPoint class="chapter" id="jer-ch5" playOrder="776">
 					<navLabel>
 						<text>Jeremiah 5</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch5"/>
+					<content src="html/jeremiah.html#jer-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch6" playOrder="777">
+				<navPoint class="chapter" id="jer-ch6" playOrder="777">
 					<navLabel>
 						<text>Jeremiah 6</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch6"/>
+					<content src="html/jeremiah.html#jer-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch7" playOrder="778">
+				<navPoint class="chapter" id="jer-ch7" playOrder="778">
 					<navLabel>
 						<text>Jeremiah 7</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch7"/>
+					<content src="html/jeremiah.html#jer-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch8" playOrder="779">
+				<navPoint class="chapter" id="jer-ch8" playOrder="779">
 					<navLabel>
 						<text>Jeremiah 8</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch8"/>
+					<content src="html/jeremiah.html#jer-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch9" playOrder="780">
+				<navPoint class="chapter" id="jer-ch9" playOrder="780">
 					<navLabel>
 						<text>Jeremiah 9</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch9"/>
+					<content src="html/jeremiah.html#jer-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch10" playOrder="781">
+				<navPoint class="chapter" id="jer-ch10" playOrder="781">
 					<navLabel>
 						<text>Jeremiah 10</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch10"/>
+					<content src="html/jeremiah.html#jer-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch11" playOrder="782">
+				<navPoint class="chapter" id="jer-ch11" playOrder="782">
 					<navLabel>
 						<text>Jeremiah 11</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch11"/>
+					<content src="html/jeremiah.html#jer-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch12" playOrder="783">
+				<navPoint class="chapter" id="jer-ch12" playOrder="783">
 					<navLabel>
 						<text>Jeremiah 12</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch12"/>
+					<content src="html/jeremiah.html#jer-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch13" playOrder="784">
+				<navPoint class="chapter" id="jer-ch13" playOrder="784">
 					<navLabel>
 						<text>Jeremiah 13</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch13"/>
+					<content src="html/jeremiah.html#jer-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch14" playOrder="785">
+				<navPoint class="chapter" id="jer-ch14" playOrder="785">
 					<navLabel>
 						<text>Jeremiah 14</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch14"/>
+					<content src="html/jeremiah.html#jer-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch15" playOrder="786">
+				<navPoint class="chapter" id="jer-ch15" playOrder="786">
 					<navLabel>
 						<text>Jeremiah 15</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch15"/>
+					<content src="html/jeremiah.html#jer-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch16" playOrder="787">
+				<navPoint class="chapter" id="jer-ch16" playOrder="787">
 					<navLabel>
 						<text>Jeremiah 16</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch16"/>
+					<content src="html/jeremiah.html#jer-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch17" playOrder="788">
+				<navPoint class="chapter" id="jer-ch17" playOrder="788">
 					<navLabel>
 						<text>Jeremiah 17</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch17"/>
+					<content src="html/jeremiah.html#jer-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch18" playOrder="789">
+				<navPoint class="chapter" id="jer-ch18" playOrder="789">
 					<navLabel>
 						<text>Jeremiah 18</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch18"/>
+					<content src="html/jeremiah.html#jer-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch19" playOrder="790">
+				<navPoint class="chapter" id="jer-ch19" playOrder="790">
 					<navLabel>
 						<text>Jeremiah 19</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch19"/>
+					<content src="html/jeremiah.html#jer-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch20" playOrder="791">
+				<navPoint class="chapter" id="jer-ch20" playOrder="791">
 					<navLabel>
 						<text>Jeremiah 20</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch20"/>
+					<content src="html/jeremiah.html#jer-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch21" playOrder="792">
+				<navPoint class="chapter" id="jer-ch21" playOrder="792">
 					<navLabel>
 						<text>Jeremiah 21</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch21"/>
+					<content src="html/jeremiah.html#jer-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch22" playOrder="793">
+				<navPoint class="chapter" id="jer-ch22" playOrder="793">
 					<navLabel>
 						<text>Jeremiah 22</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch22"/>
+					<content src="html/jeremiah.html#jer-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch23" playOrder="794">
+				<navPoint class="chapter" id="jer-ch23" playOrder="794">
 					<navLabel>
 						<text>Jeremiah 23</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch23"/>
+					<content src="html/jeremiah.html#jer-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch24" playOrder="795">
+				<navPoint class="chapter" id="jer-ch24" playOrder="795">
 					<navLabel>
 						<text>Jeremiah 24</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch24"/>
+					<content src="html/jeremiah.html#jer-ch24"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch25" playOrder="796">
+				<navPoint class="chapter" id="jer-ch25" playOrder="796">
 					<navLabel>
 						<text>Jeremiah 25</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch25"/>
+					<content src="html/jeremiah.html#jer-ch25"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch26" playOrder="797">
+				<navPoint class="chapter" id="jer-ch26" playOrder="797">
 					<navLabel>
 						<text>Jeremiah 26</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch26"/>
+					<content src="html/jeremiah.html#jer-ch26"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch27" playOrder="798">
+				<navPoint class="chapter" id="jer-ch27" playOrder="798">
 					<navLabel>
 						<text>Jeremiah 27</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch27"/>
+					<content src="html/jeremiah.html#jer-ch27"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch28" playOrder="799">
+				<navPoint class="chapter" id="jer-ch28" playOrder="799">
 					<navLabel>
 						<text>Jeremiah 28</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch28"/>
+					<content src="html/jeremiah.html#jer-ch28"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch29" playOrder="800">
+				<navPoint class="chapter" id="jer-ch29" playOrder="800">
 					<navLabel>
 						<text>Jeremiah 29</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch29"/>
+					<content src="html/jeremiah.html#jer-ch29"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch30" playOrder="801">
+				<navPoint class="chapter" id="jer-ch30" playOrder="801">
 					<navLabel>
 						<text>Jeremiah 30</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch30"/>
+					<content src="html/jeremiah.html#jer-ch30"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch31" playOrder="802">
+				<navPoint class="chapter" id="jer-ch31" playOrder="802">
 					<navLabel>
 						<text>Jeremiah 31</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch31"/>
+					<content src="html/jeremiah.html#jer-ch31"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch32" playOrder="803">
+				<navPoint class="chapter" id="jer-ch32" playOrder="803">
 					<navLabel>
 						<text>Jeremiah 32</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch32"/>
+					<content src="html/jeremiah.html#jer-ch32"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch33" playOrder="804">
+				<navPoint class="chapter" id="jer-ch33" playOrder="804">
 					<navLabel>
 						<text>Jeremiah 33</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch33"/>
+					<content src="html/jeremiah.html#jer-ch33"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch34" playOrder="805">
+				<navPoint class="chapter" id="jer-ch34" playOrder="805">
 					<navLabel>
 						<text>Jeremiah 34</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch34"/>
+					<content src="html/jeremiah.html#jer-ch34"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch35" playOrder="806">
+				<navPoint class="chapter" id="jer-ch35" playOrder="806">
 					<navLabel>
 						<text>Jeremiah 35</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch35"/>
+					<content src="html/jeremiah.html#jer-ch35"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch36" playOrder="807">
+				<navPoint class="chapter" id="jer-ch36" playOrder="807">
 					<navLabel>
 						<text>Jeremiah 36</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch36"/>
+					<content src="html/jeremiah.html#jer-ch36"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch37" playOrder="808">
+				<navPoint class="chapter" id="jer-ch37" playOrder="808">
 					<navLabel>
 						<text>Jeremiah 37</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch37"/>
+					<content src="html/jeremiah.html#jer-ch37"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch38" playOrder="809">
+				<navPoint class="chapter" id="jer-ch38" playOrder="809">
 					<navLabel>
 						<text>Jeremiah 38</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch38"/>
+					<content src="html/jeremiah.html#jer-ch38"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch39" playOrder="810">
+				<navPoint class="chapter" id="jer-ch39" playOrder="810">
 					<navLabel>
 						<text>Jeremiah 39</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch39"/>
+					<content src="html/jeremiah.html#jer-ch39"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch40" playOrder="811">
+				<navPoint class="chapter" id="jer-ch40" playOrder="811">
 					<navLabel>
 						<text>Jeremiah 40</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch40"/>
+					<content src="html/jeremiah.html#jer-ch40"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch41" playOrder="812">
+				<navPoint class="chapter" id="jer-ch41" playOrder="812">
 					<navLabel>
 						<text>Jeremiah 41</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch41"/>
+					<content src="html/jeremiah.html#jer-ch41"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch42" playOrder="813">
+				<navPoint class="chapter" id="jer-ch42" playOrder="813">
 					<navLabel>
 						<text>Jeremiah 42</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch42"/>
+					<content src="html/jeremiah.html#jer-ch42"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch43" playOrder="814">
+				<navPoint class="chapter" id="jer-ch43" playOrder="814">
 					<navLabel>
 						<text>Jeremiah 43</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch43"/>
+					<content src="html/jeremiah.html#jer-ch43"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch44" playOrder="815">
+				<navPoint class="chapter" id="jer-ch44" playOrder="815">
 					<navLabel>
 						<text>Jeremiah 44</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch44"/>
+					<content src="html/jeremiah.html#jer-ch44"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch45" playOrder="816">
+				<navPoint class="chapter" id="jer-ch45" playOrder="816">
 					<navLabel>
 						<text>Jeremiah 45</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch45"/>
+					<content src="html/jeremiah.html#jer-ch45"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch46" playOrder="817">
+				<navPoint class="chapter" id="jer-ch46" playOrder="817">
 					<navLabel>
 						<text>Jeremiah 46</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch46"/>
+					<content src="html/jeremiah.html#jer-ch46"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch47" playOrder="818">
+				<navPoint class="chapter" id="jer-ch47" playOrder="818">
 					<navLabel>
 						<text>Jeremiah 47</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch47"/>
+					<content src="html/jeremiah.html#jer-ch47"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch48" playOrder="819">
+				<navPoint class="chapter" id="jer-ch48" playOrder="819">
 					<navLabel>
 						<text>Jeremiah 48</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch48"/>
+					<content src="html/jeremiah.html#jer-ch48"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch49" playOrder="820">
+				<navPoint class="chapter" id="jer-ch49" playOrder="820">
 					<navLabel>
 						<text>Jeremiah 49</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch49"/>
+					<content src="html/jeremiah.html#jer-ch49"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch50" playOrder="821">
+				<navPoint class="chapter" id="jer-ch50" playOrder="821">
 					<navLabel>
 						<text>Jeremiah 50</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch50"/>
+					<content src="html/jeremiah.html#jer-ch50"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch51" playOrder="822">
+				<navPoint class="chapter" id="jer-ch51" playOrder="822">
 					<navLabel>
 						<text>Jeremiah 51</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch51"/>
+					<content src="html/jeremiah.html#jer-ch51"/>
 				</navPoint>
-				<navPoint class="chapter" id="je-ch52" playOrder="823">
+				<navPoint class="chapter" id="jer-ch52" playOrder="823">
 					<navLabel>
 						<text>Jeremiah 52</text>
 					</navLabel>
-					<content src="html/jeremiah.html#je-ch52"/>
+					<content src="html/jeremiah.html#jer-ch52"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="la" playOrder="824">
@@ -5427,28 +5427,28 @@
 					<content src="html/hosea.html#ho-ch14"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="joel" playOrder="907">
+			<navPoint class="book" id="joe" playOrder="907">
 				<navLabel>
 					<text>Joel</text>
 				</navLabel>
 				<content src="html/joel-intro.html"/>
-				<navPoint class="chapter" id="joel-ch1" playOrder="908">
+				<navPoint class="chapter" id="joe-ch1" playOrder="908">
 					<navLabel>
 						<text>Joel 1</text>
 					</navLabel>
-					<content src="html/joel.html#joel-ch1"/>
+					<content src="html/joel.html#joe-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="joel-ch2" playOrder="909">
+				<navPoint class="chapter" id="joe-ch2" playOrder="909">
 					<navLabel>
 						<text>Joel 2</text>
 					</navLabel>
-					<content src="html/joel.html#joel-ch2"/>
+					<content src="html/joel.html#joe-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="joel-ch3" playOrder="910">
+				<navPoint class="chapter" id="joe-ch3" playOrder="910">
 					<navLabel>
 						<text>Joel 3</text>
 					</navLabel>
-					<content src="html/joel.html#joel-ch3"/>
+					<content src="html/joel.html#joe-ch3"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="am" playOrder="911">
@@ -5553,52 +5553,52 @@
 					<content src="html/jonah.html#jon-ch4"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="mi" playOrder="928">
+			<navPoint class="book" id="mic" playOrder="928">
 				<navLabel>
 					<text>Micah</text>
 				</navLabel>
 				<content src="html/micah-intro.html"/>
-				<navPoint class="chapter" id="mi-ch1" playOrder="929">
+				<navPoint class="chapter" id="mic-ch1" playOrder="929">
 					<navLabel>
 						<text>Micah 1</text>
 					</navLabel>
-					<content src="html/micah.html#mi-ch1"/>
+					<content src="html/micah.html#mic-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="mi-ch2" playOrder="930">
+				<navPoint class="chapter" id="mic-ch2" playOrder="930">
 					<navLabel>
 						<text>Micah 2</text>
 					</navLabel>
-					<content src="html/micah.html#mi-ch2"/>
+					<content src="html/micah.html#mic-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="mi-ch3" playOrder="931">
+				<navPoint class="chapter" id="mic-ch3" playOrder="931">
 					<navLabel>
 						<text>Micah 3</text>
 					</navLabel>
-					<content src="html/micah.html#mi-ch3"/>
+					<content src="html/micah.html#mic-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="mi-ch4" playOrder="932">
+				<navPoint class="chapter" id="mic-ch4" playOrder="932">
 					<navLabel>
 						<text>Micah 4</text>
 					</navLabel>
-					<content src="html/micah.html#mi-ch4"/>
+					<content src="html/micah.html#mic-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="mi-ch5" playOrder="933">
+				<navPoint class="chapter" id="mic-ch5" playOrder="933">
 					<navLabel>
 						<text>Micah 5</text>
 					</navLabel>
-					<content src="html/micah.html#mi-ch5"/>
+					<content src="html/micah.html#mic-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="mi-ch6" playOrder="934">
+				<navPoint class="chapter" id="mic-ch6" playOrder="934">
 					<navLabel>
 						<text>Micah 6</text>
 					</navLabel>
-					<content src="html/micah.html#mi-ch6"/>
+					<content src="html/micah.html#mic-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="mi-ch7" playOrder="935">
+				<navPoint class="chapter" id="mic-ch7" playOrder="935">
 					<navLabel>
 						<text>Micah 7</text>
 					</navLabel>
-					<content src="html/micah.html#mi-ch7"/>
+					<content src="html/micah.html#mic-ch7"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="na" playOrder="936">
@@ -5691,94 +5691,94 @@
 					<content src="html/haggai.html#hag-ch2"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="ze" playOrder="951">
+			<navPoint class="book" id="zec" playOrder="951">
 				<navLabel>
 					<text>Zechariah</text>
 				</navLabel>
 				<content src="html/zechariah-intro.html"/>
-				<navPoint class="chapter" id="ze-ch1" playOrder="952">
+				<navPoint class="chapter" id="zec-ch1" playOrder="952">
 					<navLabel>
 						<text>Zechariah 1</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch1"/>
+					<content src="html/zechariah.html#zec-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch2" playOrder="953">
+				<navPoint class="chapter" id="zec-ch2" playOrder="953">
 					<navLabel>
 						<text>Zechariah 2</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch2"/>
+					<content src="html/zechariah.html#zec-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch3" playOrder="954">
+				<navPoint class="chapter" id="zec-ch3" playOrder="954">
 					<navLabel>
 						<text>Zechariah 3</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch3"/>
+					<content src="html/zechariah.html#zec-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch4" playOrder="955">
+				<navPoint class="chapter" id="zec-ch4" playOrder="955">
 					<navLabel>
 						<text>Zechariah 4</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch4"/>
+					<content src="html/zechariah.html#zec-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch5" playOrder="956">
+				<navPoint class="chapter" id="zec-ch5" playOrder="956">
 					<navLabel>
 						<text>Zechariah 5</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch5"/>
+					<content src="html/zechariah.html#zec-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch6" playOrder="957">
+				<navPoint class="chapter" id="zec-ch6" playOrder="957">
 					<navLabel>
 						<text>Zechariah 6</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch6"/>
+					<content src="html/zechariah.html#zec-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch7" playOrder="958">
+				<navPoint class="chapter" id="zec-ch7" playOrder="958">
 					<navLabel>
 						<text>Zechariah 7</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch7"/>
+					<content src="html/zechariah.html#zec-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch8" playOrder="959">
+				<navPoint class="chapter" id="zec-ch8" playOrder="959">
 					<navLabel>
 						<text>Zechariah 8</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch8"/>
+					<content src="html/zechariah.html#zec-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch9" playOrder="960">
+				<navPoint class="chapter" id="zec-ch9" playOrder="960">
 					<navLabel>
 						<text>Zechariah 9</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch9"/>
+					<content src="html/zechariah.html#zec-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch10" playOrder="961">
+				<navPoint class="chapter" id="zec-ch10" playOrder="961">
 					<navLabel>
 						<text>Zechariah 10</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch10"/>
+					<content src="html/zechariah.html#zec-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch11" playOrder="962">
+				<navPoint class="chapter" id="zec-ch11" playOrder="962">
 					<navLabel>
 						<text>Zechariah 11</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch11"/>
+					<content src="html/zechariah.html#zec-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch12" playOrder="963">
+				<navPoint class="chapter" id="zec-ch12" playOrder="963">
 					<navLabel>
 						<text>Zechariah 12</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch12"/>
+					<content src="html/zechariah.html#zec-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch13" playOrder="964">
+				<navPoint class="chapter" id="zec-ch13" playOrder="964">
 					<navLabel>
 						<text>Zechariah 13</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch13"/>
+					<content src="html/zechariah.html#zec-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="ze-ch14" playOrder="965">
+				<navPoint class="chapter" id="zec-ch14" playOrder="965">
 					<navLabel>
 						<text>Zechariah 14</text>
 					</navLabel>
-					<content src="html/zechariah.html#ze-ch14"/>
+					<content src="html/zechariah.html#zec-ch14"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="mal" playOrder="966">
@@ -5817,562 +5817,562 @@
 				<text>The New Testament</text>
 			</navLabel>
 			<content src="html/new-testament.html"/>
-			<navPoint class="book" id="ma" playOrder="972">
+			<navPoint class="book" id="mt" playOrder="972">
 				<navLabel>
 					<text>Matthew</text>
 				</navLabel>
 				<content src="html/matthew-intro.html"/>
-				<navPoint class="chapter" id="ma-ch1" playOrder="973">
+				<navPoint class="chapter" id="mt-ch1" playOrder="973">
 					<navLabel>
 						<text>Matthew 1</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch1"/>
+					<content src="html/matthew.html#mt-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch2" playOrder="974">
+				<navPoint class="chapter" id="mt-ch2" playOrder="974">
 					<navLabel>
 						<text>Matthew 2</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch2"/>
+					<content src="html/matthew.html#mt-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch3" playOrder="975">
+				<navPoint class="chapter" id="mt-ch3" playOrder="975">
 					<navLabel>
 						<text>Matthew 3</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch3"/>
+					<content src="html/matthew.html#mt-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch4" playOrder="976">
+				<navPoint class="chapter" id="mt-ch4" playOrder="976">
 					<navLabel>
 						<text>Matthew 4</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch4"/>
+					<content src="html/matthew.html#mt-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch5" playOrder="977">
+				<navPoint class="chapter" id="mt-ch5" playOrder="977">
 					<navLabel>
 						<text>Matthew 5</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch5"/>
+					<content src="html/matthew.html#mt-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch6" playOrder="978">
+				<navPoint class="chapter" id="mt-ch6" playOrder="978">
 					<navLabel>
 						<text>Matthew 6</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch6"/>
+					<content src="html/matthew.html#mt-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch7" playOrder="979">
+				<navPoint class="chapter" id="mt-ch7" playOrder="979">
 					<navLabel>
 						<text>Matthew 7</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch7"/>
+					<content src="html/matthew.html#mt-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch8" playOrder="980">
+				<navPoint class="chapter" id="mt-ch8" playOrder="980">
 					<navLabel>
 						<text>Matthew 8</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch8"/>
+					<content src="html/matthew.html#mt-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch9" playOrder="981">
+				<navPoint class="chapter" id="mt-ch9" playOrder="981">
 					<navLabel>
 						<text>Matthew 9</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch9"/>
+					<content src="html/matthew.html#mt-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch10" playOrder="982">
+				<navPoint class="chapter" id="mt-ch10" playOrder="982">
 					<navLabel>
 						<text>Matthew 10</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch10"/>
+					<content src="html/matthew.html#mt-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch11" playOrder="983">
+				<navPoint class="chapter" id="mt-ch11" playOrder="983">
 					<navLabel>
 						<text>Matthew 11</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch11"/>
+					<content src="html/matthew.html#mt-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch12" playOrder="984">
+				<navPoint class="chapter" id="mt-ch12" playOrder="984">
 					<navLabel>
 						<text>Matthew 12</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch12"/>
+					<content src="html/matthew.html#mt-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch13" playOrder="985">
+				<navPoint class="chapter" id="mt-ch13" playOrder="985">
 					<navLabel>
 						<text>Matthew 13</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch13"/>
+					<content src="html/matthew.html#mt-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch14" playOrder="986">
+				<navPoint class="chapter" id="mt-ch14" playOrder="986">
 					<navLabel>
 						<text>Matthew 14</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch14"/>
+					<content src="html/matthew.html#mt-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch15" playOrder="987">
+				<navPoint class="chapter" id="mt-ch15" playOrder="987">
 					<navLabel>
 						<text>Matthew 15</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch15"/>
+					<content src="html/matthew.html#mt-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch16" playOrder="988">
+				<navPoint class="chapter" id="mt-ch16" playOrder="988">
 					<navLabel>
 						<text>Matthew 16</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch16"/>
+					<content src="html/matthew.html#mt-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch17" playOrder="989">
+				<navPoint class="chapter" id="mt-ch17" playOrder="989">
 					<navLabel>
 						<text>Matthew 17</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch17"/>
+					<content src="html/matthew.html#mt-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch18" playOrder="990">
+				<navPoint class="chapter" id="mt-ch18" playOrder="990">
 					<navLabel>
 						<text>Matthew 18</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch18"/>
+					<content src="html/matthew.html#mt-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch19" playOrder="991">
+				<navPoint class="chapter" id="mt-ch19" playOrder="991">
 					<navLabel>
 						<text>Matthew 19</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch19"/>
+					<content src="html/matthew.html#mt-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch20" playOrder="992">
+				<navPoint class="chapter" id="mt-ch20" playOrder="992">
 					<navLabel>
 						<text>Matthew 20</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch20"/>
+					<content src="html/matthew.html#mt-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch21" playOrder="993">
+				<navPoint class="chapter" id="mt-ch21" playOrder="993">
 					<navLabel>
 						<text>Matthew 21</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch21"/>
+					<content src="html/matthew.html#mt-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch22" playOrder="994">
+				<navPoint class="chapter" id="mt-ch22" playOrder="994">
 					<navLabel>
 						<text>Matthew 22</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch22"/>
+					<content src="html/matthew.html#mt-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch23" playOrder="995">
+				<navPoint class="chapter" id="mt-ch23" playOrder="995">
 					<navLabel>
 						<text>Matthew 23</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch23"/>
+					<content src="html/matthew.html#mt-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch24" playOrder="996">
+				<navPoint class="chapter" id="mt-ch24" playOrder="996">
 					<navLabel>
 						<text>Matthew 24</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch24"/>
+					<content src="html/matthew.html#mt-ch24"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch25" playOrder="997">
+				<navPoint class="chapter" id="mt-ch25" playOrder="997">
 					<navLabel>
 						<text>Matthew 25</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch25"/>
+					<content src="html/matthew.html#mt-ch25"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch26" playOrder="998">
+				<navPoint class="chapter" id="mt-ch26" playOrder="998">
 					<navLabel>
 						<text>Matthew 26</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch26"/>
+					<content src="html/matthew.html#mt-ch26"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch27" playOrder="999">
+				<navPoint class="chapter" id="mt-ch27" playOrder="999">
 					<navLabel>
 						<text>Matthew 27</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch27"/>
+					<content src="html/matthew.html#mt-ch27"/>
 				</navPoint>
-				<navPoint class="chapter" id="ma-ch28" playOrder="1000">
+				<navPoint class="chapter" id="mt-ch28" playOrder="1000">
 					<navLabel>
 						<text>Matthew 28</text>
 					</navLabel>
-					<content src="html/matthew.html#ma-ch28"/>
+					<content src="html/matthew.html#mt-ch28"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="mk" playOrder="1001">
+			<navPoint class="book" id="mr" playOrder="1001">
 				<navLabel>
 					<text>Mark</text>
 				</navLabel>
 				<content src="html/mark-intro.html"/>
-				<navPoint class="chapter" id="mk-ch1" playOrder="1002">
+				<navPoint class="chapter" id="mr-ch1" playOrder="1002">
 					<navLabel>
 						<text>Mark 1</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch1"/>
+					<content src="html/mark.html#mr-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch2" playOrder="1003">
+				<navPoint class="chapter" id="mr-ch2" playOrder="1003">
 					<navLabel>
 						<text>Mark 2</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch2"/>
+					<content src="html/mark.html#mr-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch3" playOrder="1004">
+				<navPoint class="chapter" id="mr-ch3" playOrder="1004">
 					<navLabel>
 						<text>Mark 3</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch3"/>
+					<content src="html/mark.html#mr-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch4" playOrder="1005">
+				<navPoint class="chapter" id="mr-ch4" playOrder="1005">
 					<navLabel>
 						<text>Mark 4</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch4"/>
+					<content src="html/mark.html#mr-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch5" playOrder="1006">
+				<navPoint class="chapter" id="mr-ch5" playOrder="1006">
 					<navLabel>
 						<text>Mark 5</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch5"/>
+					<content src="html/mark.html#mr-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch6" playOrder="1007">
+				<navPoint class="chapter" id="mr-ch6" playOrder="1007">
 					<navLabel>
 						<text>Mark 6</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch6"/>
+					<content src="html/mark.html#mr-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch7" playOrder="1008">
+				<navPoint class="chapter" id="mr-ch7" playOrder="1008">
 					<navLabel>
 						<text>Mark 7</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch7"/>
+					<content src="html/mark.html#mr-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch8" playOrder="1009">
+				<navPoint class="chapter" id="mr-ch8" playOrder="1009">
 					<navLabel>
 						<text>Mark 8</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch8"/>
+					<content src="html/mark.html#mr-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch9" playOrder="1010">
+				<navPoint class="chapter" id="mr-ch9" playOrder="1010">
 					<navLabel>
 						<text>Mark 9</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch9"/>
+					<content src="html/mark.html#mr-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch10" playOrder="1011">
+				<navPoint class="chapter" id="mr-ch10" playOrder="1011">
 					<navLabel>
 						<text>Mark 10</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch10"/>
+					<content src="html/mark.html#mr-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch11" playOrder="1012">
+				<navPoint class="chapter" id="mr-ch11" playOrder="1012">
 					<navLabel>
 						<text>Mark 11</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch11"/>
+					<content src="html/mark.html#mr-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch12" playOrder="1013">
+				<navPoint class="chapter" id="mr-ch12" playOrder="1013">
 					<navLabel>
 						<text>Mark 12</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch12"/>
+					<content src="html/mark.html#mr-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch13" playOrder="1014">
+				<navPoint class="chapter" id="mr-ch13" playOrder="1014">
 					<navLabel>
 						<text>Mark 13</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch13"/>
+					<content src="html/mark.html#mr-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch14" playOrder="1015">
+				<navPoint class="chapter" id="mr-ch14" playOrder="1015">
 					<navLabel>
 						<text>Mark 14</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch14"/>
+					<content src="html/mark.html#mr-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch15" playOrder="1016">
+				<navPoint class="chapter" id="mr-ch15" playOrder="1016">
 					<navLabel>
 						<text>Mark 15</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch15"/>
+					<content src="html/mark.html#mr-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="mk-ch16" playOrder="1017">
+				<navPoint class="chapter" id="mr-ch16" playOrder="1017">
 					<navLabel>
 						<text>Mark 16</text>
 					</navLabel>
-					<content src="html/mark.html#mk-ch16"/>
+					<content src="html/mark.html#mr-ch16"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="lk" playOrder="1018">
+			<navPoint class="book" id="lu" playOrder="1018">
 				<navLabel>
 					<text>Luke</text>
 				</navLabel>
 				<content src="html/luke-intro.html"/>
-				<navPoint class="chapter" id="lk-ch1" playOrder="1019">
+				<navPoint class="chapter" id="lu-ch1" playOrder="1019">
 					<navLabel>
 						<text>Luke 1</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch1"/>
+					<content src="html/luke.html#lu-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch2" playOrder="1020">
+				<navPoint class="chapter" id="lu-ch2" playOrder="1020">
 					<navLabel>
 						<text>Luke 2</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch2"/>
+					<content src="html/luke.html#lu-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch3" playOrder="1021">
+				<navPoint class="chapter" id="lu-ch3" playOrder="1021">
 					<navLabel>
 						<text>Luke 3</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch3"/>
+					<content src="html/luke.html#lu-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch4" playOrder="1022">
+				<navPoint class="chapter" id="lu-ch4" playOrder="1022">
 					<navLabel>
 						<text>Luke 4</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch4"/>
+					<content src="html/luke.html#lu-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch5" playOrder="1023">
+				<navPoint class="chapter" id="lu-ch5" playOrder="1023">
 					<navLabel>
 						<text>Luke 5</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch5"/>
+					<content src="html/luke.html#lu-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch6" playOrder="1024">
+				<navPoint class="chapter" id="lu-ch6" playOrder="1024">
 					<navLabel>
 						<text>Luke 6</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch6"/>
+					<content src="html/luke.html#lu-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch7" playOrder="1025">
+				<navPoint class="chapter" id="lu-ch7" playOrder="1025">
 					<navLabel>
 						<text>Luke 7</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch7"/>
+					<content src="html/luke.html#lu-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch8" playOrder="1026">
+				<navPoint class="chapter" id="lu-ch8" playOrder="1026">
 					<navLabel>
 						<text>Luke 8</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch8"/>
+					<content src="html/luke.html#lu-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch9" playOrder="1027">
+				<navPoint class="chapter" id="lu-ch9" playOrder="1027">
 					<navLabel>
 						<text>Luke 9</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch9"/>
+					<content src="html/luke.html#lu-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch10" playOrder="1028">
+				<navPoint class="chapter" id="lu-ch10" playOrder="1028">
 					<navLabel>
 						<text>Luke 10</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch10"/>
+					<content src="html/luke.html#lu-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch11" playOrder="1029">
+				<navPoint class="chapter" id="lu-ch11" playOrder="1029">
 					<navLabel>
 						<text>Luke 11</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch11"/>
+					<content src="html/luke.html#lu-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch12" playOrder="1030">
+				<navPoint class="chapter" id="lu-ch12" playOrder="1030">
 					<navLabel>
 						<text>Luke 12</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch12"/>
+					<content src="html/luke.html#lu-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch13" playOrder="1031">
+				<navPoint class="chapter" id="lu-ch13" playOrder="1031">
 					<navLabel>
 						<text>Luke 13</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch13"/>
+					<content src="html/luke.html#lu-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch14" playOrder="1032">
+				<navPoint class="chapter" id="lu-ch14" playOrder="1032">
 					<navLabel>
 						<text>Luke 14</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch14"/>
+					<content src="html/luke.html#lu-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch15" playOrder="1033">
+				<navPoint class="chapter" id="lu-ch15" playOrder="1033">
 					<navLabel>
 						<text>Luke 15</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch15"/>
+					<content src="html/luke.html#lu-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch16" playOrder="1034">
+				<navPoint class="chapter" id="lu-ch16" playOrder="1034">
 					<navLabel>
 						<text>Luke 16</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch16"/>
+					<content src="html/luke.html#lu-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch17" playOrder="1035">
+				<navPoint class="chapter" id="lu-ch17" playOrder="1035">
 					<navLabel>
 						<text>Luke 17</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch17"/>
+					<content src="html/luke.html#lu-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch18" playOrder="1036">
+				<navPoint class="chapter" id="lu-ch18" playOrder="1036">
 					<navLabel>
 						<text>Luke 18</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch18"/>
+					<content src="html/luke.html#lu-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch19" playOrder="1037">
+				<navPoint class="chapter" id="lu-ch19" playOrder="1037">
 					<navLabel>
 						<text>Luke 19</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch19"/>
+					<content src="html/luke.html#lu-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch20" playOrder="1038">
+				<navPoint class="chapter" id="lu-ch20" playOrder="1038">
 					<navLabel>
 						<text>Luke 20</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch20"/>
+					<content src="html/luke.html#lu-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch21" playOrder="1039">
+				<navPoint class="chapter" id="lu-ch21" playOrder="1039">
 					<navLabel>
 						<text>Luke 21</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch21"/>
+					<content src="html/luke.html#lu-ch21"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch22" playOrder="1040">
+				<navPoint class="chapter" id="lu-ch22" playOrder="1040">
 					<navLabel>
 						<text>Luke 22</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch22"/>
+					<content src="html/luke.html#lu-ch22"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch23" playOrder="1041">
+				<navPoint class="chapter" id="lu-ch23" playOrder="1041">
 					<navLabel>
 						<text>Luke 23</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch23"/>
+					<content src="html/luke.html#lu-ch23"/>
 				</navPoint>
-				<navPoint class="chapter" id="lk-ch24" playOrder="1042">
+				<navPoint class="chapter" id="lu-ch24" playOrder="1042">
 					<navLabel>
 						<text>Luke 24</text>
 					</navLabel>
-					<content src="html/luke.html#lk-ch24"/>
+					<content src="html/luke.html#lu-ch24"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="jo" playOrder="1043">
+			<navPoint class="book" id="joh" playOrder="1043">
 				<navLabel>
 					<text>John</text>
 				</navLabel>
 				<content src="html/john-intro.html"/>
-				<navPoint class="chapter" id="jo-ch1" playOrder="1044">
+				<navPoint class="chapter" id="joh-ch1" playOrder="1044">
 					<navLabel>
 						<text>John 1</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch1"/>
+					<content src="html/john.html#joh-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch2" playOrder="1045">
+				<navPoint class="chapter" id="joh-ch2" playOrder="1045">
 					<navLabel>
 						<text>John 2</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch2"/>
+					<content src="html/john.html#joh-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch3" playOrder="1046">
+				<navPoint class="chapter" id="joh-ch3" playOrder="1046">
 					<navLabel>
 						<text>John 3</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch3"/>
+					<content src="html/john.html#joh-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch4" playOrder="1047">
+				<navPoint class="chapter" id="joh-ch4" playOrder="1047">
 					<navLabel>
 						<text>John 4</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch4"/>
+					<content src="html/john.html#joh-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch5" playOrder="1048">
+				<navPoint class="chapter" id="joh-ch5" playOrder="1048">
 					<navLabel>
 						<text>John 5</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch5"/>
+					<content src="html/john.html#joh-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch6" playOrder="1049">
+				<navPoint class="chapter" id="joh-ch6" playOrder="1049">
 					<navLabel>
 						<text>John 6</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch6"/>
+					<content src="html/john.html#joh-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch7" playOrder="1050">
+				<navPoint class="chapter" id="joh-ch7" playOrder="1050">
 					<navLabel>
 						<text>John 7</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch7"/>
+					<content src="html/john.html#joh-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch8" playOrder="1051">
+				<navPoint class="chapter" id="joh-ch8" playOrder="1051">
 					<navLabel>
 						<text>John 8</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch8"/>
+					<content src="html/john.html#joh-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch9" playOrder="1052">
+				<navPoint class="chapter" id="joh-ch9" playOrder="1052">
 					<navLabel>
 						<text>John 9</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch9"/>
+					<content src="html/john.html#joh-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch10" playOrder="1053">
+				<navPoint class="chapter" id="joh-ch10" playOrder="1053">
 					<navLabel>
 						<text>John 10</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch10"/>
+					<content src="html/john.html#joh-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch11" playOrder="1054">
+				<navPoint class="chapter" id="joh-ch11" playOrder="1054">
 					<navLabel>
 						<text>John 11</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch11"/>
+					<content src="html/john.html#joh-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch12" playOrder="1055">
+				<navPoint class="chapter" id="joh-ch12" playOrder="1055">
 					<navLabel>
 						<text>John 12</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch12"/>
+					<content src="html/john.html#joh-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch13" playOrder="1056">
+				<navPoint class="chapter" id="joh-ch13" playOrder="1056">
 					<navLabel>
 						<text>John 13</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch13"/>
+					<content src="html/john.html#joh-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch14" playOrder="1057">
+				<navPoint class="chapter" id="joh-ch14" playOrder="1057">
 					<navLabel>
 						<text>John 14</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch14"/>
+					<content src="html/john.html#joh-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch15" playOrder="1058">
+				<navPoint class="chapter" id="joh-ch15" playOrder="1058">
 					<navLabel>
 						<text>John 15</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch15"/>
+					<content src="html/john.html#joh-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch16" playOrder="1059">
+				<navPoint class="chapter" id="joh-ch16" playOrder="1059">
 					<navLabel>
 						<text>John 16</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch16"/>
+					<content src="html/john.html#joh-ch16"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch17" playOrder="1060">
+				<navPoint class="chapter" id="joh-ch17" playOrder="1060">
 					<navLabel>
 						<text>John 17</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch17"/>
+					<content src="html/john.html#joh-ch17"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch18" playOrder="1061">
+				<navPoint class="chapter" id="joh-ch18" playOrder="1061">
 					<navLabel>
 						<text>John 18</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch18"/>
+					<content src="html/john.html#joh-ch18"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch19" playOrder="1062">
+				<navPoint class="chapter" id="joh-ch19" playOrder="1062">
 					<navLabel>
 						<text>John 19</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch19"/>
+					<content src="html/john.html#joh-ch19"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch20" playOrder="1063">
+				<navPoint class="chapter" id="joh-ch20" playOrder="1063">
 					<navLabel>
 						<text>John 20</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch20"/>
+					<content src="html/john.html#joh-ch20"/>
 				</navPoint>
-				<navPoint class="chapter" id="jo-ch21" playOrder="1064">
+				<navPoint class="chapter" id="joh-ch21" playOrder="1064">
 					<navLabel>
 						<text>John 21</text>
 					</navLabel>
-					<content src="html/john.html#jo-ch21"/>
+					<content src="html/john.html#joh-ch21"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="ac" playOrder="1065">
@@ -6651,190 +6651,190 @@
 					<content src="html/romans.html#ro-ch16"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-co" playOrder="1111">
+			<navPoint class="book" id="1co" playOrder="1111">
 				<navLabel>
 					<text>1 Corinthians</text>
 				</navLabel>
 				<content src="html/1-corinthians-intro.html"/>
-				<navPoint class="chapter" id="1-co-ch1" playOrder="1112">
+				<navPoint class="chapter" id="1co-ch1" playOrder="1112">
 					<navLabel>
 						<text>1 Corinthians 1</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch1"/>
+					<content src="html/1-corinthians.html#1co-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch2" playOrder="1113">
+				<navPoint class="chapter" id="1co-ch2" playOrder="1113">
 					<navLabel>
 						<text>1 Corinthians 2</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch2"/>
+					<content src="html/1-corinthians.html#1co-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch3" playOrder="1114">
+				<navPoint class="chapter" id="1co-ch3" playOrder="1114">
 					<navLabel>
 						<text>1 Corinthians 3</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch3"/>
+					<content src="html/1-corinthians.html#1co-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch4" playOrder="1115">
+				<navPoint class="chapter" id="1co-ch4" playOrder="1115">
 					<navLabel>
 						<text>1 Corinthians 4</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch4"/>
+					<content src="html/1-corinthians.html#1co-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch5" playOrder="1116">
+				<navPoint class="chapter" id="1co-ch5" playOrder="1116">
 					<navLabel>
 						<text>1 Corinthians 5</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch5"/>
+					<content src="html/1-corinthians.html#1co-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch6" playOrder="1117">
+				<navPoint class="chapter" id="1co-ch6" playOrder="1117">
 					<navLabel>
 						<text>1 Corinthians 6</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch6"/>
+					<content src="html/1-corinthians.html#1co-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch7" playOrder="1118">
+				<navPoint class="chapter" id="1co-ch7" playOrder="1118">
 					<navLabel>
 						<text>1 Corinthians 7</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch7"/>
+					<content src="html/1-corinthians.html#1co-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch8" playOrder="1119">
+				<navPoint class="chapter" id="1co-ch8" playOrder="1119">
 					<navLabel>
 						<text>1 Corinthians 8</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch8"/>
+					<content src="html/1-corinthians.html#1co-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch9" playOrder="1120">
+				<navPoint class="chapter" id="1co-ch9" playOrder="1120">
 					<navLabel>
 						<text>1 Corinthians 9</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch9"/>
+					<content src="html/1-corinthians.html#1co-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch10" playOrder="1121">
+				<navPoint class="chapter" id="1co-ch10" playOrder="1121">
 					<navLabel>
 						<text>1 Corinthians 10</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch10"/>
+					<content src="html/1-corinthians.html#1co-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch11" playOrder="1122">
+				<navPoint class="chapter" id="1co-ch11" playOrder="1122">
 					<navLabel>
 						<text>1 Corinthians 11</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch11"/>
+					<content src="html/1-corinthians.html#1co-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch12" playOrder="1123">
+				<navPoint class="chapter" id="1co-ch12" playOrder="1123">
 					<navLabel>
 						<text>1 Corinthians 12</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch12"/>
+					<content src="html/1-corinthians.html#1co-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch13" playOrder="1124">
+				<navPoint class="chapter" id="1co-ch13" playOrder="1124">
 					<navLabel>
 						<text>1 Corinthians 13</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch13"/>
+					<content src="html/1-corinthians.html#1co-ch13"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch14" playOrder="1125">
+				<navPoint class="chapter" id="1co-ch14" playOrder="1125">
 					<navLabel>
 						<text>1 Corinthians 14</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch14"/>
+					<content src="html/1-corinthians.html#1co-ch14"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch15" playOrder="1126">
+				<navPoint class="chapter" id="1co-ch15" playOrder="1126">
 					<navLabel>
 						<text>1 Corinthians 15</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch15"/>
+					<content src="html/1-corinthians.html#1co-ch15"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-co-ch16" playOrder="1127">
+				<navPoint class="chapter" id="1co-ch16" playOrder="1127">
 					<navLabel>
 						<text>1 Corinthians 16</text>
 					</navLabel>
-					<content src="html/1-corinthians.html#1-co-ch16"/>
+					<content src="html/1-corinthians.html#1co-ch16"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-co" playOrder="1128">
+			<navPoint class="book" id="2co" playOrder="1128">
 				<navLabel>
 					<text>2 Corinthians</text>
 				</navLabel>
 				<content src="html/2-corinthians-intro.html"/>
-				<navPoint class="chapter" id="2-co-ch1" playOrder="1129">
+				<navPoint class="chapter" id="2co-ch1" playOrder="1129">
 					<navLabel>
 						<text>2 Corinthians 1</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch1"/>
+					<content src="html/2-corinthians.html#2co-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch2" playOrder="1130">
+				<navPoint class="chapter" id="2co-ch2" playOrder="1130">
 					<navLabel>
 						<text>2 Corinthians 2</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch2"/>
+					<content src="html/2-corinthians.html#2co-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch3" playOrder="1131">
+				<navPoint class="chapter" id="2co-ch3" playOrder="1131">
 					<navLabel>
 						<text>2 Corinthians 3</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch3"/>
+					<content src="html/2-corinthians.html#2co-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch4" playOrder="1132">
+				<navPoint class="chapter" id="2co-ch4" playOrder="1132">
 					<navLabel>
 						<text>2 Corinthians 4</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch4"/>
+					<content src="html/2-corinthians.html#2co-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch5" playOrder="1133">
+				<navPoint class="chapter" id="2co-ch5" playOrder="1133">
 					<navLabel>
 						<text>2 Corinthians 5</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch5"/>
+					<content src="html/2-corinthians.html#2co-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch6" playOrder="1134">
+				<navPoint class="chapter" id="2co-ch6" playOrder="1134">
 					<navLabel>
 						<text>2 Corinthians 6</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch6"/>
+					<content src="html/2-corinthians.html#2co-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch7" playOrder="1135">
+				<navPoint class="chapter" id="2co-ch7" playOrder="1135">
 					<navLabel>
 						<text>2 Corinthians 7</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch7"/>
+					<content src="html/2-corinthians.html#2co-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch8" playOrder="1136">
+				<navPoint class="chapter" id="2co-ch8" playOrder="1136">
 					<navLabel>
 						<text>2 Corinthians 8</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch8"/>
+					<content src="html/2-corinthians.html#2co-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch9" playOrder="1137">
+				<navPoint class="chapter" id="2co-ch9" playOrder="1137">
 					<navLabel>
 						<text>2 Corinthians 9</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch9"/>
+					<content src="html/2-corinthians.html#2co-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch10" playOrder="1138">
+				<navPoint class="chapter" id="2co-ch10" playOrder="1138">
 					<navLabel>
 						<text>2 Corinthians 10</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch10"/>
+					<content src="html/2-corinthians.html#2co-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch11" playOrder="1139">
+				<navPoint class="chapter" id="2co-ch11" playOrder="1139">
 					<navLabel>
 						<text>2 Corinthians 11</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch11"/>
+					<content src="html/2-corinthians.html#2co-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch12" playOrder="1140">
+				<navPoint class="chapter" id="2co-ch12" playOrder="1140">
 					<navLabel>
 						<text>2 Corinthians 12</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch12"/>
+					<content src="html/2-corinthians.html#2co-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-co-ch13" playOrder="1141">
+				<navPoint class="chapter" id="2co-ch13" playOrder="1141">
 					<navLabel>
 						<text>2 Corinthians 13</text>
 					</navLabel>
-					<content src="html/2-corinthians.html#2-co-ch13"/>
+					<content src="html/2-corinthians.html#2co-ch13"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="ga" playOrder="1142">
@@ -6879,76 +6879,76 @@
 					<content src="html/galatians.html#ga-ch6"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="ep" playOrder="1149">
+			<navPoint class="book" id="eph" playOrder="1149">
 				<navLabel>
 					<text>Ephesians</text>
 				</navLabel>
 				<content src="html/ephesians-intro.html"/>
-				<navPoint class="chapter" id="ep-ch1" playOrder="1150">
+				<navPoint class="chapter" id="eph-ch1" playOrder="1150">
 					<navLabel>
 						<text>Ephesians 1</text>
 					</navLabel>
-					<content src="html/ephesians.html#ep-ch1"/>
+					<content src="html/ephesians.html#eph-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="ep-ch2" playOrder="1151">
+				<navPoint class="chapter" id="eph-ch2" playOrder="1151">
 					<navLabel>
 						<text>Ephesians 2</text>
 					</navLabel>
-					<content src="html/ephesians.html#ep-ch2"/>
+					<content src="html/ephesians.html#eph-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="ep-ch3" playOrder="1152">
+				<navPoint class="chapter" id="eph-ch3" playOrder="1152">
 					<navLabel>
 						<text>Ephesians 3</text>
 					</navLabel>
-					<content src="html/ephesians.html#ep-ch3"/>
+					<content src="html/ephesians.html#eph-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="ep-ch4" playOrder="1153">
+				<navPoint class="chapter" id="eph-ch4" playOrder="1153">
 					<navLabel>
 						<text>Ephesians 4</text>
 					</navLabel>
-					<content src="html/ephesians.html#ep-ch4"/>
+					<content src="html/ephesians.html#eph-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="ep-ch5" playOrder="1154">
+				<navPoint class="chapter" id="eph-ch5" playOrder="1154">
 					<navLabel>
 						<text>Ephesians 5</text>
 					</navLabel>
-					<content src="html/ephesians.html#ep-ch5"/>
+					<content src="html/ephesians.html#eph-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="ep-ch6" playOrder="1155">
+				<navPoint class="chapter" id="eph-ch6" playOrder="1155">
 					<navLabel>
 						<text>Ephesians 6</text>
 					</navLabel>
-					<content src="html/ephesians.html#ep-ch6"/>
+					<content src="html/ephesians.html#eph-ch6"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="ph" playOrder="1156">
+			<navPoint class="book" id="php" playOrder="1156">
 				<navLabel>
 					<text>Philippians</text>
 				</navLabel>
 				<content src="html/philippians-intro.html"/>
-				<navPoint class="chapter" id="ph-ch1" playOrder="1157">
+				<navPoint class="chapter" id="php-ch1" playOrder="1157">
 					<navLabel>
 						<text>Philippians 1</text>
 					</navLabel>
-					<content src="html/philippians.html#ph-ch1"/>
+					<content src="html/philippians.html#php-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="ph-ch2" playOrder="1158">
+				<navPoint class="chapter" id="php-ch2" playOrder="1158">
 					<navLabel>
 						<text>Philippians 2</text>
 					</navLabel>
-					<content src="html/philippians.html#ph-ch2"/>
+					<content src="html/philippians.html#php-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="ph-ch3" playOrder="1159">
+				<navPoint class="chapter" id="php-ch3" playOrder="1159">
 					<navLabel>
 						<text>Philippians 3</text>
 					</navLabel>
-					<content src="html/philippians.html#ph-ch3"/>
+					<content src="html/philippians.html#php-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="ph-ch4" playOrder="1160">
+				<navPoint class="chapter" id="php-ch4" playOrder="1160">
 					<navLabel>
 						<text>Philippians 4</text>
 					</navLabel>
-					<content src="html/philippians.html#ph-ch4"/>
+					<content src="html/philippians.html#php-ch4"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="col" playOrder="1161">
@@ -6981,136 +6981,136 @@
 					<content src="html/colossians.html#col-ch4"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-th" playOrder="1166">
+			<navPoint class="book" id="1th" playOrder="1166">
 				<navLabel>
 					<text>1 Thessalonians</text>
 				</navLabel>
 				<content src="html/1-thessalonians-intro.html"/>
-				<navPoint class="chapter" id="1-th-ch1" playOrder="1167">
+				<navPoint class="chapter" id="1th-ch1" playOrder="1167">
 					<navLabel>
 						<text>1 Thessalonians 1</text>
 					</navLabel>
-					<content src="html/1-thessalonians.html#1-th-ch1"/>
+					<content src="html/1-thessalonians.html#1th-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-th-ch2" playOrder="1168">
+				<navPoint class="chapter" id="1th-ch2" playOrder="1168">
 					<navLabel>
 						<text>1 Thessalonians 2</text>
 					</navLabel>
-					<content src="html/1-thessalonians.html#1-th-ch2"/>
+					<content src="html/1-thessalonians.html#1th-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-th-ch3" playOrder="1169">
+				<navPoint class="chapter" id="1th-ch3" playOrder="1169">
 					<navLabel>
 						<text>1 Thessalonians 3</text>
 					</navLabel>
-					<content src="html/1-thessalonians.html#1-th-ch3"/>
+					<content src="html/1-thessalonians.html#1th-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-th-ch4" playOrder="1170">
+				<navPoint class="chapter" id="1th-ch4" playOrder="1170">
 					<navLabel>
 						<text>1 Thessalonians 4</text>
 					</navLabel>
-					<content src="html/1-thessalonians.html#1-th-ch4"/>
+					<content src="html/1-thessalonians.html#1th-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-th-ch5" playOrder="1171">
+				<navPoint class="chapter" id="1th-ch5" playOrder="1171">
 					<navLabel>
 						<text>1 Thessalonians 5</text>
 					</navLabel>
-					<content src="html/1-thessalonians.html#1-th-ch5"/>
+					<content src="html/1-thessalonians.html#1th-ch5"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-th" playOrder="1172">
+			<navPoint class="book" id="2th" playOrder="1172">
 				<navLabel>
 					<text>2 Thessalonians</text>
 				</navLabel>
 				<content src="html/2-thessalonians-intro.html"/>
-				<navPoint class="chapter" id="2-th-ch1" playOrder="1173">
+				<navPoint class="chapter" id="2th-ch1" playOrder="1173">
 					<navLabel>
 						<text>2 Thessalonians 1</text>
 					</navLabel>
-					<content src="html/2-thessalonians.html#2-th-ch1"/>
+					<content src="html/2-thessalonians.html#2th-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-th-ch2" playOrder="1174">
+				<navPoint class="chapter" id="2th-ch2" playOrder="1174">
 					<navLabel>
 						<text>2 Thessalonians 2</text>
 					</navLabel>
-					<content src="html/2-thessalonians.html#2-th-ch2"/>
+					<content src="html/2-thessalonians.html#2th-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-th-ch3" playOrder="1175">
+				<navPoint class="chapter" id="2th-ch3" playOrder="1175">
 					<navLabel>
 						<text>2 Thessalonians 3</text>
 					</navLabel>
-					<content src="html/2-thessalonians.html#2-th-ch3"/>
+					<content src="html/2-thessalonians.html#2th-ch3"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-ti" playOrder="1176">
+			<navPoint class="book" id="1ti" playOrder="1176">
 				<navLabel>
 					<text>1 Timothy</text>
 				</navLabel>
 				<content src="html/1-timothy-intro.html"/>
-				<navPoint class="chapter" id="1-ti-ch1" playOrder="1177">
+				<navPoint class="chapter" id="1ti-ch1" playOrder="1177">
 					<navLabel>
 						<text>1 Timothy 1</text>
 					</navLabel>
-					<content src="html/1-timothy.html#1-ti-ch1"/>
+					<content src="html/1-timothy.html#1ti-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ti-ch2" playOrder="1178">
+				<navPoint class="chapter" id="1ti-ch2" playOrder="1178">
 					<navLabel>
 						<text>1 Timothy 2</text>
 					</navLabel>
-					<content src="html/1-timothy.html#1-ti-ch2"/>
+					<content src="html/1-timothy.html#1ti-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ti-ch3" playOrder="1179">
+				<navPoint class="chapter" id="1ti-ch3" playOrder="1179">
 					<navLabel>
 						<text>1 Timothy 3</text>
 					</navLabel>
-					<content src="html/1-timothy.html#1-ti-ch3"/>
+					<content src="html/1-timothy.html#1ti-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ti-ch4" playOrder="1180">
+				<navPoint class="chapter" id="1ti-ch4" playOrder="1180">
 					<navLabel>
 						<text>1 Timothy 4</text>
 					</navLabel>
-					<content src="html/1-timothy.html#1-ti-ch4"/>
+					<content src="html/1-timothy.html#1ti-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ti-ch5" playOrder="1181">
+				<navPoint class="chapter" id="1ti-ch5" playOrder="1181">
 					<navLabel>
 						<text>1 Timothy 5</text>
 					</navLabel>
-					<content src="html/1-timothy.html#1-ti-ch5"/>
+					<content src="html/1-timothy.html#1ti-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-ti-ch6" playOrder="1182">
+				<navPoint class="chapter" id="1ti-ch6" playOrder="1182">
 					<navLabel>
 						<text>1 Timothy 6</text>
 					</navLabel>
-					<content src="html/1-timothy.html#1-ti-ch6"/>
+					<content src="html/1-timothy.html#1ti-ch6"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-ti" playOrder="1183">
+			<navPoint class="book" id="2ti" playOrder="1183">
 				<navLabel>
 					<text>2 Timothy</text>
 				</navLabel>
 				<content src="html/2-timothy-intro.html"/>
-				<navPoint class="chapter" id="2-ti-ch1" playOrder="1184">
+				<navPoint class="chapter" id="2ti-ch1" playOrder="1184">
 					<navLabel>
 						<text>2 Timothy 1</text>
 					</navLabel>
-					<content src="html/2-timothy.html#2-ti-ch1"/>
+					<content src="html/2-timothy.html#2ti-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ti-ch2" playOrder="1185">
+				<navPoint class="chapter" id="2ti-ch2" playOrder="1185">
 					<navLabel>
 						<text>2 Timothy 2</text>
 					</navLabel>
-					<content src="html/2-timothy.html#2-ti-ch2"/>
+					<content src="html/2-timothy.html#2ti-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ti-ch3" playOrder="1186">
+				<navPoint class="chapter" id="2ti-ch3" playOrder="1186">
 					<navLabel>
 						<text>2 Timothy 3</text>
 					</navLabel>
-					<content src="html/2-timothy.html#2-ti-ch3"/>
+					<content src="html/2-timothy.html#2ti-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-ti-ch4" playOrder="1187">
+				<navPoint class="chapter" id="2ti-ch4" playOrder="1187">
 					<navLabel>
 						<text>2 Timothy 4</text>
 					</navLabel>
-					<content src="html/2-timothy.html#2-ti-ch4"/>
+					<content src="html/2-timothy.html#2ti-ch4"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="tit" playOrder="1188">
@@ -7137,256 +7137,256 @@
 					<content src="html/titus.html#tit-ch3"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="phile" playOrder="1192">
+			<navPoint class="book" id="phm" playOrder="1192">
 				<navLabel>
 					<text>Philemon</text>
 				</navLabel>
 				<content src="html/philemon-intro.html"/>
-				<navPoint class="chapter" id="phile-ch1" playOrder="1193">
+				<navPoint class="chapter" id="phm-ch1" playOrder="1193">
 					<navLabel>
 						<text>Philemon 1</text>
 					</navLabel>
-					<content src="html/philemon.html#phile-ch1"/>
+					<content src="html/philemon.html#phm-ch1"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="he" playOrder="1194">
+			<navPoint class="book" id="heb" playOrder="1194">
 				<navLabel>
 					<text>Hebrews</text>
 				</navLabel>
 				<content src="html/hebrews-intro.html"/>
-				<navPoint class="chapter" id="he-ch1" playOrder="1195">
+				<navPoint class="chapter" id="heb-ch1" playOrder="1195">
 					<navLabel>
 						<text>Hebrews 1</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch1"/>
+					<content src="html/hebrews.html#heb-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch2" playOrder="1196">
+				<navPoint class="chapter" id="heb-ch2" playOrder="1196">
 					<navLabel>
 						<text>Hebrews 2</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch2"/>
+					<content src="html/hebrews.html#heb-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch3" playOrder="1197">
+				<navPoint class="chapter" id="heb-ch3" playOrder="1197">
 					<navLabel>
 						<text>Hebrews 3</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch3"/>
+					<content src="html/hebrews.html#heb-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch4" playOrder="1198">
+				<navPoint class="chapter" id="heb-ch4" playOrder="1198">
 					<navLabel>
 						<text>Hebrews 4</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch4"/>
+					<content src="html/hebrews.html#heb-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch5" playOrder="1199">
+				<navPoint class="chapter" id="heb-ch5" playOrder="1199">
 					<navLabel>
 						<text>Hebrews 5</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch5"/>
+					<content src="html/hebrews.html#heb-ch5"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch6" playOrder="1200">
+				<navPoint class="chapter" id="heb-ch6" playOrder="1200">
 					<navLabel>
 						<text>Hebrews 6</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch6"/>
+					<content src="html/hebrews.html#heb-ch6"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch7" playOrder="1201">
+				<navPoint class="chapter" id="heb-ch7" playOrder="1201">
 					<navLabel>
 						<text>Hebrews 7</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch7"/>
+					<content src="html/hebrews.html#heb-ch7"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch8" playOrder="1202">
+				<navPoint class="chapter" id="heb-ch8" playOrder="1202">
 					<navLabel>
 						<text>Hebrews 8</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch8"/>
+					<content src="html/hebrews.html#heb-ch8"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch9" playOrder="1203">
+				<navPoint class="chapter" id="heb-ch9" playOrder="1203">
 					<navLabel>
 						<text>Hebrews 9</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch9"/>
+					<content src="html/hebrews.html#heb-ch9"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch10" playOrder="1204">
+				<navPoint class="chapter" id="heb-ch10" playOrder="1204">
 					<navLabel>
 						<text>Hebrews 10</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch10"/>
+					<content src="html/hebrews.html#heb-ch10"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch11" playOrder="1205">
+				<navPoint class="chapter" id="heb-ch11" playOrder="1205">
 					<navLabel>
 						<text>Hebrews 11</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch11"/>
+					<content src="html/hebrews.html#heb-ch11"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch12" playOrder="1206">
+				<navPoint class="chapter" id="heb-ch12" playOrder="1206">
 					<navLabel>
 						<text>Hebrews 12</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch12"/>
+					<content src="html/hebrews.html#heb-ch12"/>
 				</navPoint>
-				<navPoint class="chapter" id="he-ch13" playOrder="1207">
+				<navPoint class="chapter" id="heb-ch13" playOrder="1207">
 					<navLabel>
 						<text>Hebrews 13</text>
 					</navLabel>
-					<content src="html/hebrews.html#he-ch13"/>
+					<content src="html/hebrews.html#heb-ch13"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="jam" playOrder="1208">
+			<navPoint class="book" id="jas" playOrder="1208">
 				<navLabel>
 					<text>James</text>
 				</navLabel>
 				<content src="html/james-intro.html"/>
-				<navPoint class="chapter" id="jam-ch1" playOrder="1209">
+				<navPoint class="chapter" id="jas-ch1" playOrder="1209">
 					<navLabel>
 						<text>James 1</text>
 					</navLabel>
-					<content src="html/james.html#jam-ch1"/>
+					<content src="html/james.html#jas-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="jam-ch2" playOrder="1210">
+				<navPoint class="chapter" id="jas-ch2" playOrder="1210">
 					<navLabel>
 						<text>James 2</text>
 					</navLabel>
-					<content src="html/james.html#jam-ch2"/>
+					<content src="html/james.html#jas-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="jam-ch3" playOrder="1211">
+				<navPoint class="chapter" id="jas-ch3" playOrder="1211">
 					<navLabel>
 						<text>James 3</text>
 					</navLabel>
-					<content src="html/james.html#jam-ch3"/>
+					<content src="html/james.html#jas-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="jam-ch4" playOrder="1212">
+				<navPoint class="chapter" id="jas-ch4" playOrder="1212">
 					<navLabel>
 						<text>James 4</text>
 					</navLabel>
-					<content src="html/james.html#jam-ch4"/>
+					<content src="html/james.html#jas-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="jam-ch5" playOrder="1213">
+				<navPoint class="chapter" id="jas-ch5" playOrder="1213">
 					<navLabel>
 						<text>James 5</text>
 					</navLabel>
-					<content src="html/james.html#jam-ch5"/>
+					<content src="html/james.html#jas-ch5"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-pe" playOrder="1214">
+			<navPoint class="book" id="1pe" playOrder="1214">
 				<navLabel>
 					<text>1 Peter</text>
 				</navLabel>
 				<content src="html/1-peter-intro.html"/>
-				<navPoint class="chapter" id="1-pe-ch1" playOrder="1215">
+				<navPoint class="chapter" id="1pe-ch1" playOrder="1215">
 					<navLabel>
 						<text>1 Peter 1</text>
 					</navLabel>
-					<content src="html/1-peter.html#1-pe-ch1"/>
+					<content src="html/1-peter.html#1pe-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-pe-ch2" playOrder="1216">
+				<navPoint class="chapter" id="1pe-ch2" playOrder="1216">
 					<navLabel>
 						<text>1 Peter 2</text>
 					</navLabel>
-					<content src="html/1-peter.html#1-pe-ch2"/>
+					<content src="html/1-peter.html#1pe-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-pe-ch3" playOrder="1217">
+				<navPoint class="chapter" id="1pe-ch3" playOrder="1217">
 					<navLabel>
 						<text>1 Peter 3</text>
 					</navLabel>
-					<content src="html/1-peter.html#1-pe-ch3"/>
+					<content src="html/1-peter.html#1pe-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-pe-ch4" playOrder="1218">
+				<navPoint class="chapter" id="1pe-ch4" playOrder="1218">
 					<navLabel>
 						<text>1 Peter 4</text>
 					</navLabel>
-					<content src="html/1-peter.html#1-pe-ch4"/>
+					<content src="html/1-peter.html#1pe-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-pe-ch5" playOrder="1219">
+				<navPoint class="chapter" id="1pe-ch5" playOrder="1219">
 					<navLabel>
 						<text>1 Peter 5</text>
 					</navLabel>
-					<content src="html/1-peter.html#1-pe-ch5"/>
+					<content src="html/1-peter.html#1pe-ch5"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-pe" playOrder="1220">
+			<navPoint class="book" id="2pe" playOrder="1220">
 				<navLabel>
 					<text>2 Peter</text>
 				</navLabel>
 				<content src="html/2-peter-intro.html"/>
-				<navPoint class="chapter" id="2-pe-ch1" playOrder="1221">
+				<navPoint class="chapter" id="2pe-ch1" playOrder="1221">
 					<navLabel>
 						<text>2 Peter 1</text>
 					</navLabel>
-					<content src="html/2-peter.html#2-pe-ch1"/>
+					<content src="html/2-peter.html#2pe-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-pe-ch2" playOrder="1222">
+				<navPoint class="chapter" id="2pe-ch2" playOrder="1222">
 					<navLabel>
 						<text>2 Peter 2</text>
 					</navLabel>
-					<content src="html/2-peter.html#2-pe-ch2"/>
+					<content src="html/2-peter.html#2pe-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="2-pe-ch3" playOrder="1223">
+				<navPoint class="chapter" id="2pe-ch3" playOrder="1223">
 					<navLabel>
 						<text>2 Peter 3</text>
 					</navLabel>
-					<content src="html/2-peter.html#2-pe-ch3"/>
+					<content src="html/2-peter.html#2pe-ch3"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="1-jo" playOrder="1224">
+			<navPoint class="book" id="1jo" playOrder="1224">
 				<navLabel>
 					<text>1 John</text>
 				</navLabel>
 				<content src="html/1-john-intro.html"/>
-				<navPoint class="chapter" id="1-jo-ch1" playOrder="1225">
+				<navPoint class="chapter" id="1jo-ch1" playOrder="1225">
 					<navLabel>
 						<text>1 John 1</text>
 					</navLabel>
-					<content src="html/1-john.html#1-jo-ch1"/>
+					<content src="html/1-john.html#1jo-ch1"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-jo-ch2" playOrder="1226">
+				<navPoint class="chapter" id="1jo-ch2" playOrder="1226">
 					<navLabel>
 						<text>1 John 2</text>
 					</navLabel>
-					<content src="html/1-john.html#1-jo-ch2"/>
+					<content src="html/1-john.html#1jo-ch2"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-jo-ch3" playOrder="1227">
+				<navPoint class="chapter" id="1jo-ch3" playOrder="1227">
 					<navLabel>
 						<text>1 John 3</text>
 					</navLabel>
-					<content src="html/1-john.html#1-jo-ch3"/>
+					<content src="html/1-john.html#1jo-ch3"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-jo-ch4" playOrder="1228">
+				<navPoint class="chapter" id="1jo-ch4" playOrder="1228">
 					<navLabel>
 						<text>1 John 4</text>
 					</navLabel>
-					<content src="html/1-john.html#1-jo-ch4"/>
+					<content src="html/1-john.html#1jo-ch4"/>
 				</navPoint>
-				<navPoint class="chapter" id="1-jo-ch5" playOrder="1229">
+				<navPoint class="chapter" id="1jo-ch5" playOrder="1229">
 					<navLabel>
 						<text>1 John 5</text>
 					</navLabel>
-					<content src="html/1-john.html#1-jo-ch5"/>
+					<content src="html/1-john.html#1jo-ch5"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="2-jo" playOrder="1230">
+			<navPoint class="book" id="2jo" playOrder="1230">
 				<navLabel>
 					<text>2 John</text>
 				</navLabel>
 				<content src="html/2-john-intro.html"/>
-				<navPoint class="chapter" id="2-jo-ch1" playOrder="1231">
+				<navPoint class="chapter" id="2jo-ch1" playOrder="1231">
 					<navLabel>
 						<text>2 John 1</text>
 					</navLabel>
-					<content src="html/2-john.html#2-jo-ch1"/>
+					<content src="html/2-john.html#2jo-ch1"/>
 				</navPoint>
 			</navPoint>
-			<navPoint class="book" id="3-jo" playOrder="1232">
+			<navPoint class="book" id="3jo" playOrder="1232">
 				<navLabel>
 					<text>3 John</text>
 				</navLabel>
 				<content src="html/3-john-intro.html"/>
-				<navPoint class="chapter" id="3-jo-ch1" playOrder="1233">
+				<navPoint class="chapter" id="3jo-ch1" playOrder="1233">
 					<navLabel>
 						<text>3 John 1</text>
 					</navLabel>
-					<content src="html/3-john.html#3-jo-ch1"/>
+					<content src="html/3-john.html#3jo-ch1"/>
 				</navPoint>
 			</navPoint>
 			<navPoint class="book" id="jude" playOrder="1234">

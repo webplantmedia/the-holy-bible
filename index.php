@@ -14,7 +14,7 @@ if ( mysqli_connect_errno() ) {
 	echo 'Failed to connect to MySQL: ' . mysqli_connect_error();
 }
 
-$r = mysqli_query($con, "SELECT * FROM bible_books_en ORDER BY number ASC");
+$r = mysqli_query($con, "SELECT * FROM $bible_book ORDER BY number ASC");
 $book = array();
 while( $b = mysqli_fetch_array( $r, MYSQLI_ASSOC ) ) {
 	$b['filename'] = str_replace( " ", "-", strtolower( $b['fullname'] ) );

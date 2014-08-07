@@ -80,8 +80,8 @@ function build_html_body( $book, $header, $footer, $con ) {
 	foreach ( $book as $o ) {
 		$body = '';
 		$intro = '';
-		$prev = "&larr;";
-		$next = "&rarr;";
+		$prev = htmlentities("<<");
+		$next = htmlentities(">>");
 		$space = "&nbsp;&nbsp;&nbsp;&nbsp;";
 		$blank = "&nbsp;";
 
@@ -114,7 +114,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 			$prevch = $ch - 1;
 			$nextch = $ch + 1;
 
-			/* // Prev Chapter
+			// Prev Chapter
 			if ( $prevch > 0 )
 				$temp .= '<span class="left-pos"><a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$prevch.'">'.$prev.'</a>'.$space.'</span>';
 			else {
@@ -123,12 +123,12 @@ function build_html_body( $book, $header, $footer, $con ) {
 					$temp .= '<span class="left-pos"><a href="'.$o['prev_link'].'">'.$prev.'</a>'.$space.'</span>';
 				else
 					$temp .= '<span class="left-pos"><span class="no-link">'.$prev.'</span>'.$space.'</span>';
-			} */
+			}
 
 			// Current Book
 			$temp .= '<span class="tn-heading"><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a>' . $blank . $ch . '</span>'; 
 
-			/* // Next Chapter
+			// Next Chapter
 			if ( $nextch <= $o['chapters'] )
 				$temp .= '<span class="right-pos">'.$space.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$nextch.'">'.$next.'</a></span>';
 			else {
@@ -137,7 +137,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 					$temp .= '<span class="right-pos">'.$space.'<a href="'.$o['next_link'].'">'.$next.'</a></span>';
 				else
 					$temp .= '<span class="right-pos">'.$space.'<span class="no-link">'.$next.'</span></span>';
-			} */
+			}
 
 			$temp .= '</h4>'."\n";
 
@@ -166,25 +166,25 @@ function build_html_body( $book, $header, $footer, $con ) {
 		$intro .= '<p class="title-nav hide-this">';
 		// Prev Book
 		if ( isset( $o['prev_book'] ) )
-			$intro .= '<span class="left-book"><a href="'.$o['prev_book'].'">'. "&laquo;". ' ' . $o['prev_book_title'] . '</a></span><br />';
+			$intro .= '<span class="left-book"><a href="'.$o['prev_book'].'">'. $prev. ' ' . $o['prev_book_title'] . '</a></span><br />';
 		// Next Book
 		if ( isset( $o['next_book'] ) )
-			$intro .= '<span class="right-book"><a href="'.$o['next_book'].'">'.$o['next_book_title'] . ' ' . "&raquo;".'</a></span>';
+			$intro .= '<span class="right-book"><a href="'.$o['next_book'].'">'.$o['next_book_title'] . ' ' . $next.'</a></span>';
 		$intro .= '</p>';
 		$intro .= '<p class="title-nav">';
 
-		// if ( isset( $o['prev_chap'] ) )
-			// $intro .= '<span class="left-pos"><a href="'.$o['prev_chap'].'">'.$prev.'</a>'.$space.'</span>';
-		// else
-			// $intro .= '<span class="left-pos"><span class="no-link">'.$prev.'</span>'.$space.'</span>';
+		if ( isset( $o['prev_chap'] ) )
+			$intro .= '<span class="left-pos"><a href="'.$o['prev_chap'].'">'.$prev.'</a>'.$space.'</span>';
+		else
+			$intro .= '<span class="left-pos"><span class="no-link">'.$prev.'</span>'.$space.'</span>';
 
 		$intro .= '<span class="tn-heading"><a href="toc.html">Table of Contents</a></span>';
 		// $intro .= '<span class="tn-heading"><a href="toc.html#book-'.$o['anchor'].'">Table of Contents</a></span>';
 
-		// if ( isset( $o['next_chap'] ) )
-			// $intro .= '<span class="right-pos">'.$space.'<a href="'.$o['next_chap'].'">'.$next.'</a></span>';
-		// else
-			// $intro .= '<span class="right-pos">'.$space.'<span class="no-link">'.$next.'</span></span>';
+		if ( isset( $o['next_chap'] ) )
+			$intro .= '<span class="right-pos">'.$space.'<a href="'.$o['next_chap'].'">'.$next.'</a></span>';
+		else
+			$intro .= '<span class="right-pos">'.$space.'<span class="no-link">'.$next.'</span></span>';
 
 		$intro .= '</p>'."\n";
 		$intro .= '<h4 class="center">Chapters</h4>'."\n";

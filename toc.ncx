@@ -7565,17 +7565,5 @@
 				</navPoint>
 			</navPoint>
 		</navPoint>
-		<navPoint class="appendix" id="appendix" playOrder="1259">
-			<navLabel>
-				<text>Appendix</text>
-			</navLabel>
-			<content src="html/appendix.html"/>
-			<navPoint class="illustrations" id="illustrations" playOrder="1260">
-				<navLabel>
-					<text>Illustrations</text>
-				</navLabel>
-				<content src="html/illustrations.html"/>
-			</navPoint>
-		</navPoint>
 	</navMap>
 </ncx>

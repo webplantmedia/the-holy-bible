@@ -134,5 +134,3 @@
 <itemref idref="item134"/>
 <itemref idref="item135"/>
 <itemref idref="item136"/>
-<itemref idref="item137"/>
-<itemref idref="item138"/>

@@ -46,14 +46,19 @@ function build_html_toc( $book, $header, $footer ) {
 	$toc .= '<div id="toc">';
 	$toc .= '<h2>Table of Contents</h2>';
 
+	$toc .= '<ul>';
+	$toc .= '<li><a href="toc.html#the-old-testament">The Old Testament</a></li>';
+	$toc .= '<li><a href="toc.html#the-new-testament">The New Testament</a></li>';
+	$toc .= '</ul>';
+
 	foreach ( $book as $o ) {
 		if ( 1 == $o['number'] ) {
-			$toc .= '<h3>The Old Testament</h3>'."\n";
+			$toc .= '<h3 id="the-old-testament">The Old Testament</h3>'."\n";
 			$toc .= '<ul>';
 		}
 		if ( 40 == $o['number'] ) {
 			$toc .= '</ul>'."\n";
-			$toc .= '<h3>The New Testament</h3>'."\n";
+			$toc .= '<h3 id="the-new-testament">The New Testament</h3>'."\n";
 			$toc .= '<ul>';
 		}
 
@@ -61,8 +66,8 @@ function build_html_toc( $book, $header, $footer ) {
 	}
 
 	$toc .= '</ul>'."\n";
-	$toc .= '<h3>Appendix</h3>'."\n";
-	$toc .= '<ul><li><a id="toc-illustrations" href="illustrations.html">Illustrations</a></li></ul>'."\n";
+	// $toc .= '<h3>Appendix</h3>'."\n";
+	// $toc .= '<ul><li><a id="toc-illustrations" href="illustrations.html">Illustrations</a></li></ul>'."\n";
 
 	$toc .= '</div>';
 
@@ -173,7 +178,8 @@ function build_html_body( $book, $header, $footer, $con ) {
 		// else
 			// $intro .= '<span class="left-pos"><span class="no-link">'.$prev.'</span>'.$space.'</span>';
 
-		$intro .= '<span class="tn-heading"><a href="toc.html#book-'.$o['anchor'].'">Table of Contents</a></span>';
+		$intro .= '<span class="tn-heading"><a href="toc.html">Table of Contents</a></span>';
+		// $intro .= '<span class="tn-heading"><a href="toc.html#book-'.$o['anchor'].'">Table of Contents</a></span>';
 
 		// if ( isset( $o['next_chap'] ) )
 			// $intro .= '<span class="right-pos">'.$space.'<a href="'.$o['next_chap'].'">'.$next.'</a></span>';
@@ -227,12 +233,12 @@ function build_spine_manifest( $book ) {
 		$i++;
 	}
 
-	$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/appendix.html"></item>'."\n";
+	/* $manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/appendix.html"></item>'."\n";
 	$spine .= '<itemref idref="item'.$i.'"/>'."\n";
 	$i++;
 
 	$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/illustrations.html"></item>'."\n";
-	$spine .= '<itemref idref="item'.$i.'"/>'."\n";
+	$spine .= '<itemref idref="item'.$i.'"/>'."\n"; */
 
 	file_put_contents( "log/manifest.log.txt", $manifest );
 	file_put_contents( "log/spine.log.txt", $spine );
@@ -317,7 +323,7 @@ ob_start(); ?>
 <?php $ncx .= ob_get_contents();
 
 	}
-
+/*
 ob_start(); ?>
 		<navPoint class="appendix" id="appendix" playOrder="<?php echo $order++; ?>">
 			<navLabel>
@@ -332,6 +338,7 @@ ob_start(); ?>
 			</navPoint>
 		</navPoint>
 <?php $ncx .= ob_get_contents();
+ */
 
 	file_put_contents( "log/ncx.log.txt", $ncx );
 }
@@ -396,6 +403,7 @@ ob_start(); ?>
 
 ob_start(); ?>
 		</navPoint>
+<?php /*
 		<navPoint class="appendix" id="appendix" playOrder="<?php echo $order++; ?>">
 			<navLabel>
 				<text>Appendix</text>
@@ -408,6 +416,7 @@ ob_start(); ?>
 				<content src="html/illustrations.html"/>
 			</navPoint>
 		</navPoint>
+ */ ?>
 <?php $ncx .= ob_get_contents();
 
 	file_put_contents( "log/ncx.log.txt", $ncx );

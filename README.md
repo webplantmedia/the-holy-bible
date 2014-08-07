@@ -10,6 +10,7 @@ Authorized King James Bible
 I was not happy with any of the eBook Bibles currently available on Amazon. So I decided to use my God given programming talents to build the best eBook Bible for my Kindle Paperwhite. Here are the important features of this eBook Bible.
 
 * Authorized King James Version 
+* Pure Cambridge Edition: [http://www.bibleprotector.com/](http://www.bibleprotector.com/)
 * Designed and tested to work best on a Kindle Paperwhite. 
 * Kindle's "Go to Table of Contents" feature includes all books of the Bible in an expandable submenu. 
 * Easily select a specific chapter of any given Book. 
@@ -27,6 +28,3 @@ I hope this eBook Bible will be useful for you and that you are continually enco
 "Thy word have I hid in mine heart, that I might not sin against thee." - Psalm 119:11 
 
 "Thy word is a lamp unto my feet, and a light unto my path." - Psalm 119:105
-
-<!-- If you are on a tight budget, and can't afford $1 for this eBook, then please download a free copy by visiting the link below. -->
-<!-- https://github.com/webplantmedia/the-holy-bible/raw/master/TheHolyBible.mobi -->

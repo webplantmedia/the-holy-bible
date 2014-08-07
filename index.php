@@ -46,6 +46,6 @@ build_spine_manifest( $book );
 build_html_intro( $book, $header, $footer );
 build_html_toc( $book, $header, $footer );
 build_html_body( $book, $header, $footer, $con );
-build_html_appendix( $book, $header, $footer, $con );
+// build_html_appendix( $book, $header, $footer, $con );
 
 mysqli_close($con);

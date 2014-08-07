@@ -134,5 +134,3 @@
 <item id="item134" media-type="application/xhtml+xml" href="html/jude.html"></item>
 <item id="item135" media-type="application/xhtml+xml" href="html/revelation-intro.html"></item>
 <item id="item136" media-type="application/xhtml+xml" href="html/revelation.html"></item>
-<item id="item137" media-type="application/xhtml+xml" href="html/appendix.html"></item>
-<item id="item138" media-type="application/xhtml+xml" href="html/illustrations.html"></item>

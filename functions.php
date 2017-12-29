@@ -29,6 +29,7 @@ function get_translation( $key ) {
 			$translation['path'] = 'translations/tamil/';
 			$translation['text_column'] = 'tamil';
 			$translation['column_prefix'] = 'tamil_';
+			$translation['stylesheet'] = '../../../style.css';
 			break;
 		default :
 			$translation['title'] = 'The Holy Bible';
@@ -41,6 +42,7 @@ function get_translation( $key ) {
 			$translation['path'] = '';
 			$translation['text_column'] = 'text';
 			$translation['column_prefix'] = '';
+			$translation['stylesheet'] = '../style.css';
 	}
 
 	return $translation;
@@ -53,8 +55,9 @@ function get_html_header() {
 	<?php ob_start(); ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
+			<meta charset="UTF-8">
 			<title><?php echo $translation['title']; ?></title>
-			<link rel="stylesheet" type="text/css" href="../style.css" />
+			<link rel="stylesheet" type="text/css" href="<?php echo $translation['stylesheet']; ?>" />
 		</head>
 		<body>
 	<?php $header = ob_get_contents(); ?>

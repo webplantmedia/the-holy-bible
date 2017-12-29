@@ -224,4 +224,4 @@ function import_toc() {
 	}
 }
 
-// import_toc();
+import_toc();

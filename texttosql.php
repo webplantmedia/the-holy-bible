@@ -1,7 +1,4 @@
 <?php
-// Beging parse code
-$delimiter = "\t";
-
 function get_toc() {
 	// for tamil bible
 	return array(
@@ -190,6 +187,9 @@ function parse( $data ) {
 }
 
 function import_text() {
+	// Beging parse code
+	$delimiter = "\t";
+
 	$fp = fopen('translations/tamil/tamil-romanised-bible.txt', 'r');
 
 	while ( !feof($fp) ) {
@@ -202,6 +202,8 @@ function import_text() {
 
 	fclose($fp);
 }
+
+// import_text();
 
 function import_toc() {
 	global $con;
@@ -221,3 +223,5 @@ function import_toc() {
 		}
 	}
 }
+
+// import_toc();

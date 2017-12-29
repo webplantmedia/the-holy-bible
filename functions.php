@@ -70,7 +70,7 @@ function build_html_intro( $book, $header, $footer ) {
 	$intro .= '<h1>'.$translation['title'].'</h1>';
 	$intro .= '<br />';
 	$intro .= '<br />';
-	$intro .= '<h3 class="center">'.$translation['title'].'</h3>';
+	$intro .= '<h3 class="center">'.$translation['description'].'</h3>';
 	
 	file_put_contents( "html/intro.html", $header . $intro . $footer );
 }
@@ -381,6 +381,7 @@ ob_start(); ?>
 	file_put_contents( "log/ncx.log.txt", $ncx );
 }
 function build_ncx2( $book ) {
+	global $translation;
 	$order = 2; //toc is first
 	$ncx = '';
 

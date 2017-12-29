@@ -47,8 +47,7 @@ foreach ( $book as $key => $value ) {
 }
 
 if ( isset( $_GET['import'] ) ) {
-	// pr($book);
-	require_once 'texttosql.php';
+	// require_once 'texttosql.php';
 }
 else {
 	$header = get_html_header();

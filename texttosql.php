@@ -2,8 +2,80 @@
 // Beging parse code
 $delimiter = "\t";
 
+function get_toc() {
+	// for tamil bible
+	return array(
+		'1' => array( 'name' => "aathiyaagamam", 'id' => 'gen' ),
+		'2' => array( 'name' => "yaaththiraagamam", 'id' => 'exod' ),
+		'3' => array( 'name' => "leaviyaraagamam", 'id' => 'lev' ),
+		'4' => array( 'name' => "e'n'naagamam", 'id' => 'num' ),
+		'5' => array( 'name' => "ubaagamam", 'id' => 'deut' ),
+		'6' => array( 'name' => "yoasuvaa", 'id' => 'josh' ),
+		'7' => array( 'name' => "niyaayaathibathiga'l", 'id' => 'judg' ),
+		'8' => array( 'name' => "rooth", 'id' => 'ruth' ),
+		'9' => array( 'name' => "1 saamuveal", 'id' => '1sam' ),
+		'10' => array( 'name' => "2 saamuveal", 'id' => '2sam' ),
+		'11' => array( 'name' => "1 iraajaakka'l", 'id' => '1kings' ),
+		'12' => array( 'name' => "2 iraajaakka'l", 'id' => '2kings' ),
+		'13' => array( 'name' => "1 naa'laagamam", 'id' => '1chr' ),
+		'14' => array( 'name' => "2 naa'laagamam", 'id' => '2chr' ),
+		'15' => array( 'name' => "es'raa", 'id' => 'ezra' ),
+		'16' => array( 'name' => "negeamiyaa", 'id' => 'neh' ),
+		'17' => array( 'name' => "esthar", 'id' => 'esth' ),
+		'18' => array( 'name' => "yoabu", 'id' => 'job' ),
+		'19' => array( 'name' => "sanggeetham", 'id' => 'ps' ),
+		'20' => array( 'name' => "neethimozhiga'l", 'id' => 'prov' ),
+		'21' => array( 'name' => "pirasanggi", 'id' => 'eccl' ),
+		'22' => array( 'name' => "unnathappaattu", 'id' => 'song' ),
+		'23' => array( 'name' => "easaayaa", 'id' => 'isa' ),
+		'24' => array( 'name' => "ereamiyaa", 'id' => 'jer' ),
+		'25' => array( 'name' => "pulambal", 'id' => 'lam' ),
+		'26' => array( 'name' => "eseakkiyeal", 'id' => 'ezek' ),
+		'27' => array( 'name' => "thaaniyeal", 'id' => 'dan' ),
+		'28' => array( 'name' => "oasiyaa", 'id' => 'hos' ),
+		'29' => array( 'name' => "yoaveal", 'id' => 'joel' ),
+		'30' => array( 'name' => "aamoas", 'id' => 'amos' ),
+		'31' => array( 'name' => "obathiyaa", 'id' => 'obad' ),
+		'32' => array( 'name' => "yoanaa", 'id' => 'jonah' ),
+		'33' => array( 'name' => "meegaa", 'id' => 'mic' ),
+		'34' => array( 'name' => "naagoom", 'id' => 'nah' ),
+		'35' => array( 'name' => "aabakook", 'id' => 'hab' ),
+		'36' => array( 'name' => "seppaniyaa", 'id' => 'zeph' ),
+		'37' => array( 'name' => "aagaay", 'id' => 'hag' ),
+		'38' => array( 'name' => "sagariyaa", 'id' => 'zech' ),
+		'39' => array( 'name' => "malkiyaa", 'id' => 'mal' ),
+		'40' => array( 'name' => "maththeayu", 'id' => 'matt' ),
+		'41' => array( 'name' => "maarku", 'id' => 'mark' ),
+		'42' => array( 'name' => "lookkaa", 'id' => 'luke' ),
+		'43' => array( 'name' => "yoavaan", 'id' => 'john' ),
+		'44' => array( 'name' => "appoasthalarudaiya nadapadiga'l", 'id' => 'acts' ),
+		'45' => array( 'name' => "roamar", 'id' => 'rom' ),
+		'46' => array( 'name' => "1 korinthiyar", 'id' => '1cor' ),
+		'47' => array( 'name' => "2 korinthiyar", 'id' => '2cor' ),
+		'48' => array( 'name' => "kalaaththiyar", 'id' => 'gal' ),
+		'49' => array( 'name' => "ebeasiyar", 'id' => 'eph' ),
+		'50' => array( 'name' => "pilippiyar", 'id' => 'phil' ),
+		'51' => array( 'name' => "koloaseyar", 'id' => 'col' ),
+		'52' => array( 'name' => "1 thesaloanikkeayar", 'id' => '1thess' ),
+		'53' => array( 'name' => "2 thesaloanikkeayar", 'id' => '2thess' ),
+		'54' => array( 'name' => "1 theemoaththeayu", 'id' => '1tim' ),
+		'55' => array( 'name' => "2 theemoaththeayu", 'id' => '2tim' ),
+		'56' => array( 'name' => "theeththu", 'id' => 'titus' ),
+		'57' => array( 'name' => "pileamoan", 'id' => 'phlm' ),
+		'58' => array( 'name' => "ebireyar", 'id' => 'heb' ),
+		'59' => array( 'name' => "yaakkoabu", 'id' => 'jas' ),
+		'60' => array( 'name' => "1 peathuru", 'id' => '1pet' ),
+		'61' => array( 'name' => "2 peathuru", 'id' => '2pet' ),
+		'62' => array( 'name' => "1 yoavaan", 'id' => '1john' ),
+		'63' => array( 'name' => "2 yoavaan", 'id' => '2john' ),
+		'64' => array( 'name' => "3 yoavaan", 'id' => '3john' ),
+		'65' => array( 'name' => "yoothaa", 'id' => 'jude' ),
+		'66' => array( 'name' => "ve'lippaduththina viseasham", 'id' => 'rev' ),
+	);
+}
+
 function parsetoc( $key ) {
-	// for talim bible
+	// for tamil bible
 	$table = array(
 		'gen' => array( 'name' => "aathiyaagamam", 'id' => 1 ),
 		'exod' => array( 'name' => "yaaththiraagamam", 'id' => 2 ),
@@ -117,14 +189,35 @@ function parse( $data ) {
 
 }
 
-$fp = fopen('translations/tamil/tamil-romanised-bible.txt', 'r');
+function import_text() {
+	$fp = fopen('translations/tamil/tamil-romanised-bible.txt', 'r');
 
-while ( !feof($fp) ) {
-    $line = fgets($fp, 2048);
+	while ( !feof($fp) ) {
+		$line = fgets($fp, 2048);
 
-    $data = str_getcsv($line, $delimiter);
+		$data = str_getcsv($line, $delimiter);
 
-    parse($data);
-}                              
+		parse($data);
+	}                              
 
-fclose($fp);
+	fclose($fp);
+}
+
+function import_toc() {
+	global $con;
+	global $book;
+	global $bible_book;
+
+	$toc = get_toc();
+	foreach ( $toc as $key => $b ) {
+		$short = $book[ $key ]['short'];
+		$fullname = mysqli_real_escape_string($con, $b['name']);
+		$title = $fullname;
+		$sql = 'UPDATE '.$bible_book.' SET tamil_short="'.$short.'", tamil_fullname="'.$fullname.'", tamil_title="'.$title.'" WHERE number="'.$key.'"';
+		if ($con->query($sql) === TRUE) {
+			echo $sql;
+		} else {
+			echo "Error updating record: " . $conn->error;
+		}
+	}
+}

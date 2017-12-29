@@ -10,7 +10,7 @@
 // $bible_images = 'bible_images';
 
 // Authorized King James Version + Translations
-$bible_book = 'cpe_book';
+$bible_book = 'cpe_books';
 $bible_text = 'cpe_bibles';
 $bible_images = 'bible_images';
 
@@ -26,6 +26,9 @@ function get_translation( $key ) {
 			$translation['old_testament'] = 'The Old Testament';
 			$translation['navigation'] = 'Navigation';
 			$translation['chapters'] = 'Chapters';
+			$translation['path'] = 'translations/tamil/';
+			$translation['text_column'] = 'tamil';
+			$translation['column_prefix'] = 'tamil_';
 			break;
 		default :
 			$translation['title'] = 'The Holy Bible';
@@ -35,6 +38,9 @@ function get_translation( $key ) {
 			$translation['old_testament'] = 'The Old Testament';
 			$translation['navigation'] = 'Navigation';
 			$translation['chapters'] = 'Chapters';
+			$translation['path'] = '';
+			$translation['text_column'] = 'text';
+			$translation['column_prefix'] = '';
 	}
 
 	return $translation;
@@ -72,7 +78,7 @@ function build_html_intro( $book, $header, $footer ) {
 	$intro .= '<br />';
 	$intro .= '<h3 class="center">'.$translation['description'].'</h3>';
 	
-	file_put_contents( "html/intro.html", $header . $intro . $footer );
+	file_put_contents( $translation['path'] . "html/intro.html", $header . $intro . $footer );
 }
 
 function build_html_toc( $book, $header, $footer ) {
@@ -99,7 +105,7 @@ function build_html_toc( $book, $header, $footer ) {
 			$toc .= '<ul>';
 		}
 
-		$toc .= '<li><span class="book-link"><a id="book-'.$o['anchor'].'" href="'.$o['filename'].'-intro.html">'.$o['fullname'].'</a></span><span class="toc-shortname">&nbsp;&nbsp;'.str_replace( ' ', '', $o['short'] ).'</span></li>';
+		$toc .= '<li><span class="book-link"><a id="book-'.$o['anchor'].'" href="'.$o['filename'].'-intro.html">'.$o[ $translation['column_prefix'] . 'fullname'].'</a></span><span class="toc-shortname">&nbsp;&nbsp;'.str_replace( ' ', '', $o[ $translation['column_prefix'] . 'short'] ).'</span></li>';
 	}
 
 	$toc .= '</ul>'."\n";
@@ -108,7 +114,7 @@ function build_html_toc( $book, $header, $footer ) {
 
 	$toc .= '</div>';
 
-	file_put_contents( "html/toc.html", $header . $toc . $footer );
+	file_put_contents( $translation['path'] . "html/toc.html", $header . $toc . $footer );
 }
 
 function build_html_body( $book, $header, $footer, $con ) {
@@ -125,15 +131,15 @@ function build_html_body( $book, $header, $footer, $con ) {
 
 		if ( 1 == $o['number'] ) {
 			$temp = '<br /><br /><h2>'.$translation['old_testament'].'</h2>'."\n";
-			file_put_contents( "html/old-testament.html", $header . $temp . $footer );
+			file_put_contents( $translation['path'] . "html/old-testament.html", $header . $temp . $footer );
 		}
 		if ( 40 == $o['number'] ) {
 			$temp = '<br /><br /><h2>'.$translation['new_testament'].'</h2>'."\n";
-			file_put_contents( "html/new-testament.html", $header . $temp . $footer );
+			file_put_contents( $translation['path'] . "html/new-testament.html", $header . $temp . $footer );
 		}
 
 		$intro .= '<div>';
-		$intro .= '<h3 id="'.$o['anchor'].'">' . $o['title'] . '</h3>'."\n";
+		$intro .= '<h3 id="'.$o['anchor'].'">' . $o[ $translation['column_prefix'] . 'title'] . '</h3>'."\n";
 
 		$ch_nav = '';
 		$temp = '';
@@ -164,7 +170,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 			}
 
 			// Current Book
-			$temp .= '<span class="tn-heading"><a href="'.$o['filename'].'-intro.html">' . $o['fullname'] . '</a>' . $blank . $ch . '</span>'; 
+			$temp .= '<span class="tn-heading"><a href="'.$o['filename'].'-intro.html">' . $o[ $translation['column_prefix'] . 'fullname'] . '</a>' . $blank . $ch . '</span>'; 
 
 			// Next Chapter
 			if ( $nextch <= $o['chapters'] )
@@ -187,14 +193,14 @@ function build_html_body( $book, $header, $footer, $con ) {
 
 
 			while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {
-				$temp .= get_subheading( $oo['text'] );
+				$temp .= get_subheading( $oo[ $translation['text_column'] ] );
 				$temp .= '<p id="'.$o['anchor'].'-ch'.$ch.'-v'.$oo['verse'].'" class="verse">';
 					$temp .= '<a class="verse-anchor" href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">';
-							$temp .= '<strong><span class="hide-this">'.str_replace( ' ', '', $o['short'] ) . $oo['chapter'] . '.</span>'.$oo['verse'].'</strong>';
+							$temp .= '<strong><span class="hide-this">'.str_replace( ' ', '', $o[ $translation['column_prefix'] . 'short'] ) . $oo['chapter'] . '.</span>'.$oo['verse'].'</strong>';
 					$temp .= '</a>';
-					$temp .= ' ' . format( $oo['text'] );
+					$temp .= ' ' . format( $oo[ $translation['text_column'] ] );
 				$temp .= '</p>'."\n";
-				$temp .= get_footer( $oo['text'] );
+				$temp .= get_footer( $oo[ $translation['text_column'] ] );
 			}
 
 			$temp .= '</div>';
@@ -230,15 +236,16 @@ function build_html_body( $book, $header, $footer, $con ) {
 		$intro .= $ch_nav;
 
 		$intro .= '</div>';
-		file_put_contents( "html/".$o['filename']."-intro.html", $header . $intro . $footer );
+		file_put_contents( $translation['path'] . "html/".$o['filename']."-intro.html", $header . $intro . $footer );
 
 		$body .= $temp;
 
-		file_put_contents( "html/".$o['filename'].".html", $header . $body . $footer );
+		file_put_contents( $translation['path'] . "html/".$o['filename'].".html", $header . $body . $footer );
 	}
 }
 
 function build_spine_manifest( $book ) {
+	global $translation;
 	$spine = '';
 	$manifest = '';
 	$i = 1;
@@ -278,15 +285,16 @@ function build_spine_manifest( $book ) {
 	$manifest .= '<item id="item'.$i.'" media-type="application/xhtml+xml" href="html/illustrations.html"></item>'."\n";
 	$spine .= '<itemref idref="item'.$i.'"/>'."\n"; */
 
-	file_put_contents( "log/manifest.log.txt", $manifest );
-	file_put_contents( "log/spine.log.txt", $spine );
+	file_put_contents( $translation['path'] . "log/manifest.log.txt", $manifest );
+	file_put_contents( $translation['path'] . "log/spine.log.txt", $spine );
 }
 
 function build_html_appendix( $book, $header, $footer, $con ) {
 	global $bible_images;
+	global $translation;
 
 	$appendix = '<br /><br /><h2>Appendix</h2>';
-	file_put_contents( "html/appendix.html", $header . $appendix . $footer );
+	file_put_contents( $translation['path'] . "html/appendix.html", $header . $appendix . $footer );
 
 	$pics  = '<br /><br /><h3>Illustrations by Gustave Dore</h3>';
 	$pics .= '<p class="center"><a href="toc.html"><small>(Back to Table of Contents)</small></a></p>';
@@ -298,10 +306,11 @@ function build_html_appendix( $book, $header, $footer, $con ) {
 		$pics .= '<mbp:pagebreak />';
 	}
 
-	file_put_contents( "html/illustrations.html", $header . $pics . $footer );
+	file_put_contents( $translation['path'] . "html/illustrations.html", $header . $pics . $footer );
 }
 
 function build_ncx( $book ) {
+	global $translation;
 	$order = 2; //toc is first
 	$ncx = '';
 
@@ -333,7 +342,7 @@ ob_start(); ?>
 ob_start(); ?>
 		<navPoint class="book" id="<?php echo $o['anchor'].'-ch1'; ?>" playOrder="<?php echo $order; ?>">
 			<navLabel>
-				<text><?php echo $o['fullname']; ?></text>
+				<text><?php echo $o[ $translation['column_prefix'] . 'fullname']; ?></text>
 			</navLabel>
 			<content src="html/<?php echo $o['filename'].'-intro.html'; ?>"/>
 <?php $ncx .= ob_get_contents();
@@ -347,7 +356,7 @@ $order++;
 ob_start(); ?>
 			<navPoint class="chapter" id="<?php echo $o['anchor'].'-ch'.$ch; ?>" playOrder="<?php echo $order; ?>">
 				<navLabel>
-					<text><?php echo $o['fullname'].' '.$ch; ?></text>
+					<text><?php echo $o[ $translation['column_prefix'] . 'fullname'].' '.$ch; ?></text>
 				</navLabel>
 				<content src="<?php echo $content_link; ?>"/>
 			</navPoint>
@@ -378,7 +387,7 @@ ob_start(); ?>
 <?php $ncx .= ob_get_contents();
  */
 
-	file_put_contents( "log/ncx.log.txt", $ncx );
+	file_put_contents( $translation['path'] . "log/ncx.log.txt", $ncx );
 }
 function build_ncx2( $book ) {
 	global $translation;
@@ -411,7 +420,7 @@ ob_start(); ?>
 ob_start(); ?>
 			<navPoint class="book" id="<?php echo $o['anchor']; ?>" playOrder="<?php echo $order; ?>">
 				<navLabel>
-					<text><?php echo $o['fullname']; ?></text>
+					<text><?php echo $o[ $translation['column_prefix'] . 'fullname']; ?></text>
 				</navLabel>
 				<content src="html/<?php echo $o['filename'].'-intro.html'; ?>"/>
 <?php $ncx .= ob_get_contents();
@@ -425,7 +434,7 @@ $order++;
 ob_start(); ?>
 				<navPoint class="chapter" id="<?php echo $o['anchor'].'-ch'.$ch; ?>" playOrder="<?php echo $order; ?>">
 					<navLabel>
-						<text><?php echo $o['fullname'].' '.$ch; ?></text>
+						<text><?php echo $o[ $translation['column_prefix'] . 'fullname'].' '.$ch; ?></text>
 					</navLabel>
 					<content src="<?php echo $content_link; ?>"/>
 				</navPoint>
@@ -458,7 +467,7 @@ ob_start(); ?>
  */ ?>
 <?php $ncx .= ob_get_contents();
 
-	file_put_contents( "log/ncx.log.txt", $ncx );
+	file_put_contents( $translation['path'] . "log/ncx.log.txt", $ncx );
 }
 
 function format( $text ) {

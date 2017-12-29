@@ -47,7 +47,7 @@ foreach ( $book as $key => $value ) {
 }
 
 if ( isset( $_GET['import'] ) ) {
-	require_once 'import.php';
+	// require_once 'import.php';
 }
 else {
 	$header = get_html_header();

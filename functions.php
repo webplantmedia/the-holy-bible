@@ -5,16 +5,37 @@
 // $bible_images = 'bible_images';
 
 // Authorized King James Version
+// $bible_book = 'cpe_book';
+// $bible_text = 'cpe_bible';
+// $bible_images = 'bible_images';
+
+// Authorized King James Version + Translations
 $bible_book = 'cpe_book';
-$bible_text = 'cpe_bible';
+$bible_text = 'cpe_bibles';
 $bible_images = 'bible_images';
 
+function get_translation( $key ) {
+	$translation = array();
+
+	switch ( $key ) {
+		case 'tamil' :
+			$translation['title'] = 'The Holy Bible';
+			break;
+		default :
+			$translation['title'] = 'The Holy Bible';
+	}
+
+	return $translation;
+
+}
 function get_html_header() {
+	global $translation;
+
 	?>
 	<?php ob_start(); ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
-			<title>The Holy Bible</title>
+			<title><?php echo $translation['title']; ?></title>
 			<link rel="stylesheet" type="text/css" href="../style.css" />
 		</head>
 		<body>

@@ -6,6 +6,13 @@ require_once 'debug.php';
 // Helper functions
 require_once 'functions.php';
 
+if ( isset( $_GET['translation'] ) && ! empty( $_GET['translation'] ) ) {
+	$translation = get_translation( strtolower( $_GET['translation'] ) );
+}
+else {
+	$translation = get_translation( 'kjv' );
+}
+
 // Create connection
 $con = mysqli_connect( "localhost", "root", "jesuschrist", "TEST_bible" );
 
@@ -39,13 +46,19 @@ foreach ( $book as $key => $value ) {
 	$book[ $key ]['next_chap'] = $book[ $key ]['filename'] . '.html#' . $book[ $key ]['anchor'] . '-ch1';
 }
 
-$header = get_html_header();
-$footer = get_html_footer();
-build_ncx2( $book );
-build_spine_manifest( $book );
-build_html_intro( $book, $header, $footer );
-build_html_toc( $book, $header, $footer );
-build_html_body( $book, $header, $footer, $con );
-// build_html_appendix( $book, $header, $footer, $con );
+if ( isset( $_GET['import'] ) ) {
+	// pr($book);
+	require_once 'texttosql.php';
+}
+else {
+	$header = get_html_header();
+	$footer = get_html_footer();
+	build_ncx2( $book );
+	build_spine_manifest( $book );
+	build_html_intro( $book, $header, $footer );
+	build_html_toc( $book, $header, $footer );
+	build_html_body( $book, $header, $footer, $con );
+	// build_html_appendix( $book, $header, $footer, $con );
+}
 
 mysqli_close($con);

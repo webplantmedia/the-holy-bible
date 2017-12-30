@@ -21,7 +21,7 @@ function get_translation( $key ) {
 		case 'tamil' :
 			$translation['title'] = 'The Holy Bible';
 			$translation['table_of_contents'] = 'Table of Contents';
-			$translation['description'] = 'Tamil Romanised Bible';
+			$translation['description'] = 'Tamil Romanised Version';
 			$translation['new_testament'] = "puthiya ea'rpaadu";
 			$translation['old_testament'] = "pazhaiya ea'rpaadu";
 			$translation['navigation'] = 'Navigation';

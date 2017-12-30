@@ -21,7 +21,7 @@ function get_translation( $key ) {
 		case 'tamil' :
 			$translation['title'] = 'The Holy Bible';
 			$translation['table_of_contents'] = 'Table of Contents';
-			$translation['description'] = 'Tamil Romanised Bible';
+			$translation['description'] = 'Tamil Romanised Version';
 			$translation['new_testament'] = "puthiya ea'rpaadu";
 			$translation['old_testament'] = "pazhaiya ea'rpaadu";
 			$translation['navigation'] = 'Navigation';
@@ -55,7 +55,7 @@ function get_html_header() {
 	<?php ob_start(); ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
-			<meta charset="UTF-8">
+			<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 			<title><?php echo $translation['title']; ?></title>
 			<link rel="stylesheet" type="text/css" href="<?php echo $translation['stylesheet']; ?>" />
 		</head>

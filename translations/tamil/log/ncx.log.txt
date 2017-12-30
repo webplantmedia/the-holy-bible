@@ -1,6 +1,6 @@
 		<navPoint class="testament" id="old-testament" playOrder="2">
 			<navLabel>
-				<text>The Old Testament</text>
+				<text>pazhaiya ea'rpaadu</text>
 			</navLabel>
 			<content src="html/old-testament.html"/>
 			<navPoint class="book" id="ge" playOrder="3">
@@ -5814,7 +5814,7 @@
 		</navPoint>
 		<navPoint class="testament" id="new-testament" playOrder="971">
 			<navLabel>
-				<text>The New Testament</text>
+				<text>puthiya ea'rpaadu</text>
 			</navLabel>
 			<content src="html/new-testament.html"/>
 			<navPoint class="book" id="mt" playOrder="972">

@@ -22,8 +22,8 @@ function get_translation( $key ) {
 			$translation['title'] = 'The Holy Bible';
 			$translation['table_of_contents'] = 'Table of Contents';
 			$translation['description'] = 'Tamil Romanised Bible';
-			$translation['new_testament'] = 'The New Testament';
-			$translation['old_testament'] = 'The Old Testament';
+			$translation['new_testament'] = "puthiya ea'rpaadu";
+			$translation['old_testament'] = "pazhaiya ea'rpaadu";
 			$translation['navigation'] = 'Navigation';
 			$translation['chapters'] = 'Chapters';
 			$translation['path'] = 'translations/tamil/';

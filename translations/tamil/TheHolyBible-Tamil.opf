@@ -63,10 +63,10 @@
   <!-- Date: Date of publication in YYYY-MM-DD format. (Days and month can be omitted).
        Standard to follow: http://www.w3.org/TR/NOTE-datetime
   -->
-	<dc:date>2014-02-19</dc:date>
+	<dc:date>2018-01-04</dc:date>
 
   <!-- Description: A short description of the publication's content. -->
-  <dc:description>Tamil Romanised Bible with Easy Navigation and Verse Search</dc:description>
+  <dc:description>The Holy Bible in Romanised Tamil with Easy Navigation and Verse Search</dc:description>
 	
 </metadata>
 

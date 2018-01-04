@@ -18,7 +18,7 @@
   
   <!-- Title [mandatory]: The title of the publication. This is the title that will appear on the "Home" screen. -->
   
-	<dc:title>The Holy Bible</dc:title>
+	<dc:title>Tamil Romanised Bible</dc:title>
   
   <!-- Language [mandatory]: the language of the publication. The language codes used are the same as in XML
   and HTML. The full list can be found here: http://www.w3.org/International/articles/language-tags/
@@ -66,7 +66,7 @@
 	<dc:date>2014-02-19</dc:date>
 
   <!-- Description: A short description of the publication's content. -->
-  <dc:description>Tamil Romanised Version</dc:description>
+  <dc:description>Tamil Romanised Bible with Easy Navigation and Verse Search</dc:description>
 	
 </metadata>
 

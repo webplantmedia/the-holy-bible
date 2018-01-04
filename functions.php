@@ -19,9 +19,9 @@ function get_translation( $key ) {
 
 	switch ( $key ) {
 		case 'tamil' :
-			$translation['title'] = 'The Holy Bible';
+			$translation['title'] = 'Tamil Romanised Bible';
 			$translation['table_of_contents'] = 'Table of Contents';
-			$translation['description'] = 'Tamil Romanised Version';
+			$translation['description'] = 'The Holy Bible in Romanised Tamil with Easy Navigation and Verse Search';
 			$translation['new_testament'] = "puthiya ea'rpaadu";
 			$translation['old_testament'] = "pazhaiya ea'rpaadu";
 			$translation['navigation'] = 'Navigation';
@@ -30,6 +30,7 @@ function get_translation( $key ) {
 			$translation['text_column'] = 'tamil';
 			$translation['column_prefix'] = 'tamil_';
 			$translation['stylesheet'] = '../../../style.css';
+			$translation['intro_content'] = '<p class="center">Translated by Mariappan Eddiah. Last Updated December 31, 2017. Copying or re-posting the Scripture is welcomed and encouraged. No copyright.</p><br /><p class="center"><strong>Published by Web Plant Media</strong></p><p class="center"><strong>ebookbible.org</strong></p>';
 			break;
 		default :
 			$translation['title'] = 'The Holy Bible';
@@ -43,6 +44,7 @@ function get_translation( $key ) {
 			$translation['text_column'] = 'text';
 			$translation['column_prefix'] = '';
 			$translation['stylesheet'] = '../style.css';
+			$translation['intro_content'] = '<br /><p class="center"><strong>Published by Web Plant Media</strong></p><p class="center"><strong>ebookbible.org</strong></p>';
 	}
 
 	return $translation;
@@ -56,6 +58,7 @@ function get_html_header() {
 	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
 			<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title><?php echo $translation['title']; ?></title>
 			<link rel="stylesheet" type="text/css" href="<?php echo $translation['stylesheet']; ?>" />
 		</head>
@@ -77,9 +80,8 @@ function build_html_intro( $book, $header, $footer ) {
 	$intro  = '<br />';
 	$intro .= '<br />';
 	$intro .= '<h1>'.$translation['title'].'</h1>';
-	$intro .= '<br />';
-	$intro .= '<br />';
 	$intro .= '<h3 class="center">'.$translation['description'].'</h3>';
+	$intro .= $translation['intro_content'];
 	
 	file_put_contents( $translation['path'] . "html/intro.html", $header . $intro . $footer );
 }

@@ -477,6 +477,7 @@ ob_start(); ?>
 
 function format( $text ) {
 	$text = preg_replace( "#<<(.+?)>>#", "", $text );
+	$text = preg_replace( "/\s\([a-z\s0-9]+:[0-9]+\)$/", "", $text );
 	$text = str_replace( "[", "<i>", $text );
 	$text = str_replace( "]", "</i>", $text );
 

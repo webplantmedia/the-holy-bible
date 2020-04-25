@@ -29,19 +29,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 #toc .t .t-row {
 	width: 100%;
-	padding: 5px 0;
+	padding: 7px 0 5px 0;
 	border-bottom: 1px dashed #000;
 	display: block;
+	margin: 0;
 }
 #toc .t .book-link {
-	width: 50%;
 	text-align: left;
-	display: inline-block;
 }
 #toc .t .toc-shortname {
 	text-align: right;
-	width: 50%;
-	display: inline-block;
+	float: right;
 }
 .hide-this {
 	display: none;

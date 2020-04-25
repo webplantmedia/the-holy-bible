@@ -95,7 +95,7 @@ function build_html_toc( $book, $header, $footer ) {
 	$toc .= '<h2>'.$translation['table_of_contents'].'</h2>';
 
 	$toc .= '<div class="t">';
-	$toc .= '<p class="t-row"><a href="toc.html#the-old-testament">'.$translation['old_testament'].'</a></p>';
+	$toc .= '<p class="t-row t-1"><a href="toc.html#the-old-testament">'.$translation['old_testament'].'</a></p>';
 	$toc .= '<p class="t-row"><a href="toc.html#the-new-testament">'.$translation['new_testament'].'</a></p>';
 	$toc .= '</div>';
 
@@ -110,7 +110,7 @@ function build_html_toc( $book, $header, $footer ) {
 			$toc .= '<div class="t">';
 		}
 
-		$toc .= '<p class="t-row"><span class="book-link"><a id="book-'.$o['anchor'].'" href="'.$o['filename'].'-intro.html">'.$o[ $translation['column_prefix'] . 'fullname'].'</a></span><span class="toc-shortname">'.str_replace( ' ', '', $o[ $translation['column_prefix'] . 'short'] ).'</span></p>';
+		$toc .= '<p class="t-row t-'.$o['number'].'"><span class="book-link"><a id="book-'.$o['anchor'].'" href="'.$o['filename'].'-intro.html">'.$o[ $translation['column_prefix'] . 'fullname'].'</a></span><span class="toc-shortname">'.str_replace( ' ', '', $o[ $translation['column_prefix'] . 'short'] ).'</span></p>';
 	}
 
 	$toc .= '</div>'."\n";

@@ -8,39 +8,34 @@
 .verse-nav,
 .ch-nav {
 	padding: 0;
-	list-style-type: none;
 	text-align: center;
+	line-height: 2;
 }
-.verse-nav li,
-.ch-nav li {
-	display: inline;
-	margin-bottom: 10px;
+.verse-nav span,
+.ch-nav span {
 }
-.verse-nav li a,
-.ch-nav li a {
+.verse-nav span a,
+.ch-nav span a {
 	padding: 5px;
 }
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
-#toc ul {
-	list-style-type: none;
+#toc table {
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
-#toc ul li {
-	margin: 5px 0;
+#toc table td {
+	padding: 5px 0;
 	border-bottom: 1px dashed #000;
 }
-#toc ul li .book-link {
-	display: inline;
+#toc table td.book-link {
 	width: 50%;
 	text-align: left;
 }
 .toc-shortname {
-	display: inline;
 	text-align: right;
-	float: right;
 	width: 50%;
 }
 .hide-this {

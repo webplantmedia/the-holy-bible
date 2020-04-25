@@ -94,26 +94,26 @@ function build_html_toc( $book, $header, $footer ) {
 	$toc .= '<div id="toc">';
 	$toc .= '<h2>'.$translation['table_of_contents'].'</h2>';
 
-	$toc .= '<ul>';
-	$toc .= '<li><a href="toc.html#the-old-testament">'.$translation['old_testament'].'</a></li>';
-	$toc .= '<li><a href="toc.html#the-new-testament">'.$translation['new_testament'].'</a></li>';
-	$toc .= '</ul>';
+	$toc .= '<table>';
+	$toc .= '<tr><td><a href="toc.html#the-old-testament">'.$translation['old_testament'].'</a></td></tr>';
+	$toc .= '<tr><td><a href="toc.html#the-new-testament">'.$translation['new_testament'].'</a></td></tr>';
+	$toc .= '</table>';
 
+	$toc .= '<table>';
 	foreach ( $book as $o ) {
 		if ( 1 == $o['number'] ) {
 			$toc .= '<h3 id="the-old-testament">'.$translation['old_testament'].'</h3>'."\n";
-			$toc .= '<ul>';
 		}
 		if ( 40 == $o['number'] ) {
-			$toc .= '</ul>'."\n";
+			$toc .= '</table>'."\n";
 			$toc .= '<h3 id="the-new-testament">'.$translation['new_testament'].'</h3>'."\n";
-			$toc .= '<ul>';
+			$toc .= '<table>';
 		}
 
-		$toc .= '<li><span class="book-link"><a id="book-'.$o['anchor'].'" href="'.$o['filename'].'-intro.html">'.$o[ $translation['column_prefix'] . 'fullname'].'</a></span><span class="toc-shortname">&nbsp;&nbsp;'.str_replace( ' ', '', $o[ $translation['column_prefix'] . 'short'] ).'</span></li>';
+		$toc .= '<tr><td class="book-link"><a id="book-'.$o['anchor'].'" href="'.$o['filename'].'-intro.html">'.$o[ $translation['column_prefix'] . 'fullname'].'</a></td><td class="toc-shortname">'.str_replace( ' ', '', $o[ $translation['column_prefix'] . 'short'] ).'</td></tr>';
 	}
 
-	$toc .= '</ul>'."\n";
+	$toc .= '</table>'."\n";
 	// $toc .= '<h3>Appendix</h3>'."\n";
 	// $toc .= '<ul><li><a id="toc-illustrations" href="illustrations.html">Illustrations</a></li></ul>'."\n";
 
@@ -156,7 +156,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 			$content_link = 'html/'.$o['filename'].'.html';
 			$content_link .= '#'.$o['anchor'].'-ch'.$ch;
 
-			$ch_nav .= '<li>'.$blank.$blank.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">'.$ch.'</a>'.$blank.$blank.'</li>';
+			$ch_nav .= '<span>'.$blank.$blank.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'">'.$ch.'</a>'.$blank.$blank.'</span>'." ";
 
 			$temp .= '<h4 href="'.$o['filename'].'-intro.html" class="title-nav chapter-nav chapter-'.$ch.'">';
 
@@ -190,11 +190,11 @@ function build_html_body( $book, $header, $footer, $con ) {
 
 			$temp .= '</h4>'."\n";
 
-			$temp .= '<ul class="verse-nav">'."\n";
+			$temp .= '<p class="verse-nav">'."\n";
 			for ( $i = 1; $i <= $r2->num_rows; $i++ ) {
-				$temp .= '<li class="verse-link">'.$blank.$blank.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'-v'.$i.'">'.$i.'</a>'.$blank.$blank.' </li>';
+				$temp .= '<span class="verse-link">'.$blank.$blank.'<a href="'.$o['filename'].'.html#'.$o['anchor'].'-ch'.$ch.'-v'.$i.'">'.$i.'</a>'.$blank.$blank.' </span>';
 			}
-			$temp .= '</ul>'."\n";
+			$temp .= '</p>'."\n";
 
 
 			while( $oo = mysqli_fetch_array( $r2, MYSQLI_ASSOC ) ) {
@@ -237,7 +237,7 @@ function build_html_body( $book, $header, $footer, $con ) {
 
 		$intro .= '</p>'."\n";
 		$intro .= '<h4 class="center">'.$translation['chapters'].'</h4>'."\n";
-		$ch_nav = '<ul class="ch-nav">'.$ch_nav.'</ul>';
+		$ch_nav = '<p class="ch-nav">'.$ch_nav.'</p>';
 		$intro .= $ch_nav;
 
 		$intro .= '</div>';

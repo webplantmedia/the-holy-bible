@@ -21,22 +21,27 @@
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
-#toc table {
+#toc .t {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	display: block;
 }
-#toc table td {
+#toc .t .t-row {
+	width: 100%;
 	padding: 5px 0;
 	border-bottom: 1px dashed #000;
+	display: block;
 }
-#toc table td.book-link {
+#toc .t .book-link {
 	width: 50%;
 	text-align: left;
+	display: inline-block;
 }
-.toc-shortname {
+#toc .t .toc-shortname {
 	text-align: right;
 	width: 50%;
+	display: inline-block;
 }
 .hide-this {
 	display: none;

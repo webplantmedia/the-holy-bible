@@ -14,7 +14,7 @@ else {
 }
 
 // Create connection
-$con = mysqli_connect( "localhost", "root", "jesuschrist", "TEST_bible" );
+$con = mysqli_connect( "localhost", "root", "root", "TEST_bible" );
 
 // Check connection
 if ( mysqli_connect_errno() ) {

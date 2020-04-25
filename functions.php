@@ -99,10 +99,10 @@ function build_html_toc( $book, $header, $footer ) {
 	$toc .= '<tr><td><a href="toc.html#the-new-testament">'.$translation['new_testament'].'</a></td></tr>';
 	$toc .= '</table>';
 
-	$toc .= '<table>';
 	foreach ( $book as $o ) {
 		if ( 1 == $o['number'] ) {
 			$toc .= '<h3 id="the-old-testament">'.$translation['old_testament'].'</h3>'."\n";
+			$toc .= '<table>';
 		}
 		if ( 40 == $o['number'] ) {
 			$toc .= '</table>'."\n";

@@ -13,7 +13,7 @@
 }
 .verse-nav li,
 .ch-nav li {
-	display: inline-block;
+	display: inline;
 	margin-bottom: 10px;
 }
 .verse-nav li a,
@@ -33,13 +33,14 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 1px dashed #000;
 }
 #toc ul li .book-link {
-	display: inline-block;
+	display: inline;
 	width: 50%;
 	text-align: left;
 }
 .toc-shortname {
-	display: inline-block;
+	display: inline;
 	text-align: right;
+	float: right;
 	width: 50%;
 }
 .hide-this {

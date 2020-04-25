@@ -92,22 +92,17 @@ function build_html_toc( $book, $header, $footer ) {
 	$toc = '';
 
 	$toc .= '<div id="toc">';
-	$toc .= '<h2>'.$translation['table_of_contents'].'</h2>';
-
 	$toc .= '<table>';
-	$toc .= '<tr><td><a href="toc.html#the-old-testament">'.$translation['old_testament'].'</a></td></tr>';
-	$toc .= '<tr><td><a href="toc.html#the-new-testament">'.$translation['new_testament'].'</a></td></tr>';
-	$toc .= '</table>';
+	$toc .= '<tr class="toc-title"><td colspan="2"><h2>'.$translation['table_of_contents'].'</h2></td></tr>';
 
-	$toc .= '<table>';
+	$toc .= '<tr><td colspan="2"><a href="toc.html#the-old-testament">'.$translation['old_testament'].'</a></td></tr>';
+	$toc .= '<tr><td colspan="2"><a href="toc.html#the-new-testament">'.$translation['new_testament'].'</a></td></tr>';
 	foreach ( $book as $o ) {
 		if ( 1 == $o['number'] ) {
-			$toc .= '<h3 id="the-old-testament">'.$translation['old_testament'].'</h3>'."\n";
+			$toc .= '<tr class="toc-title"><td colspan="2"><h3 id="the-old-testament">'.$translation['old_testament'].'</h3></td></tr>'."\n";
 		}
 		if ( 40 == $o['number'] ) {
-			$toc .= '</table>'."\n";
-			$toc .= '<h3 id="the-new-testament">'.$translation['new_testament'].'</h3>'."\n";
-			$toc .= '<table>';
+			$toc .= '<tr class="toc-title"><td colspan="2"><h3 id="the-new-testament">'.$translation['new_testament'].'</h3></td></tr>'."\n";
 		}
 
 		$toc .= '<tr><td class="book-link"><a id="book-'.$o['anchor'].'" href="'.$o['filename'].'-intro.html">'.$o[ $translation['column_prefix'] . 'fullname'].'</a></td><td class="toc-shortname">'.str_replace( ' ', '', $o[ $translation['column_prefix'] . 'short'] ).'</td></tr>';

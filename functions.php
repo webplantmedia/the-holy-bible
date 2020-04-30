@@ -30,7 +30,7 @@ function get_translation( $key ) {
 			$translation['text_column'] = 'tamil';
 			$translation['column_prefix'] = 'tamil_';
 			$translation['stylesheet'] = '../../../style.css';
-			$translation['intro_content'] = '<p class="center">Translated by Mariappan Eddiah. Last Updated December 31, 2017. Copying or re-posting the Scripture is welcomed and encouraged. No copyright.</p><br /><p class="center"><strong>Published by Web Plant Media</strong></p><p class="center"><strong>ebookbible.org</strong></p>';
+			$translation['intro_content'] = '<p class="center">Translated by Mariappan Eddiah. Last Updated April 30, 2020. Copying or re-posting the Scripture is welcomed and encouraged. No copyright.</p><br /><p class="center"><strong>Published by Web Plant Media</strong></p><p class="center"><strong>ebookbible.org</strong></p>';
 			break;
 		default :
 			$translation['title'] = 'The Holy Bible';

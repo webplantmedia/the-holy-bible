@@ -5993,102 +5993,102 @@
 			</navPoint>
 			<navPoint class="book" id="mr" playOrder="1001">
 				<navLabel>
-					<text>maarku</text>
+					<text>maa'rku</text>
 				</navLabel>
 				<content src="html/mark-intro.html"/>
 				<navPoint class="chapter" id="mr-ch1" playOrder="1002">
 					<navLabel>
-						<text>maarku 1</text>
+						<text>maa'rku 1</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch1"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch2" playOrder="1003">
 					<navLabel>
-						<text>maarku 2</text>
+						<text>maa'rku 2</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch2"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch3" playOrder="1004">
 					<navLabel>
-						<text>maarku 3</text>
+						<text>maa'rku 3</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch3"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch4" playOrder="1005">
 					<navLabel>
-						<text>maarku 4</text>
+						<text>maa'rku 4</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch4"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch5" playOrder="1006">
 					<navLabel>
-						<text>maarku 5</text>
+						<text>maa'rku 5</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch5"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch6" playOrder="1007">
 					<navLabel>
-						<text>maarku 6</text>
+						<text>maa'rku 6</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch6"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch7" playOrder="1008">
 					<navLabel>
-						<text>maarku 7</text>
+						<text>maa'rku 7</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch7"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch8" playOrder="1009">
 					<navLabel>
-						<text>maarku 8</text>
+						<text>maa'rku 8</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch8"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch9" playOrder="1010">
 					<navLabel>
-						<text>maarku 9</text>
+						<text>maa'rku 9</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch9"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch10" playOrder="1011">
 					<navLabel>
-						<text>maarku 10</text>
+						<text>maa'rku 10</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch10"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch11" playOrder="1012">
 					<navLabel>
-						<text>maarku 11</text>
+						<text>maa'rku 11</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch11"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch12" playOrder="1013">
 					<navLabel>
-						<text>maarku 12</text>
+						<text>maa'rku 12</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch12"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch13" playOrder="1014">
 					<navLabel>
-						<text>maarku 13</text>
+						<text>maa'rku 13</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch13"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch14" playOrder="1015">
 					<navLabel>
-						<text>maarku 14</text>
+						<text>maa'rku 14</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch14"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch15" playOrder="1016">
 					<navLabel>
-						<text>maarku 15</text>
+						<text>maa'rku 15</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch15"/>
 				</navPoint>
 				<navPoint class="chapter" id="mr-ch16" playOrder="1017">
 					<navLabel>
-						<text>maarku 16</text>
+						<text>maa'rku 16</text>
 					</navLabel>
 					<content src="html/mark.html#mr-ch16"/>
 				</navPoint>
@@ -6377,174 +6377,174 @@
 			</navPoint>
 			<navPoint class="book" id="ac" playOrder="1065">
 				<navLabel>
-					<text>appoasthalarudaiya nadapadiga'</text>
+					<text>appoasthalarudaiya nadapadiga'l</text>
 				</navLabel>
 				<content src="html/acts-intro.html"/>
 				<navPoint class="chapter" id="ac-ch1" playOrder="1066">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 1</text>
+						<text>appoasthalarudaiya nadapadiga'l 1</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch1"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch2" playOrder="1067">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 2</text>
+						<text>appoasthalarudaiya nadapadiga'l 2</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch2"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch3" playOrder="1068">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 3</text>
+						<text>appoasthalarudaiya nadapadiga'l 3</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch3"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch4" playOrder="1069">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 4</text>
+						<text>appoasthalarudaiya nadapadiga'l 4</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch4"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch5" playOrder="1070">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 5</text>
+						<text>appoasthalarudaiya nadapadiga'l 5</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch5"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch6" playOrder="1071">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 6</text>
+						<text>appoasthalarudaiya nadapadiga'l 6</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch6"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch7" playOrder="1072">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 7</text>
+						<text>appoasthalarudaiya nadapadiga'l 7</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch7"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch8" playOrder="1073">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 8</text>
+						<text>appoasthalarudaiya nadapadiga'l 8</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch8"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch9" playOrder="1074">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 9</text>
+						<text>appoasthalarudaiya nadapadiga'l 9</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch9"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch10" playOrder="1075">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 10</text>
+						<text>appoasthalarudaiya nadapadiga'l 10</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch10"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch11" playOrder="1076">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 11</text>
+						<text>appoasthalarudaiya nadapadiga'l 11</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch11"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch12" playOrder="1077">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 12</text>
+						<text>appoasthalarudaiya nadapadiga'l 12</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch12"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch13" playOrder="1078">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 13</text>
+						<text>appoasthalarudaiya nadapadiga'l 13</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch13"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch14" playOrder="1079">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 14</text>
+						<text>appoasthalarudaiya nadapadiga'l 14</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch14"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch15" playOrder="1080">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 15</text>
+						<text>appoasthalarudaiya nadapadiga'l 15</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch15"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch16" playOrder="1081">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 16</text>
+						<text>appoasthalarudaiya nadapadiga'l 16</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch16"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch17" playOrder="1082">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 17</text>
+						<text>appoasthalarudaiya nadapadiga'l 17</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch17"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch18" playOrder="1083">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 18</text>
+						<text>appoasthalarudaiya nadapadiga'l 18</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch18"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch19" playOrder="1084">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 19</text>
+						<text>appoasthalarudaiya nadapadiga'l 19</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch19"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch20" playOrder="1085">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 20</text>
+						<text>appoasthalarudaiya nadapadiga'l 20</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch20"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch21" playOrder="1086">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 21</text>
+						<text>appoasthalarudaiya nadapadiga'l 21</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch21"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch22" playOrder="1087">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 22</text>
+						<text>appoasthalarudaiya nadapadiga'l 22</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch22"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch23" playOrder="1088">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 23</text>
+						<text>appoasthalarudaiya nadapadiga'l 23</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch23"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch24" playOrder="1089">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 24</text>
+						<text>appoasthalarudaiya nadapadiga'l 24</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch24"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch25" playOrder="1090">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 25</text>
+						<text>appoasthalarudaiya nadapadiga'l 25</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch25"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch26" playOrder="1091">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 26</text>
+						<text>appoasthalarudaiya nadapadiga'l 26</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch26"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch27" playOrder="1092">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 27</text>
+						<text>appoasthalarudaiya nadapadiga'l 27</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch27"/>
 				</navPoint>
 				<navPoint class="chapter" id="ac-ch28" playOrder="1093">
 					<navLabel>
-						<text>appoasthalarudaiya nadapadiga' 28</text>
+						<text>appoasthalarudaiya nadapadiga'l 28</text>
 					</navLabel>
 					<content src="html/acts.html#ac-ch28"/>
 				</navPoint>
